@@ -12,16 +12,15 @@ The winner of the bracket is crowned the 2019 D-1 college champion.
 ## Picking Teams for Fantasy Ultimate
 
 So, the decision--and there should always be a decision with a data science project--is to determine which teams to pick for the fantasy game.
-The fantasy game works like this:  A participant selects two men's division and two women’s division teams, plus one that can come from either division.
+The fantasy game works like this: a participant selects two men's division and two women’s division teams, plus one that can come from either division.
 To score your picks, first note their seed in their pool.  If a team is seeded first in their pool, they are the 1-seed, second in the pool they are the 2-seed, ..., last in their pool they are the 5-seed.
 Then, points awarded in the following manner: each win by a 1-seed gets 1 point, each win by a 2-seed gets 2, and so on.
-Bonus points are awarded as follows: finishing at the top of your pool get you 1 point, winning a quarterfinal game (1 point), winning a semifinal game (2 points), and winning the finals (3 points).
+Bonus points are awarded as follows: finishing at the top of your pool (1 point), winning a quarterfinal game (1 point), winning a semifinal game (2 points), and winning the finals (3 points).
 
 So, the ultimate goal of this analysis is to get determine which combination of teams should be selected to maximize your points and thus your chance of winning the fantasy contest.
 
 (Note: with a large number of players, it may not be good to pursue a strategy of maximizing expected points.
-While this strategy would be expected to maximize your average points over 1,000s of tournaments.  It may not maximize the likelihood of you being the _top_ point scorer in a given game.  
-If the goal is to be the top point scorer, you may want to consider a riskier strategy that has the possibility of scoring a larger number of points, even if there is also a stronger liklihood of scoring fewer points.  This a high celing, lower floor, i.e. high variance strategy.) 
+While this strategy would be expected to maximize your average points over 1,000s of tournaments.  It may not maximize the likelihood of you being the _top_ point scorer in a given game. If the goal is to be the top point scorer, you may want to consider a riskier strategy that has the possibility of scoring a larger number of points, even if there is also a stronger liklihood of scoring fewer points.  This a high celing, lower floor, i.e. high variance strategy.) 
 
 ## Simulating the Tournament
 
@@ -33,7 +32,7 @@ I used Bernoulli trials to simulate a college ultimate game.
 Two weighted coins are used.  
 One is flipped when team A is on offense and the other is flipped when team B is on offense.
 Team A's coin is flipped until they score, then team B's coin is flipped until they score.
-This process is repeated flipping until one team reaches 15 points.
+This flipping process is until one team reaches 15 points.
 
 To decide the weights of the coins, I used two pieces of information.
 The first is the difference in power ratings between two teams.
@@ -44,7 +43,7 @@ For example, if team A has a power rating of 2300 and team B has a power rating 
 
 The second piece of information is the offensive success rate of the higher rated team. 
 This is the probability that team A scores an offensive point if A is the higher rated team.
-Based on data from ultianalytics--there is only a small amount of data on this--national's bound college teams consistently have a value of 0.8 for this probability.
+Based on data from ultianalytics.com--there is only a small amount of data on this--national's bound college teams consistently have a value of 0.8 for this probability.
 In other words, on average, the higher rated offense holds 4 out of 5 points and gets broken 1 out of 5 points.
 I don't have much data on this, and this parameter is very important to the model.  Changing the value to 1.0 means tthat the higher rated offense scores _every_ time they start an offense--an unlikely scenario.  Changing the value to 0.25 means that the higher rated team scores only one out of every four offensive points.
 Games played with this value are characterized by long streaks breaks that are also highly unlikely.
