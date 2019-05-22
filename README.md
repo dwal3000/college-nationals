@@ -1,6 +1,8 @@
 # college-nationals
-Simulating USA Ultimate College Nationals outcomes
 
+# Simulating USA Ultimate College Nationals outcomes
+
+## The Tournament
 
 USA Ultimate D-I College Nationals happen May 24-27, 2019.
 Nationals has 40 teams: 20 in the women's tournament and 20 in the men's.
@@ -8,6 +10,8 @@ The first stage is pool play, where the teams are divided up into four pools of 
 The pool-play format is a round robin where each team plays every other team in their pool once.
 The second stage is a 12-team single elimination bracket.  Winners of the pools advance straight to the quarters, while the second and third place teams in each pool advance to the prequarters round.
 The winner of the bracket is crowned the 2019 D-1 college champion.
+
+## Picking Teams for Fantasy Ultimate
 
 So, the decision--and there should always be a decision with a data science project--is to determine which teams to pick for the fantasy game.
 The fantasy game works like this:  A participant selects two men's division and two women’s division teams, plus one that can come from either division.
@@ -20,6 +24,8 @@ So, the ultimate goal of this analysis is to get determine which combination of 
 (Note: with a large number of players, it may not be good to pursue a strategy of maximizing expected points.
 While this strategy would be expected to maximize your average points over 1,000s of tournaments.  It may not maximize the likelihood of you being the _top_ point scorer in a given game.  
 If the goal is to be the top point scorer, you may want to consider a riskier strategy that has the possibility of scoring a larger number of points, even if there is also a stronger liklihood of scoring fewer points.  This a high celing, lower floor, i.e. high variance strategy.) 
+
+## Simulating the Tournament
 
 To make informed picks, I decided to simulate and score the tournament.
 I simulate each point of each game of the tournament, advancing the teams throught the bracket and determine the winner.
