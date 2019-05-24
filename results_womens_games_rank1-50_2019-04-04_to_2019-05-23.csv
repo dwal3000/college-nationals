@@ -1,0 +1,460 @@
+,Date,Team,TeamRank,TeamRating,Score,Opponent,OppRank,OppRating,RatingDiff,GameTo15VictoryMargin
+0,2019-04-13,North Carolina,1,2324,"Score(team_a=10, team_b=11)",North Carolina-Wilmington,13.0,1888.0,436.0,-1.3636363636363635
+1,2019-04-13,North Carolina,1,2324,"Score(team_a=13, team_b=0)",Appalachian State,152.0,812.0,1512.0,14.999999999999998
+2,2019-04-13,North Carolina,1,2324,"Score(team_a=11, team_b=3)",Duke,50.0,1413.0,911.0,10.909090909090908
+3,2019-04-13,North Carolina,1,2324,"Score(team_a=13, team_b=0)",East Carolina,276.0,-53.0,2377.0,14.999999999999998
+4,2019-04-27,North Carolina,1,2324,"Score(team_a=13, team_b=2)",James Madison,69.0,1282.0,1042.0,12.692307692307692
+5,2019-04-27,North Carolina,1,2324,"Score(team_a=13, team_b=3)",American,129.0,911.0,1413.0,11.538461538461537
+6,2019-04-27,North Carolina,1,2324,"Score(team_a=12, team_b=3)",Duke,50.0,1413.0,911.0,11.25
+7,2019-04-28,North Carolina,1,2324,"Score(team_a=13, team_b=9)",Virginia,40.0,1542.0,782.0,4.615384615384615
+8,2019-04-28,North Carolina,1,2324,"Score(team_a=12, team_b=9)",South Carolina,12.0,1932.0,392.0,3.75
+9,2019-04-28,North Carolina,1,2324,"Score(team_a=15, team_b=3)",Clemson,11.0,1938.0,386.0,12.0
+10,2019-04-13,California-San Diego,2,2261,"Score(team_a=12, team_b=8)",UCLA,16.0,1863.0,398.0,5.0
+11,2019-04-13,California-San Diego,2,2261,"Score(team_a=13, team_b=3)",Southern California,84.0,1175.0,1086.0,11.538461538461537
+12,2019-04-13,California-San Diego,2,2261,"Score(team_a=13, team_b=2)",San Diego State,60.0,1363.0,898.0,12.692307692307692
+13,2019-04-13,California-San Diego,2,2261,"Score(team_a=13, team_b=0)",California-Irvine,240.0,282.0,1979.0,14.999999999999998
+14,2019-04-14,California-San Diego,2,2261,"Score(team_a=13, team_b=8)",Cal Poly-SLO,23.0,1783.0,478.0,5.769230769230768
+15,2019-04-14,California-San Diego,2,2261,"Score(team_a=11, team_b=6)",UCLA,16.0,1863.0,398.0,6.8181818181818175
+16,2019-04-27,California-San Diego,2,2261,"Score(team_a=13, team_b=4)",Stanford,22.0,1817.0,444.0,10.384615384615383
+17,2019-04-27,California-San Diego,2,2261,"Score(team_a=13, team_b=5)",Cal Poly-SLO,23.0,1783.0,478.0,9.23076923076923
+18,2019-04-27,California-San Diego,2,2261,"Score(team_a=12, team_b=9)",Cal State-Long Beach,83.0,1201.0,1060.0,3.75
+19,2019-04-27,California-San Diego,2,2261,"Score(team_a=13, team_b=1)",Southern California,84.0,1175.0,1086.0,13.846153846153845
+20,2019-04-28,California-San Diego,2,2261,"Score(team_a=13, team_b=1)",Northern Arizona,89.0,1162.0,1099.0,13.846153846153845
+21,2019-04-28,California-San Diego,2,2261,"Score(team_a=15, team_b=7)",UCLA,16.0,1863.0,398.0,8.0
+22,2019-04-28,California-San Diego,2,2261,"Score(team_a=15, team_b=2)",California-Santa Barbara,7.0,2015.0,246.0,13.0
+24,2019-04-13,Ohio State,3,2236,"Score(team_a=13, team_b=1)",Miami (Ohio),310.0,-387.0,2623.0,13.846153846153845
+25,2019-04-13,Ohio State,3,2236,"Score(team_a=13, team_b=1)",Case Western Reserve,79.0,1230.0,1006.0,13.846153846153845
+26,2019-04-27,Ohio State,3,2236,"Score(team_a=13, team_b=3)",Pennsylvania,44.0,1454.0,782.0,11.538461538461537
+27,2019-04-27,Ohio State,3,2236,"Score(team_a=13, team_b=3)",Ohio,94.0,1135.0,1101.0,11.538461538461537
+28,2019-04-27,Ohio State,3,2236,"Score(team_a=13, team_b=7)",Penn State,55.0,1378.0,858.0,6.9230769230769225
+29,2019-04-27,Ohio State,3,2236,"Score(team_a=13, team_b=4)",Case Western Reserve,79.0,1230.0,1006.0,10.384615384615383
+30,2019-04-28,Ohio State,3,2236,"Score(team_a=15, team_b=2)",West Chester,37.0,1597.0,639.0,13.0
+31,2019-04-28,Ohio State,3,2236,"Score(team_a=13, team_b=5)",Pittsburgh,9.0,1957.0,279.0,9.23076923076923
+32,2019-04-13,Carleton College-Syzygy,4,2150,"Score(team_a=13, team_b=2)",Nebraska,167.0,760.0,1390.0,12.692307692307692
+34,2019-04-13,Carleton College-Syzygy,4,2150,"Score(team_a=13, team_b=4)",Iowa State,71.0,1270.0,880.0,10.384615384615383
+35,2019-04-13,Carleton College-Syzygy,4,2150,"Score(team_a=13, team_b=1)",Northern Iowa,175.0,708.0,1442.0,13.846153846153845
+36,2019-04-14,Carleton College-Syzygy,4,2150,"Score(team_a=13, team_b=0)",Minnesota-Duluth,87.0,1171.0,979.0,14.999999999999998
+37,2019-04-14,Carleton College-Syzygy,4,2150,"Score(team_a=10, team_b=9)",Minnesota,18.0,1860.0,290.0,1.5
+38,2019-04-27,Carleton College-Syzygy,4,2150,"Score(team_a=15, team_b=2)",Iowa,124.0,944.0,1206.0,13.0
+39,2019-04-27,Carleton College-Syzygy,4,2150,"Score(team_a=15, team_b=3)",Wisconsin-Milwaukee,166.0,769.0,1381.0,12.0
+40,2019-04-27,Carleton College-Syzygy,4,2150,"Score(team_a=15, team_b=4)",Iowa State,71.0,1270.0,880.0,11.0
+41,2019-04-28,Carleton College-Syzygy,4,2150,"Score(team_a=15, team_b=10)",Minnesota,18.0,1860.0,290.0,5.0
+42,2019-04-28,Carleton College-Syzygy,4,2150,"Score(team_a=13, team_b=8)",Wisconsin,20.0,1851.0,299.0,5.769230769230768
+43,2019-04-13,Dartmouth,5,2080,"Score(team_a=13, team_b=2)",Maine,279.0,-70.0,2150.0,12.692307692307692
+44,2019-04-13,Dartmouth,5,2080,"Score(team_a=12, team_b=7)",Massachusetts,62.0,1345.0,735.0,6.25
+45,2019-04-13,Dartmouth,5,2080,"Score(team_a=13, team_b=10)",Vermont,28.0,1695.0,385.0,3.4615384615384612
+46,2019-04-13,Dartmouth,5,2080,"Score(team_a=13, team_b=4)",Rhode Island,300.0,-272.0,2352.0,10.384615384615383
+47,2019-04-14,Dartmouth,5,2080,"Score(team_a=13, team_b=5)",Brown,59.0,1368.0,712.0,9.23076923076923
+48,2019-04-14,Dartmouth,5,2080,"Score(team_a=13, team_b=4)",New Hampshire,81.0,1210.0,870.0,10.384615384615383
+49,2019-04-14,Dartmouth,5,2080,"Score(team_a=11, team_b=7)",Vermont,28.0,1695.0,385.0,5.454545454545454
+50,2019-04-27,Dartmouth,5,2080,"Score(team_a=13, team_b=7)",Tufts,19.0,1854.0,226.0,6.9230769230769225
+51,2019-04-27,Dartmouth,5,2080,"Score(team_a=13, team_b=0)",New Hampshire,81.0,1210.0,870.0,14.999999999999998
+52,2019-04-27,Dartmouth,5,2080,"Score(team_a=13, team_b=2)",Brown,59.0,1368.0,712.0,12.692307692307692
+53,2019-04-27,Dartmouth,5,2080,"Score(team_a=13, team_b=1)",Boston University,95.0,1118.0,962.0,13.846153846153845
+54,2019-04-28,Dartmouth,5,2080,"Score(team_a=13, team_b=4)",Harvard,39.0,1578.0,502.0,10.384615384615383
+55,2019-04-28,Dartmouth,5,2080,"Score(team_a=15, team_b=14)",Tufts,19.0,1854.0,226.0,1.0
+56,2019-04-13,Western Washington,6,2062,"Score(team_a=13, team_b=1)",Oregon State,147.0,829.0,1233.0,13.846153846153845
+57,2019-04-13,Western Washington,6,2062,"Score(team_a=13, team_b=0)",Portland State,230.0,343.0,1719.0,14.999999999999998
+58,2019-04-13,Western Washington,6,2062,"Score(team_a=9, team_b=7)",Oregon,21.0,1822.0,240.0,3.3333333333333335
+59,2019-04-14,Western Washington,6,2062,"Score(team_a=7, team_b=9)",British Columbia,8.0,1997.0,65.0,-3.3333333333333335
+60,2019-04-27,Western Washington,6,2062,"Score(team_a=13, team_b=6)",Utah,36.0,1607.0,455.0,8.076923076923077
+61,2019-04-27,Western Washington,6,2062,"Score(team_a=13, team_b=3)",Boise State,134.0,879.0,1183.0,11.538461538461537
+62,2019-04-27,Western Washington,6,2062,"Score(team_a=10, team_b=9)",Washington,24.0,1769.0,293.0,1.5
+63,2019-04-28,Western Washington,6,2062,"Score(team_a=15, team_b=5)",Utah,36.0,1607.0,455.0,10.0
+64,2019-04-28,Western Washington,6,2062,"Score(team_a=15, team_b=5)",Washington,24.0,1769.0,293.0,10.0
+65,2019-04-13,California-Santa Barbara,7,2015,"Score(team_a=12, team_b=8)",Cal Poly-SLO,23.0,1783.0,232.0,5.0
+66,2019-04-13,California-Santa Barbara,7,2015,"Score(team_a=10, team_b=4)",Occidental,137.0,862.0,1153.0,9.0
+67,2019-04-13,California-Santa Barbara,7,2015,"Score(team_a=12, team_b=3)",Cal State-Long Beach,83.0,1201.0,814.0,11.25
+68,2019-04-13,California-Santa Barbara,7,2015,"Score(team_a=11, team_b=2)",Claremont,149.0,824.0,1191.0,12.272727272727272
+69,2019-04-14,California-Santa Barbara,7,2015,"Score(team_a=8, team_b=12)",UCLA,16.0,1863.0,152.0,-5.0
+70,2019-04-14,California-Santa Barbara,7,2015,"Score(team_a=7, team_b=13)",Cal Poly-SLO,23.0,1783.0,232.0,-6.9230769230769225
+71,2019-04-27,California-Santa Barbara,7,2015,"Score(team_a=13, team_b=4)",Chico State,101.0,1078.0,937.0,10.384615384615383
+72,2019-04-27,California-Santa Barbara,7,2015,"Score(team_a=12, team_b=9)",UCLA,16.0,1863.0,152.0,3.75
+73,2019-04-27,California-Santa Barbara,7,2015,"Score(team_a=12, team_b=7)",California-Davis,43.0,1483.0,532.0,6.25
+74,2019-04-27,California-Santa Barbara,7,2015,"Score(team_a=10, team_b=7)",California,25.0,1756.0,259.0,4.5
+75,2019-04-28,California-Santa Barbara,7,2015,"Score(team_a=13, team_b=6)",San Diego State,60.0,1363.0,652.0,8.076923076923077
+76,2019-04-28,California-Santa Barbara,7,2015,"Score(team_a=13, team_b=10)",Cal Poly-SLO,23.0,1783.0,232.0,3.4615384615384612
+79,2019-04-13,British Columbia,8,1997,"Score(team_a=13, team_b=0)",Victoria,86.0,1171.0,826.0,14.999999999999998
+81,2019-04-13,British Columbia,8,1997,"Score(team_a=10, team_b=6)",Washington,24.0,1769.0,228.0,6.0
+83,2019-04-27,British Columbia,8,1997,"Score(team_a=12, team_b=7)",Whitman,51.0,1412.0,585.0,6.25
+84,2019-04-27,British Columbia,8,1997,"Score(team_a=13, team_b=2)",Victoria,86.0,1171.0,826.0,12.692307692307692
+85,2019-04-27,British Columbia,8,1997,"Score(team_a=9, team_b=10)",Oregon,21.0,1822.0,175.0,-1.5
+86,2019-04-28,British Columbia,8,1997,"Score(team_a=10, team_b=12)",Washington,24.0,1769.0,228.0,-2.5
+87,2019-04-28,British Columbia,8,1997,"Score(team_a=12, team_b=14)",Oregon,21.0,1822.0,175.0,-2.142857142857143
+88,2019-04-14,Pittsburgh,9,1957,"Score(team_a=12, team_b=4)",Carnegie Mellon,90.0,1155.0,802.0,10.0
+90,2019-04-14,Pittsburgh,9,1957,"Score(team_a=13, team_b=1)",Drexel,179.0,689.0,1268.0,13.846153846153845
+91,2019-04-14,Pittsburgh,9,1957,"Score(team_a=12, team_b=7)",Penn State,55.0,1378.0,579.0,6.25
+92,2019-04-27,Pittsburgh,9,1957,"Score(team_a=8, team_b=5)",West Chester,37.0,1597.0,360.0,5.625
+93,2019-04-27,Pittsburgh,9,1957,"Score(team_a=10, team_b=3)",Dayton,85.0,1173.0,784.0,10.5
+94,2019-04-27,Pittsburgh,9,1957,"Score(team_a=10, team_b=1)",Carnegie Mellon,90.0,1155.0,802.0,13.5
+96,2019-04-28,Pittsburgh,9,1957,"Score(team_a=11, team_b=7)",Pennsylvania,44.0,1454.0,503.0,5.454545454545454
+98,2019-04-28,Pittsburgh,9,1957,"Score(team_a=15, team_b=5)",Penn State,55.0,1378.0,579.0,10.0
+99,2019-04-13,Texas,10,1942,"Score(team_a=11, team_b=0)",Houston,316.0,-564.0,2506.0,14.999999999999998
+100,2019-04-13,Texas,10,1942,"Score(team_a=8, team_b=4)",Texas A&M,190.0,604.0,1338.0,7.5
+102,2019-04-14,Texas,10,1942,"Score(team_a=8, team_b=2)",Baylor,180.0,688.0,1254.0,11.25
+103,2019-04-14,Texas,10,1942,"Score(team_a=11, team_b=7)",Texas-Dallas,66.0,1323.0,619.0,5.454545454545454
+104,2019-04-27,Texas,10,1942,"Score(team_a=13, team_b=7)",Colorado State,88.0,1168.0,774.0,6.9230769230769225
+105,2019-04-27,Texas,10,1942,"Score(team_a=13, team_b=3)",Texas Christian,192.0,599.0,1343.0,11.538461538461537
+106,2019-04-27,Texas,10,1942,"Score(team_a=13, team_b=2)",Denver,78.0,1234.0,708.0,12.692307692307692
+107,2019-04-27,Texas,10,1942,"Score(team_a=13, team_b=3)",Washington University,35.0,1616.0,326.0,11.538461538461537
+108,2019-04-28,Texas,10,1942,"Score(team_a=11, team_b=2)",Oklahoma,122.0,947.0,995.0,12.272727272727272
+109,2019-04-28,Texas,10,1942,"Score(team_a=12, team_b=7)",Colorado College,30.0,1644.0,298.0,6.25
+110,2019-04-13,Clemson,11,1938,"Score(team_a=11, team_b=2)",Charleston,282.0,-97.0,2035.0,12.272727272727272
+111,2019-04-13,Clemson,11,1938,"Score(team_a=11, team_b=0)",Wake Forest,224.0,385.0,1553.0,14.999999999999998
+112,2019-04-13,Clemson,11,1938,"Score(team_a=10, team_b=7)",North Carolina State,27.0,1702.0,236.0,4.5
+113,2019-04-13,Clemson,11,1938,"Score(team_a=11, team_b=0)",North Carolina-Charlotte,308.0,-382.0,2320.0,14.999999999999998
+114,2019-04-13,Clemson,11,1938,"Score(team_a=9, team_b=8)",South Carolina,12.0,1932.0,6.0,1.6666666666666667
+115,2019-04-27,Clemson,11,1938,"Score(team_a=13, team_b=2)",Georgetown,77.0,1235.0,703.0,12.692307692307692
+116,2019-04-27,Clemson,11,1938,"Score(team_a=13, team_b=1)",Towson,139.0,854.0,1084.0,13.846153846153845
+117,2019-04-27,Clemson,11,1938,"Score(team_a=11, team_b=7)",North Carolina State,27.0,1702.0,236.0,5.454545454545454
+118,2019-04-28,Clemson,11,1938,"Score(team_a=13, team_b=10)",Duke,50.0,1413.0,525.0,3.4615384615384612
+119,2019-04-28,Clemson,11,1938,"Score(team_a=15, team_b=6)",North Carolina-Wilmington,13.0,1888.0,50.0,9.0
+121,2019-04-13,South Carolina,12,1932,"Score(team_a=9, team_b=5)",North Carolina State,27.0,1702.0,230.0,6.666666666666667
+122,2019-04-13,South Carolina,12,1932,"Score(team_a=11, team_b=0)",Charleston,282.0,-97.0,2029.0,14.999999999999998
+123,2019-04-13,South Carolina,12,1932,"Score(team_a=11, team_b=0)",North Carolina-Charlotte,308.0,-382.0,2314.0,14.999999999999998
+124,2019-04-13,South Carolina,12,1932,"Score(team_a=11, team_b=0)",Wake Forest,224.0,385.0,1547.0,14.999999999999998
+126,2019-04-27,South Carolina,12,1932,"Score(team_a=13, team_b=8)",William & Mary,64.0,1327.0,605.0,5.769230769230768
+127,2019-04-27,South Carolina,12,1932,"Score(team_a=13, team_b=3)",George Washington,146.0,831.0,1101.0,11.538461538461537
+128,2019-04-27,South Carolina,12,1932,"Score(team_a=13, team_b=3)",Delaware,31.0,1633.0,299.0,11.538461538461537
+129,2019-04-28,South Carolina,12,1932,"Score(team_a=14, team_b=9)",North Carolina State,27.0,1702.0,230.0,5.357142857142857
+131,2019-04-28,South Carolina,12,1932,"Score(team_a=5, team_b=11)",North Carolina-Wilmington,13.0,1888.0,44.0,-8.181818181818182
+133,2019-04-13,North Carolina-Wilmington,13,1888,"Score(team_a=13, team_b=1)",East Carolina,276.0,-53.0,1941.0,13.846153846153845
+134,2019-04-13,North Carolina-Wilmington,13,1888,"Score(team_a=13, team_b=0)",Appalachian State,152.0,812.0,1076.0,14.999999999999998
+135,2019-04-13,North Carolina-Wilmington,13,1888,"Score(team_a=11, team_b=4)",Duke,50.0,1413.0,475.0,9.545454545454545
+136,2019-04-27,North Carolina-Wilmington,13,1888,"Score(team_a=11, team_b=6)",Liberty,115.0,1001.0,887.0,6.8181818181818175
+137,2019-04-27,North Carolina-Wilmington,13,1888,"Score(team_a=13, team_b=2)",Maryland,91.0,1144.0,744.0,12.692307692307692
+138,2019-04-27,North Carolina-Wilmington,13,1888,"Score(team_a=9, team_b=6)",Virginia,40.0,1542.0,346.0,5.0
+139,2019-04-28,North Carolina-Wilmington,13,1888,"Score(team_a=15, team_b=2)",William & Mary,64.0,1327.0,561.0,13.0
+143,2019-04-13,Georgia,14,1872,"Score(team_a=13, team_b=5)",Tennessee-Chattanooga,141.0,843.0,1029.0,9.23076923076923
+144,2019-04-13,Georgia,14,1872,"Score(team_a=11, team_b=1)",Georgia State,208.0,490.0,1382.0,13.636363636363635
+145,2019-04-13,Georgia,14,1872,"Score(team_a=13, team_b=4)",Kennesaw State,82.0,1209.0,663.0,10.384615384615383
+146,2019-04-14,Georgia,14,1872,"Score(team_a=13, team_b=4)",Emory,54.0,1389.0,483.0,10.384615384615383
+147,2019-04-27,Georgia,14,1872,"Score(team_a=15, team_b=6)",Mississippi State,119.0,987.0,885.0,9.0
+148,2019-04-27,Georgia,14,1872,"Score(team_a=15, team_b=3)",Kennesaw State,82.0,1209.0,663.0,12.0
+149,2019-04-28,Georgia,14,1872,"Score(team_a=15, team_b=3)",Central Florida,99.0,1099.0,773.0,12.0
+150,2019-04-28,Georgia,14,1872,"Score(team_a=15, team_b=7)",Florida State,41.0,1528.0,344.0,8.0
+151,2019-04-28,Georgia,14,1872,"Score(team_a=15, team_b=7)",Florida,33.0,1619.0,253.0,8.0
+152,2019-04-13,Northeastern,15,1866,"Score(team_a=9, team_b=3)",Harvard,39.0,1578.0,288.0,10.0
+153,2019-04-13,Northeastern,15,1866,"Score(team_a=8, team_b=9)",Tufts,19.0,1854.0,12.0,-1.6666666666666667
+154,2019-04-13,Northeastern,15,1866,"Score(team_a=11, team_b=1)",MIT,110.0,1020.0,846.0,13.636363636363635
+155,2019-04-13,Northeastern,15,1866,"Score(team_a=11, team_b=2)",Boston College,121.0,960.0,906.0,12.272727272727272
+156,2019-04-13,Northeastern,15,1866,"Score(team_a=11, team_b=6)",Boston University,95.0,1118.0,748.0,6.8181818181818175
+157,2019-04-27,Northeastern,15,1866,"Score(team_a=10, team_b=7)",Vermont,28.0,1695.0,171.0,4.5
+158,2019-04-27,Northeastern,15,1866,"Score(team_a=11, team_b=3)",Boston College,121.0,960.0,906.0,10.909090909090908
+159,2019-04-27,Northeastern,15,1866,"Score(team_a=10, team_b=3)",Massachusetts,62.0,1345.0,521.0,10.5
+160,2019-04-27,Northeastern,15,1866,"Score(team_a=10, team_b=8)",Harvard,39.0,1578.0,288.0,3.0
+161,2019-04-28,Northeastern,15,1866,"Score(team_a=8, team_b=13)",Tufts,19.0,1854.0,12.0,-5.769230769230768
+162,2019-04-28,Northeastern,15,1866,"Score(team_a=11, team_b=10)",Vermont,28.0,1695.0,171.0,1.3636363636363635
+163,2019-04-28,Northeastern,15,1866,"Score(team_a=14, team_b=12)",Harvard,39.0,1578.0,288.0,2.142857142857143
+165,2019-04-13,UCLA,16,1863,"Score(team_a=13, team_b=0)",California-Irvine,240.0,282.0,1581.0,14.999999999999998
+166,2019-04-13,UCLA,16,1863,"Score(team_a=13, team_b=5)",Southern California,84.0,1175.0,688.0,9.23076923076923
+167,2019-04-13,UCLA,16,1863,"Score(team_a=11, team_b=5)",San Diego State,60.0,1363.0,500.0,8.181818181818182
+170,2019-04-14,UCLA,16,1863,"Score(team_a=10, team_b=8)",Cal Poly-SLO,23.0,1783.0,80.0,3.0
+171,2019-04-27,UCLA,16,1863,"Score(team_a=12, team_b=10)",California,25.0,1756.0,107.0,2.5
+173,2019-04-27,UCLA,16,1863,"Score(team_a=10, team_b=8)",San Diego State,60.0,1363.0,500.0,3.0
+174,2019-04-27,UCLA,16,1863,"Score(team_a=10, team_b=6)",California-Davis,43.0,1483.0,380.0,6.0
+175,2019-04-28,UCLA,16,1863,"Score(team_a=13, team_b=5)",Chico State,101.0,1078.0,785.0,9.23076923076923
+177,2019-04-28,UCLA,16,1863,"Score(team_a=13, team_b=10)",Stanford,22.0,1817.0,46.0,3.4615384615384612
+178,2019-04-28,UCLA,16,1863,"Score(team_a=15, team_b=10)",Cal Poly-SLO,23.0,1783.0,80.0,5.0
+179,2019-04-13,Colorado,17,1862,"Score(team_a=11, team_b=2)",Denver,78.0,1234.0,628.0,12.272727272727272
+180,2019-04-13,Colorado,17,1862,"Score(team_a=10, team_b=7)",Colorado College,30.0,1644.0,218.0,4.5
+181,2019-04-13,Colorado,17,1862,"Score(team_a=9, team_b=1)",Colorado State,88.0,1168.0,694.0,13.333333333333334
+182,2019-04-13,Colorado,17,1862,"Score(team_a=11, team_b=0)",Colorado-Denver,286.0,-121.0,1983.0,14.999999999999998
+183,2019-04-27,Colorado,17,1862,"Score(team_a=12, team_b=11)",Texas-Dallas,66.0,1323.0,539.0,1.25
+184,2019-04-27,Colorado,17,1862,"Score(team_a=13, team_b=2)",Texas-San Antonio,231.0,341.0,1521.0,12.692307692307692
+185,2019-04-27,Colorado,17,1862,"Score(team_a=13, team_b=0)",Texas State,96.0,1113.0,749.0,14.999999999999998
+186,2019-04-27,Colorado,17,1862,"Score(team_a=11, team_b=12)",Colorado College,30.0,1644.0,218.0,-1.25
+187,2019-04-28,Colorado,17,1862,"Score(team_a=13, team_b=3)",Kansas,140.0,848.0,1014.0,11.538461538461537
+188,2019-04-28,Colorado,17,1862,"Score(team_a=15, team_b=4)",Denver,78.0,1234.0,628.0,11.0
+189,2019-04-28,Colorado,17,1862,"Score(team_a=13, team_b=9)",Washington University,35.0,1616.0,246.0,4.615384615384615
+190,2019-04-28,Colorado,17,1862,"Score(team_a=13, team_b=7)",Colorado College,30.0,1644.0,218.0,6.9230769230769225
+191,2019-04-13,Minnesota,18,1860,"Score(team_a=12, team_b=2)",Iowa,124.0,944.0,916.0,12.5
+192,2019-04-13,Minnesota,18,1860,"Score(team_a=13, team_b=1)",Northern Iowa,175.0,708.0,1152.0,13.846153846153845
+193,2019-04-13,Minnesota,18,1860,"Score(team_a=13, team_b=2)",Minnesota-Duluth,87.0,1171.0,689.0,12.692307692307692
+195,2019-04-14,Minnesota,18,1860,"Score(team_a=13, team_b=4)",Iowa State,71.0,1270.0,590.0,10.384615384615383
+197,2019-04-14,Minnesota,18,1860,"Score(team_a=11, team_b=5)",Iowa State,71.0,1270.0,590.0,8.181818181818182
+198,2019-04-27,Minnesota,18,1860,"Score(team_a=13, team_b=3)",Minnesota-Duluth,87.0,1171.0,689.0,11.538461538461537
+199,2019-04-27,Minnesota,18,1860,"Score(team_a=15, team_b=2)",Marquette,133.0,892.0,968.0,13.0
+200,2019-04-27,Minnesota,18,1860,"Score(team_a=10, team_b=12)",Wisconsin,20.0,1851.0,9.0,-2.5
+201,2019-04-27,Minnesota,18,1860,"Score(team_a=15, team_b=2)",Iowa,124.0,944.0,916.0,13.0
+203,2019-04-28,Minnesota,18,1860,"Score(team_a=15, team_b=4)",Minnesota-Duluth,87.0,1171.0,689.0,11.0
+204,2019-04-28,Minnesota,18,1860,"Score(team_a=15, team_b=4)",Iowa State,71.0,1270.0,590.0,11.0
+205,2019-04-13,Tufts,19,1854,"Score(team_a=11, team_b=6)",Boston University,95.0,1118.0,736.0,6.8181818181818175
+207,2019-04-13,Tufts,19,1854,"Score(team_a=9, team_b=4)",Boston College,121.0,960.0,894.0,8.333333333333334
+208,2019-04-13,Tufts,19,1854,"Score(team_a=11, team_b=6)",Harvard,39.0,1578.0,276.0,6.8181818181818175
+209,2019-04-13,Tufts,19,1854,"Score(team_a=11, team_b=3)",MIT,110.0,1020.0,834.0,10.909090909090908
+211,2019-04-27,Tufts,19,1854,"Score(team_a=10, team_b=3)",Boston University,95.0,1118.0,736.0,10.5
+212,2019-04-27,Tufts,19,1854,"Score(team_a=13, team_b=1)",New Hampshire,81.0,1210.0,644.0,13.846153846153845
+213,2019-04-27,Tufts,19,1854,"Score(team_a=13, team_b=4)",Brown,59.0,1368.0,486.0,10.384615384615383
+216,2019-04-20,Wisconsin,20,1851,"Score(team_a=13, team_b=3)",Wisconsin-La Crosse,193.0,599.0,1252.0,11.538461538461537
+217,2019-04-20,Wisconsin,20,1851,"Score(team_a=13, team_b=2)",Marquette,133.0,892.0,959.0,12.692307692307692
+219,2019-04-20,Wisconsin,20,1851,"Score(team_a=13, team_b=0)",Wisconsin-Eau Claire,225.0,381.0,1470.0,14.999999999999998
+220,2019-04-21,Wisconsin,20,1851,"Score(team_a=13, team_b=0)",Wisconsin-Milwaukee,166.0,769.0,1082.0,14.999999999999998
+221,2019-04-21,Wisconsin,20,1851,"Score(team_a=13, team_b=0)",Wisconsin-Oshkosh,229.0,346.0,1505.0,14.999999999999998
+222,2019-04-21,Wisconsin,20,1851,"Score(team_a=13, team_b=2)",Wisconsin-Milwaukee,166.0,769.0,1082.0,12.692307692307692
+223,2019-04-27,Wisconsin,20,1851,"Score(team_a=15, team_b=5)",Marquette,133.0,892.0,959.0,10.0
+224,2019-04-27,Wisconsin,20,1851,"Score(team_a=15, team_b=7)",Minnesota-Duluth,87.0,1171.0,680.0,8.0
+226,2019-04-28,Wisconsin,20,1851,"Score(team_a=15, team_b=8)",Iowa State,71.0,1270.0,581.0,7.0
+228,2019-04-13,Oregon,21,1822,"Score(team_a=12, team_b=2)",Portland State,230.0,343.0,1479.0,12.5
+229,2019-04-13,Oregon,21,1822,"Score(team_a=11, team_b=4)",Oregon State,147.0,829.0,993.0,9.545454545454545
+231,2019-04-14,Oregon,21,1822,"Score(team_a=11, team_b=1)",Victoria,86.0,1171.0,651.0,13.636363636363635
+234,2019-04-14,Oregon,21,1822,"Score(team_a=9, team_b=10)",Washington,24.0,1769.0,53.0,-1.5
+235,2019-04-27,Oregon,21,1822,"Score(team_a=9, team_b=5)",Victoria,86.0,1171.0,651.0,6.666666666666667
+236,2019-04-27,Oregon,21,1822,"Score(team_a=9, team_b=10)",Whitman,51.0,1412.0,410.0,-1.5
+238,2019-04-27,Oregon,21,1822,"Score(team_a=10, team_b=12)",Utah,36.0,1607.0,215.0,-2.5
+239,2019-04-28,Oregon,21,1822,"Score(team_a=13, team_b=5)",Victoria,86.0,1171.0,651.0,9.23076923076923
+241,2019-04-28,Oregon,21,1822,"Score(team_a=14, team_b=9)",Utah,36.0,1607.0,215.0,5.357142857142857
+242,2019-04-13,Stanford,22,1817,"Score(team_a=13, team_b=3)",Sonoma State,232.0,335.0,1482.0,11.538461538461537
+243,2019-04-13,Stanford,22,1817,"Score(team_a=13, team_b=2)",California-Santa Cruz,106.0,1032.0,785.0,12.692307692307692
+244,2019-04-13,Stanford,22,1817,"Score(team_a=13, team_b=2)",Chico State,101.0,1078.0,739.0,12.692307692307692
+245,2019-04-14,Stanford,22,1817,"Score(team_a=9, team_b=11)",California,25.0,1756.0,61.0,-2.727272727272727
+246,2019-04-14,Stanford,22,1817,"Score(team_a=15, team_b=0)",Chico State,101.0,1078.0,739.0,15.0
+248,2019-04-27,Stanford,22,1817,"Score(team_a=10, team_b=3)",Cal State-Long Beach,83.0,1201.0,616.0,10.5
+249,2019-04-27,Stanford,22,1817,"Score(team_a=10, team_b=4)",Northern Arizona,89.0,1162.0,655.0,9.0
+250,2019-04-27,Stanford,22,1817,"Score(team_a=7, team_b=11)",Cal Poly-SLO,23.0,1783.0,34.0,-5.454545454545454
+251,2019-04-28,Stanford,22,1817,"Score(team_a=12, team_b=8)",Southern California,84.0,1175.0,642.0,5.0
+252,2019-04-28,Stanford,22,1817,"Score(team_a=14, team_b=10)",California,25.0,1756.0,61.0,4.285714285714286
+254,2019-04-28,Stanford,22,1817,"Score(team_a=12, team_b=10)",California-Davis,43.0,1483.0,334.0,2.5
+256,2019-04-13,Cal Poly-SLO,23,1783,"Score(team_a=13, team_b=5)",Claremont,149.0,824.0,959.0,9.23076923076923
+257,2019-04-13,Cal Poly-SLO,23,1783,"Score(team_a=13, team_b=1)",Occidental,137.0,862.0,921.0,13.846153846153845
+258,2019-04-13,Cal Poly-SLO,23,1783,"Score(team_a=13, team_b=3)",Cal State-Long Beach,83.0,1201.0,582.0,11.538461538461537
+262,2019-04-27,Cal Poly-SLO,23,1783,"Score(team_a=12, team_b=5)",Northern Arizona,89.0,1162.0,621.0,8.75
+264,2019-04-27,Cal Poly-SLO,23,1783,"Score(team_a=13, team_b=3)",Southern California,84.0,1175.0,608.0,11.538461538461537
+266,2019-04-28,Cal Poly-SLO,23,1783,"Score(team_a=12, team_b=7)",Cal State-Long Beach,83.0,1201.0,582.0,6.25
+268,2019-04-28,Cal Poly-SLO,23,1783,"Score(team_a=13, team_b=11)",California-Davis,43.0,1483.0,300.0,2.3076923076923075
+271,2019-04-13,Washington,24,1769,"Score(team_a=9, team_b=4)",Victoria,86.0,1171.0,598.0,8.333333333333334
+274,2019-04-14,Washington,24,1769,"Score(team_a=13, team_b=4)",Oregon State,147.0,829.0,940.0,10.384615384615383
+276,2019-04-27,Washington,24,1769,"Score(team_a=13, team_b=4)",Boise State,134.0,879.0,890.0,10.384615384615383
+277,2019-04-27,Washington,24,1769,"Score(team_a=10, team_b=9)",Utah,36.0,1607.0,162.0,1.5
+279,2019-04-27,Washington,24,1769,"Score(team_a=11, team_b=6)",Whitman,51.0,1412.0,357.0,6.8181818181818175
+282,2019-04-13,California,25,1756,"Score(team_a=11, team_b=0)",Humboldt State,265.0,44.0,1712.0,14.999999999999998
+283,2019-04-13,California,25,1756,"Score(team_a=11, team_b=1)",Nevada-Reno,210.0,460.0,1296.0,13.636363636363635
+284,2019-04-13,California,25,1756,"Score(team_a=11, team_b=1)",Santa Clara,194.0,584.0,1172.0,13.636363636363635
+285,2019-04-13,California,25,1756,"Score(team_a=11, team_b=5)",California-Davis,43.0,1483.0,273.0,8.181818181818182
+288,2019-04-27,California,25,1756,"Score(team_a=13, team_b=2)",San Diego State,60.0,1363.0,393.0,12.692307692307692
+289,2019-04-27,California,25,1756,"Score(team_a=13, team_b=2)",Chico State,101.0,1078.0,678.0,12.692307692307692
+291,2019-04-28,California,25,1756,"Score(team_a=9, team_b=11)",California-Davis,43.0,1483.0,273.0,-2.727272727272727
+293,2019-04-28,California,25,1756,"Score(team_a=15, team_b=4)",Southern California,84.0,1175.0,581.0,11.0
+294,2019-04-20,Bates,26,1744,"Score(team_a=11, team_b=3)",Colby,116.0,993.0,751.0,10.909090909090908
+295,2019-04-20,Bates,26,1744,"Score(team_a=12, team_b=2)",Bowdoin,135.0,870.0,874.0,12.5
+296,2019-04-20,Bates,26,1744,"Score(team_a=11, team_b=7)",Middlebury,48.0,1414.0,330.0,5.454545454545454
+297,2019-04-21,Bates,26,1744,"Score(team_a=11, team_b=7)",Middlebury,48.0,1414.0,330.0,5.454545454545454
+298,2019-04-27,Bates,26,1744,"Score(team_a=13, team_b=3)",Bowdoin,135.0,870.0,874.0,11.538461538461537
+299,2019-04-27,Bates,26,1744,"Score(team_a=13, team_b=5)",Amherst,138.0,859.0,885.0,9.23076923076923
+300,2019-04-27,Bates,26,1744,"Score(team_a=13, team_b=4)",Mount Holyoke,70.0,1271.0,473.0,10.384615384615383
+301,2019-04-28,Bates,26,1744,"Score(team_a=12, team_b=5)",Middlebury,48.0,1414.0,330.0,8.75
+302,2019-05-18,Bates,26,1744,"Score(team_a=11, team_b=8)",Lewis & Clark,74.0,1243.0,501.0,4.090909090909091
+303,2019-05-18,Bates,26,1744,"Score(team_a=10, team_b=5)",North Georgia,102.0,1062.0,682.0,7.5
+304,2019-05-18,Bates,26,1744,"Score(team_a=10, team_b=5)",Wesleyan,63.0,1338.0,406.0,7.5
+305,2019-05-19,Bates,26,1744,"Score(team_a=15, team_b=11)",Portland,57.0,1376.0,368.0,4.0
+306,2019-05-19,Bates,26,1744,"Score(team_a=15, team_b=9)",North Park,109.0,1020.0,724.0,6.0
+307,2019-05-19,Bates,26,1744,"Score(team_a=7, team_b=13)",Oberlin,52.0,1404.0,340.0,-6.9230769230769225
+309,2019-04-13,North Carolina State,27,1702,"Score(team_a=11, team_b=1)",North Carolina-Charlotte,308.0,-382.0,2084.0,13.636363636363635
+311,2019-04-13,North Carolina State,27,1702,"Score(team_a=11, team_b=2)",Charleston,282.0,-97.0,1799.0,12.272727272727272
+312,2019-04-13,North Carolina State,27,1702,"Score(team_a=11, team_b=1)",Wake Forest,224.0,385.0,1317.0,13.636363636363635
+313,2019-04-14,North Carolina State,27,1702,"Score(team_a=11, team_b=5)",Duke,50.0,1413.0,289.0,8.181818181818182
+314,2019-04-27,North Carolina State,27,1702,"Score(team_a=13, team_b=2)",Towson,139.0,854.0,848.0,12.692307692307692
+315,2019-04-27,North Carolina State,27,1702,"Score(team_a=13, team_b=5)",Georgetown,77.0,1235.0,467.0,9.23076923076923
+317,2019-04-27,North Carolina State,27,1702,"Score(team_a=15, team_b=7)",Maryland,91.0,1144.0,558.0,8.0
+319,2019-04-28,North Carolina State,27,1702,"Score(team_a=13, team_b=11)",Virginia,40.0,1542.0,160.0,2.3076923076923075
+320,2019-04-13,Vermont,28,1695,"Score(team_a=13, team_b=4)",Brown,59.0,1368.0,327.0,10.384615384615383
+321,2019-04-13,Vermont,28,1695,"Score(team_a=13, team_b=2)",Rhode Island,300.0,-272.0,1967.0,12.692307692307692
+323,2019-04-13,Vermont,28,1695,"Score(team_a=13, team_b=0)",Maine,279.0,-70.0,1765.0,14.999999999999998
+324,2019-04-14,Vermont,28,1695,"Score(team_a=10, team_b=7)",New Hampshire,81.0,1210.0,485.0,4.5
+325,2019-04-14,Vermont,28,1695,"Score(team_a=10, team_b=4)",Massachusetts,62.0,1345.0,350.0,9.0
+328,2019-04-27,Vermont,28,1695,"Score(team_a=10, team_b=2)",Massachusetts,62.0,1345.0,350.0,12.0
+329,2019-04-27,Vermont,28,1695,"Score(team_a=6, team_b=11)",Harvard,39.0,1578.0,117.0,-6.8181818181818175
+330,2019-04-27,Vermont,28,1695,"Score(team_a=9, team_b=2)",Boston College,121.0,960.0,735.0,11.666666666666668
+331,2019-04-28,Vermont,28,1695,"Score(team_a=13, team_b=9)",Brown,59.0,1368.0,327.0,4.615384615384615
+333,2019-04-28,Vermont,28,1695,"Score(team_a=12, team_b=11)",Massachusetts,62.0,1345.0,350.0,1.25
+334,2019-04-13,Truman State,29,1657,"Score(team_a=10, team_b=2)",Rice,163.0,785.0,872.0,12.0
+335,2019-04-13,Truman State,29,1657,"Score(team_a=12, team_b=2)",Tulsa,188.0,607.0,1050.0,12.5
+336,2019-04-13,Truman State,29,1657,"Score(team_a=6, team_b=1)",Missouri S&T,111.0,1020.0,637.0,12.5
+337,2019-04-13,Truman State,29,1657,"Score(team_a=14, team_b=2)",Dallas,123.0,945.0,712.0,12.857142857142858
+338,2019-04-14,Truman State,29,1657,"Score(team_a=10, team_b=4)",John Brown,80.0,1228.0,429.0,9.0
+339,2019-04-14,Truman State,29,1657,"Score(team_a=8, team_b=7)",Trinity,72.0,1254.0,403.0,1.875
+340,2019-05-18,Truman State,29,1657,"Score(team_a=7, team_b=10)",Mount Holyoke,70.0,1271.0,386.0,-4.5
+341,2019-05-18,Truman State,29,1657,"Score(team_a=10, team_b=6)",North Park,109.0,1020.0,637.0,6.0
+342,2019-05-18,Truman State,29,1657,"Score(team_a=9, team_b=7)",Portland,57.0,1376.0,281.0,3.3333333333333335
+343,2019-05-19,Truman State,29,1657,"Score(team_a=10, team_b=14)",St Olaf,67.0,1310.0,347.0,-4.285714285714286
+344,2019-05-19,Truman State,29,1657,"Score(team_a=8, team_b=15)",Puget Sound,47.0,1428.0,229.0,-7.0
+347,2019-04-13,Colorado College,30,1644,"Score(team_a=10, team_b=0)",Colorado-Denver,286.0,-121.0,1765.0,15.0
+348,2019-04-13,Colorado College,30,1644,"Score(team_a=8, team_b=1)",Denver,78.0,1234.0,410.0,13.125
+349,2019-04-13,Colorado College,30,1644,"Score(team_a=7, team_b=6)",Colorado State,88.0,1168.0,476.0,2.142857142857143
+350,2019-04-27,Colorado College,30,1644,"Score(team_a=13, team_b=1)",Kansas,140.0,848.0,796.0,13.846153846153845
+351,2019-04-27,Colorado College,30,1644,"Score(team_a=13, team_b=3)",Texas-Dallas,66.0,1323.0,321.0,11.538461538461537
+352,2019-04-27,Colorado College,30,1644,"Score(team_a=13, team_b=0)",Texas-San Antonio,231.0,341.0,1303.0,14.999999999999998
+354,2019-04-28,Colorado College,30,1644,"Score(team_a=13, team_b=2)",Texas State,96.0,1113.0,531.0,12.692307692307692
+357,2019-04-13,Delaware,31,1633,"Score(team_a=13, team_b=2)",George Washington,146.0,831.0,802.0,12.692307692307692
+358,2019-04-13,Delaware,31,1633,"Score(team_a=13, team_b=2)",Johns Hopkins University,250.0,180.0,1453.0,12.692307692307692
+359,2019-04-13,Delaware,31,1633,"Score(team_a=13, team_b=5)",Towson,139.0,854.0,779.0,9.23076923076923
+360,2019-04-14,Delaware,31,1633,"Score(team_a=15, team_b=6)",Maryland,91.0,1144.0,489.0,9.0
+361,2019-04-14,Delaware,31,1633,"Score(team_a=15, team_b=6)",American,129.0,911.0,722.0,9.0
+362,2019-04-27,Delaware,31,1633,"Score(team_a=13, team_b=3)",George Washington,146.0,831.0,802.0,11.538461538461537
+363,2019-04-27,Delaware,31,1633,"Score(team_a=10, team_b=6)",William & Mary,64.0,1327.0,306.0,6.0
+365,2019-04-27,Delaware,31,1633,"Score(team_a=10, team_b=13)",Duke,50.0,1413.0,220.0,-3.4615384615384612
+366,2019-04-28,Delaware,31,1633,"Score(team_a=13, team_b=5)",James Madison,69.0,1282.0,351.0,9.23076923076923
+367,2019-04-28,Delaware,31,1633,"Score(team_a=12, team_b=11)",Georgetown,77.0,1235.0,398.0,1.25
+368,2019-04-13,Brigham Young,32,1633,"Score(team_a=11, team_b=7)",Whitman,51.0,1412.0,221.0,5.454545454545454
+369,2019-04-13,Brigham Young,32,1633,"Score(team_a=13, team_b=3)",Boise State,134.0,879.0,754.0,11.538461538461537
+370,2019-04-13,Brigham Young,32,1633,"Score(team_a=13, team_b=3)",Utah State,185.0,635.0,998.0,11.538461538461537
+371,2019-04-13,Brigham Young,32,1633,"Score(team_a=12, team_b=7)",Utah,36.0,1607.0,26.0,6.25
+372,2019-04-13,Florida,33,1619,"Score(team_a=8, team_b=5)",Central Florida,99.0,1099.0,520.0,5.625
+373,2019-04-13,Florida,33,1619,"Score(team_a=5, team_b=7)",Florida State,41.0,1528.0,91.0,-4.285714285714286
+374,2019-04-13,Florida,33,1619,"Score(team_a=8, team_b=5)",South Florida,108.0,1022.0,597.0,5.625
+376,2019-04-13,Florida,33,1619,"Score(team_a=10, team_b=4)",Miami,200.0,537.0,1082.0,9.0
+377,2019-04-14,Florida,33,1619,"Score(team_a=9, team_b=6)",Florida State,41.0,1528.0,91.0,5.0
+378,2019-04-27,Florida,33,1619,"Score(team_a=15, team_b=3)",Alabama,161.0,788.0,831.0,12.0
+379,2019-04-27,Florida,33,1619,"Score(team_a=12, team_b=7)",Georgia Tech,45.0,1453.0,166.0,6.25
+380,2019-04-28,Florida,33,1619,"Score(team_a=15, team_b=3)",Emory,54.0,1389.0,230.0,12.0
+381,2019-04-28,Florida,33,1619,"Score(team_a=14, team_b=10)",Vanderbilt,38.0,1593.0,26.0,4.285714285714286
+383,2019-04-13,Northwestern,34,1616,"Score(team_a=10, team_b=5)",Illinois,117.0,990.0,626.0,7.5
+384,2019-04-13,Northwestern,34,1616,"Score(team_a=9, team_b=8)",Chicago,58.0,1376.0,240.0,1.6666666666666667
+385,2019-04-13,Northwestern,34,1616,"Score(team_a=13, team_b=2)",DePaul,164.0,779.0,837.0,12.692307692307692
+387,2019-04-14,Northwestern,34,1616,"Score(team_a=10, team_b=3)",Loyola-Chicago,223.0,389.0,1227.0,10.5
+388,2019-04-27,Northwestern,34,1616,"Score(team_a=12, team_b=6)",Ball State,104.0,1037.0,579.0,7.5
+389,2019-04-27,Northwestern,34,1616,"Score(team_a=15, team_b=2)",Michigan State,103.0,1051.0,565.0,13.0
+390,2019-04-28,Northwestern,34,1616,"Score(team_a=7, team_b=8)",Chicago,58.0,1376.0,240.0,-1.875
+391,2019-04-28,Northwestern,34,1616,"Score(team_a=8, team_b=5)",Illinois,117.0,990.0,626.0,5.625
+392,2019-04-28,Northwestern,34,1616,"Score(team_a=8, team_b=7)",Michigan,42.0,1491.0,125.0,1.875
+393,2019-04-28,Northwestern,34,1616,"Score(team_a=9, team_b=5)",Chicago,58.0,1376.0,240.0,6.666666666666667
+394,2019-04-13,Washington University,35,1616,"Score(team_a=11, team_b=2)",Missouri,158.0,794.0,822.0,12.272727272727272
+396,2019-04-13,Washington University,35,1616,"Score(team_a=9, team_b=0)",Kansas,140.0,848.0,768.0,15.0
+397,2019-04-13,Washington University,35,1616,"Score(team_a=11, team_b=0)",Arkansas,187.0,625.0,991.0,14.999999999999998
+398,2019-04-13,Washington University,35,1616,"Score(team_a=11, team_b=2)",Kansas,140.0,848.0,768.0,12.272727272727272
+399,2019-04-27,Washington University,35,1616,"Score(team_a=13, team_b=4)",Oklahoma,122.0,947.0,669.0,10.384615384615383
+400,2019-04-27,Washington University,35,1616,"Score(team_a=13, team_b=6)",Colorado State,88.0,1168.0,448.0,8.076923076923077
+401,2019-04-27,Washington University,35,1616,"Score(team_a=13, team_b=1)",Texas Christian,192.0,599.0,1017.0,13.846153846153845
+403,2019-04-28,Washington University,35,1616,"Score(team_a=12, team_b=5)",Denver,78.0,1234.0,382.0,8.75
+404,2019-04-28,Washington University,35,1616,"Score(team_a=15, team_b=7)",Texas-Dallas,66.0,1323.0,293.0,8.0
+406,2019-04-13,Utah,36,1607,"Score(team_a=11, team_b=5)",Montana State,126.0,929.0,678.0,8.181818181818182
+407,2019-04-13,Utah,36,1607,"Score(team_a=13, team_b=5)",Whitman,51.0,1412.0,195.0,9.23076923076923
+409,2019-04-13,Utah,36,1607,"Score(team_a=12, team_b=6)",Utah State,185.0,635.0,972.0,7.5
+410,2019-04-14,Utah,36,1607,"Score(team_a=13, team_b=1)",Boise State,134.0,879.0,728.0,13.846153846153845
+411,2019-04-14,Utah,36,1607,"Score(team_a=13, team_b=2)",Montana,245.0,261.0,1346.0,12.692307692307692
+412,2019-04-14,Utah,36,1607,"Score(team_a=13, team_b=6)",Whitman,51.0,1412.0,195.0,8.076923076923077
+415,2019-04-27,Utah,36,1607,"Score(team_a=10, team_b=3)",Boise State,134.0,879.0,728.0,10.5
+418,2019-04-28,Utah,36,1607,"Score(team_a=11, team_b=10)",Whitman,51.0,1412.0,195.0,1.3636363636363635
+421,2019-04-14,West Chester,37,1597,"Score(team_a=13, team_b=8)",Penn State,55.0,1378.0,219.0,5.769230769230768
+422,2019-04-14,West Chester,37,1597,"Score(team_a=13, team_b=1)",Millersville,283.0,-103.0,1700.0,13.846153846153845
+423,2019-04-14,West Chester,37,1597,"Score(team_a=13, team_b=2)",Temple,191.0,602.0,995.0,12.692307692307692
+424,2019-04-14,West Chester,37,1597,"Score(team_a=8, team_b=9)",Pennsylvania,44.0,1454.0,143.0,-1.6666666666666667
+425,2019-04-21,West Chester,37,1597,"Score(team_a=13, team_b=8)",Penn State,55.0,1378.0,219.0,5.769230769230768
+426,2019-04-21,West Chester,37,1597,"Score(team_a=12, team_b=5)",Carnegie Mellon,90.0,1155.0,442.0,8.75
+429,2019-04-27,West Chester,37,1597,"Score(team_a=9, team_b=7)",Dayton,85.0,1173.0,424.0,3.3333333333333335
+430,2019-04-27,West Chester,37,1597,"Score(team_a=10, team_b=4)",Carnegie Mellon,90.0,1155.0,442.0,9.0
+432,2019-04-28,West Chester,37,1597,"Score(team_a=9, team_b=11)",Case Western Reserve,79.0,1230.0,367.0,-2.727272727272727
+433,2019-04-28,West Chester,37,1597,"Score(team_a=6, team_b=8)",Pennsylvania,44.0,1454.0,143.0,-3.75
+434,2019-04-20,Vanderbilt,38,1593,"Score(team_a=13, team_b=6)",Alabama,161.0,788.0,805.0,8.076923076923077
+435,2019-04-20,Vanderbilt,38,1593,"Score(team_a=13, team_b=4)",Alabama-Birmingham,260.0,118.0,1475.0,10.384615384615383
+436,2019-04-20,Vanderbilt,38,1593,"Score(team_a=13, team_b=4)",Mississippi State,119.0,987.0,606.0,10.384615384615383
+437,2019-04-21,Vanderbilt,38,1593,"Score(team_a=15, team_b=6)",Auburn,92.0,1137.0,456.0,9.0
+438,2019-04-27,Vanderbilt,38,1593,"Score(team_a=14, team_b=8)",Central Florida,99.0,1099.0,494.0,6.428571428571429
+439,2019-04-27,Vanderbilt,38,1593,"Score(team_a=15, team_b=8)",Auburn,92.0,1137.0,456.0,7.0
+440,2019-04-28,Vanderbilt,38,1593,"Score(team_a=15, team_b=10)",Kennesaw State,82.0,1209.0,384.0,5.0
+442,2019-04-28,Vanderbilt,38,1593,"Score(team_a=11, team_b=10)",Florida State,41.0,1528.0,65.0,1.3636363636363635
+444,2019-04-13,Harvard,39,1578,"Score(team_a=11, team_b=1)",MIT,110.0,1020.0,558.0,13.636363636363635
+445,2019-04-13,Harvard,39,1578,"Score(team_a=9, team_b=5)",Boston University,95.0,1118.0,460.0,6.666666666666667
+447,2019-04-13,Harvard,39,1578,"Score(team_a=11, team_b=3)",Boston College,121.0,960.0,618.0,10.909090909090908
+448,2019-04-27,Harvard,39,1578,"Score(team_a=10, team_b=4)",Massachusetts,62.0,1345.0,233.0,9.0
+450,2019-04-27,Harvard,39,1578,"Score(team_a=6, team_b=4)",Boston College,121.0,960.0,618.0,5.0
+453,2019-04-28,Harvard,39,1578,"Score(team_a=12, team_b=11)",Massachusetts,62.0,1345.0,233.0,1.25
+455,2019-04-13,Virginia,40,1542,"Score(team_a=10, team_b=2)",Liberty,115.0,1001.0,541.0,12.0
+456,2019-04-13,Virginia,40,1542,"Score(team_a=10, team_b=3)",James Madison,69.0,1282.0,260.0,10.5
+457,2019-04-13,Virginia,40,1542,"Score(team_a=11, team_b=3)",Virginia Commonwealth,145.0,835.0,707.0,10.909090909090908
+458,2019-04-13,Virginia,40,1542,"Score(team_a=8, team_b=4)",Virginia Tech,160.0,794.0,748.0,7.5
+459,2019-04-14,Virginia,40,1542,"Score(team_a=9, team_b=3)",William & Mary,64.0,1327.0,215.0,10.0
+460,2019-04-14,Virginia,40,1542,"Score(team_a=9, team_b=1)",George Mason,204.0,505.0,1037.0,13.333333333333334
+461,2019-04-14,Virginia,40,1542,"Score(team_a=10, team_b=4)",Liberty,115.0,1001.0,541.0,9.0
+462,2019-04-27,Virginia,40,1542,"Score(team_a=13, team_b=2)",Maryland,91.0,1144.0,398.0,12.692307692307692
+463,2019-04-27,Virginia,40,1542,"Score(team_a=13, team_b=7)",Liberty,115.0,1001.0,541.0,6.9230769230769225
+465,2019-04-27,Virginia,40,1542,"Score(team_a=15, team_b=9)",Georgetown,77.0,1235.0,307.0,6.0
+468,2019-04-28,Virginia,40,1542,"Score(team_a=7, team_b=11)",William & Mary,64.0,1327.0,215.0,-5.454545454545454
+469,2019-04-13,Florida State,41,1528,"Score(team_a=10, team_b=3)",Miami,200.0,537.0,991.0,10.5
+472,2019-04-13,Florida State,41,1528,"Score(team_a=8, team_b=2)",Central Florida,99.0,1099.0,429.0,11.25
+473,2019-04-13,Florida State,41,1528,"Score(team_a=8, team_b=3)",South Florida,108.0,1022.0,506.0,9.375
+475,2019-04-14,Florida State,41,1528,"Score(team_a=8, team_b=7)",Central Florida,99.0,1099.0,429.0,1.875
+476,2019-04-27,Florida State,41,1528,"Score(team_a=15, team_b=1)",Miami,200.0,537.0,991.0,14.0
+477,2019-04-27,Florida State,41,1528,"Score(team_a=15, team_b=1)",Emory,54.0,1389.0,139.0,14.0
+478,2019-04-28,Florida State,41,1528,"Score(team_a=15, team_b=9)",Georgia Tech,45.0,1453.0,75.0,6.0
+481,2019-04-13,Michigan,42,1491,"Score(team_a=13, team_b=4)",Indiana,205.0,502.0,989.0,10.384615384615383
+482,2019-04-13,Michigan,42,1491,"Score(team_a=13, team_b=3)",Southern Indiana,263.0,82.0,1409.0,11.538461538461537
+484,2019-04-13,Michigan,42,1491,"Score(team_a=10, team_b=9)",Michigan State,103.0,1051.0,440.0,1.5
+485,2019-04-14,Michigan,42,1491,"Score(team_a=8, team_b=6)",Notre Dame,56.0,1377.0,114.0,3.75
+486,2019-04-27,Michigan,42,1491,"Score(team_a=12, team_b=4)",Purdue,76.0,1236.0,255.0,10.0
+487,2019-04-27,Michigan,42,1491,"Score(team_a=11, team_b=4)",Illinois,117.0,990.0,501.0,9.545454545454545
+488,2019-04-28,Michigan,42,1491,"Score(team_a=7, team_b=8)",Notre Dame,56.0,1377.0,114.0,-1.875
+489,2019-04-28,Michigan,42,1491,"Score(team_a=9, team_b=7)",Michigan State,103.0,1051.0,440.0,3.3333333333333335
+491,2019-04-13,California-Davis,43,1483,"Score(team_a=11, team_b=3)",Santa Clara,194.0,584.0,899.0,10.909090909090908
+492,2019-04-13,California-Davis,43,1483,"Score(team_a=11, team_b=2)",Nevada-Reno,210.0,460.0,1023.0,12.272727272727272
+493,2019-04-13,California-Davis,43,1483,"Score(team_a=11, team_b=0)",Humboldt State,265.0,44.0,1439.0,14.999999999999998
+495,2019-04-14,California-Davis,43,1483,"Score(team_a=7, team_b=13)",Chico State,101.0,1078.0,405.0,-6.9230769230769225
+496,2019-04-14,California-Davis,43,1483,"Score(team_a=10, team_b=9)",California-Santa Cruz,106.0,1032.0,451.0,1.5
+497,2019-04-27,California-Davis,43,1483,"Score(team_a=13, team_b=3)",San Diego State,60.0,1363.0,120.0,11.538461538461537
+498,2019-04-27,California-Davis,43,1483,"Score(team_a=12, team_b=8)",Chico State,101.0,1078.0,405.0,5.0
+502,2019-04-28,California-Davis,43,1483,"Score(team_a=13, team_b=8)",Southern California,84.0,1175.0,308.0,5.769230769230768
+506,2019-04-14,Pennsylvania,44,1454,"Score(team_a=10, team_b=1)",Temple,191.0,602.0,852.0,13.5
+507,2019-04-14,Pennsylvania,44,1454,"Score(team_a=13, team_b=0)",Millersville,283.0,-103.0,1557.0,14.999999999999998
+510,2019-04-27,Pennsylvania,44,1454,"Score(team_a=11, team_b=2)",Case Western Reserve,79.0,1230.0,224.0,12.272727272727272
+511,2019-04-27,Pennsylvania,44,1454,"Score(team_a=13, team_b=4)",Ohio,94.0,1135.0,319.0,10.384615384615383
+512,2019-04-27,Pennsylvania,44,1454,"Score(team_a=9, team_b=7)",Penn State,55.0,1378.0,76.0,3.3333333333333335
+514,2019-04-28,Pennsylvania,44,1454,"Score(team_a=7, team_b=10)",Penn State,55.0,1378.0,76.0,-4.5
+517,2019-04-13,Georgia Tech,45,1453,"Score(team_a=13, team_b=5)",Tennessee,155.0,808.0,645.0,9.23076923076923
+518,2019-04-13,Georgia Tech,45,1453,"Score(team_a=13, team_b=4)",Georgia Southern,237.0,299.0,1154.0,10.384615384615383
+519,2019-04-13,Georgia Tech,45,1453,"Score(team_a=10, team_b=11)",Emory,54.0,1389.0,64.0,-1.3636363636363635
+520,2019-04-14,Georgia Tech,45,1453,"Score(team_a=9, team_b=8)",Kennesaw State,82.0,1209.0,244.0,1.6666666666666667
+521,2019-04-14,Georgia Tech,45,1453,"Score(team_a=6, team_b=10)",Emory,54.0,1389.0,64.0,-6.0
+522,2019-04-27,Georgia Tech,45,1453,"Score(team_a=15, team_b=3)",Alabama,161.0,788.0,665.0,12.0
+524,2019-04-27,Georgia Tech,45,1453,"Score(team_a=11, team_b=5)",Auburn,92.0,1137.0,316.0,8.181818181818182
+526,2019-04-28,Georgia Tech,45,1453,"Score(team_a=11, team_b=7)",Central Florida,99.0,1099.0,354.0,5.454545454545454
+527,2019-04-28,Georgia Tech,45,1453,"Score(team_a=10, team_b=3)",Emory,54.0,1389.0,64.0,10.5
+528,2019-04-13,Williams,46,1440,"Score(team_a=13, team_b=6)",Hampshire,236.0,309.0,1131.0,8.076923076923077
+529,2019-04-13,Williams,46,1440,"Score(team_a=13, team_b=3)",Roger Williams,301.0,-276.0,1716.0,11.538461538461537
+530,2019-04-13,Williams,46,1440,"Score(team_a=13, team_b=8)",Smith,142.0,843.0,597.0,5.769230769230768
+531,2019-04-14,Williams,46,1440,"Score(team_a=11, team_b=7)",Amherst,138.0,859.0,581.0,5.454545454545454
+532,2019-04-14,Williams,46,1440,"Score(team_a=11, team_b=6)",Mount Holyoke,70.0,1271.0,169.0,6.8181818181818175
+533,2019-04-27,Williams,46,1440,"Score(team_a=12, team_b=5)",Wellesley,125.0,941.0,499.0,8.75
+534,2019-04-27,Williams,46,1440,"Score(team_a=8, team_b=6)",Brandeis,114.0,1003.0,437.0,3.75
+535,2019-04-27,Williams,46,1440,"Score(team_a=8, team_b=10)",Middlebury,48.0,1414.0,26.0,-3.0
+536,2019-04-28,Williams,46,1440,"Score(team_a=12, team_b=8)",Mount Holyoke,70.0,1271.0,169.0,5.0
+537,2019-04-28,Williams,46,1440,"Score(team_a=10, team_b=7)",Middlebury,48.0,1414.0,26.0,4.5
+538,2019-05-18,Williams,46,1440,"Score(team_a=10, team_b=7)",Carleton College-Eclipse,65.0,1326.0,114.0,4.5
+539,2019-05-18,Williams,46,1440,"Score(team_a=9, team_b=4)",Occidental,137.0,862.0,578.0,8.333333333333334
+540,2019-05-18,Williams,46,1440,"Score(team_a=5, team_b=11)",Oberlin,52.0,1404.0,36.0,-8.181818181818182
+541,2019-05-18,Williams,46,1440,"Score(team_a=9, team_b=10)",North Park,109.0,1020.0,420.0,-1.5
+542,2019-05-19,Williams,46,1440,"Score(team_a=15, team_b=6)",Mary Washington,151.0,818.0,622.0,9.0
+543,2019-05-19,Williams,46,1440,"Score(team_a=13, team_b=4)",North Georgia,102.0,1062.0,378.0,10.384615384615383
+544,2019-04-20,Puget Sound,47,1428,"Score(team_a=9, team_b=6)",Lewis & Clark,74.0,1243.0,185.0,5.0
+545,2019-04-20,Puget Sound,47,1428,"Score(team_a=13, team_b=3)",Pacific Lutheran,136.0,863.0,565.0,11.538461538461537
+546,2019-04-20,Puget Sound,47,1428,"Score(team_a=10, team_b=12)",Portland,57.0,1376.0,52.0,-2.5
+547,2019-04-21,Puget Sound,47,1428,"Score(team_a=12, team_b=5)",Lewis & Clark,74.0,1243.0,185.0,8.75
+548,2019-04-21,Puget Sound,47,1428,"Score(team_a=11, team_b=10)",Portland,57.0,1376.0,52.0,1.3636363636363635
+549,2019-05-18,Puget Sound,47,1428,"Score(team_a=12, team_b=11)",St Olaf,67.0,1310.0,118.0,1.25
+550,2019-05-18,Puget Sound,47,1428,"Score(team_a=13, team_b=1)",Mary Washington,151.0,818.0,610.0,13.846153846153845
+551,2019-05-18,Puget Sound,47,1428,"Score(team_a=8, team_b=9)",Middlebury,48.0,1414.0,14.0,-1.6666666666666667
+552,2019-05-18,Puget Sound,47,1428,"Score(team_a=12, team_b=7)",Wesleyan,63.0,1338.0,90.0,6.25
+553,2019-05-19,Puget Sound,47,1428,"Score(team_a=12, team_b=15)",Oberlin,52.0,1404.0,24.0,-3.0
+555,2019-04-20,Middlebury,48,1414,"Score(team_a=9, team_b=6)",Bowdoin,135.0,870.0,544.0,5.0
+556,2019-04-20,Middlebury,48,1414,"Score(team_a=10, team_b=7)",Colby,116.0,993.0,421.0,4.5
+559,2019-04-27,Middlebury,48,1414,"Score(team_a=11, team_b=4)",Brandeis,114.0,1003.0,411.0,9.545454545454545
+560,2019-04-27,Middlebury,48,1414,"Score(team_a=10, team_b=4)",Wellesley,125.0,941.0,473.0,9.0
+564,2019-05-18,Middlebury,48,1414,"Score(team_a=15, team_b=0)",Mary Washington,151.0,818.0,596.0,15.0
+565,2019-05-18,Middlebury,48,1414,"Score(team_a=10, team_b=11)",St Olaf,67.0,1310.0,104.0,-1.3636363636363635
+567,2019-05-19,Middlebury,48,1414,"Score(team_a=13, team_b=14)",North Park,109.0,1020.0,394.0,-1.0714285714285714
+568,2019-05-19,Middlebury,48,1414,"Score(team_a=13, team_b=8)",Portland,57.0,1376.0,38.0,5.769230769230768
+569,2019-04-13,Columbia,49,1414,"Score(team_a=7, team_b=3)",SUNY-Stony Brook,174.0,709.0,705.0,8.571428571428571
+570,2019-04-13,Columbia,49,1414,"Score(team_a=10, team_b=1)",NYU,195.0,571.0,843.0,13.5
+573,2019-04-13,Columbia,49,1414,"Score(team_a=10, team_b=3)",Princeton,148.0,828.0,586.0,10.5
+574,2019-04-14,Columbia,49,1414,"Score(team_a=13, team_b=2)",Connecticut,128.0,915.0,499.0,12.692307692307692
+575,2019-04-14,Columbia,49,1414,"Score(team_a=12, team_b=6)",Yale,68.0,1298.0,116.0,7.5
+576,2019-04-27,Columbia,49,1414,"Score(team_a=13, team_b=0)",Princeton,148.0,828.0,586.0,14.999999999999998
+577,2019-04-27,Columbia,49,1414,"Score(team_a=13, team_b=5)",SUNY-Albany,173.0,714.0,700.0,9.23076923076923
+578,2019-04-27,Columbia,49,1414,"Score(team_a=8, team_b=10)",Yale,68.0,1298.0,116.0,-3.0
+579,2019-04-27,Columbia,49,1414,"Score(team_a=15, team_b=2)",Connecticut,128.0,915.0,499.0,13.0
+580,2019-05-04,Columbia,49,1414,"Score(team_a=12, team_b=13)",Cornell,53.0,1393.0,21.0,-1.1538461538461537
+581,2019-04-13,Duke,50,1413,"Score(team_a=13, team_b=1)",East Carolina,276.0,-53.0,1466.0,13.846153846153845
+582,2019-04-13,Duke,50,1413,"Score(team_a=13, team_b=3)",Appalachian State,152.0,812.0,601.0,11.538461538461537
+586,2019-04-14,Duke,50,1413,"Score(team_a=12, team_b=4)",Appalachian State,152.0,812.0,601.0,10.0
+587,2019-04-27,Duke,50,1413,"Score(team_a=13, team_b=5)",American,129.0,911.0,502.0,9.23076923076923
+588,2019-04-27,Duke,50,1413,"Score(team_a=7, team_b=13)",James Madison,69.0,1282.0,131.0,-6.9230769230769225
+592,2019-04-28,Duke,50,1413,"Score(team_a=10, team_b=8)",William & Mary,64.0,1327.0,86.0,3.0

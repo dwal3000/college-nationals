@@ -20,7 +20,7 @@ Bonus points are awarded as follows: finishing at the top of your pool (1 point)
 So, the ultimate goal of this analysis is to get determine which combination of teams should be selected to maximize your points and thus your chance of winning the fantasy contest.
 
 (Note: with a large number of players, it may not be good to pursue a strategy of maximizing expected points.
-While this strategy would be expected to maximize your average points over 1,000s of tournaments.  It may not maximize the likelihood of you being the _top_ point scorer in a given game. If the goal is to be the top point scorer, you may want to consider a riskier strategy that has the possibility of scoring a larger number of points, even if there is also a stronger liklihood of scoring fewer points.  This a high celing, lower floor, i.e. high variance strategy.) 
+While this strategy would be expected to maximize your average points over 1,000s of tournaments.  It may not maximize the likelihood of you being the _top_ point scorer in a given tournament. If the goal is to be the top point scorer, you may want to consider a riskier strategy that has the possibility of scoring a larger number of points, even if there is also a stronger liklihood of scoring fewer points.  This a high celing, lower floor, i.e. high variance strategy.) 
 
 ## Simulating the Tournament
 
