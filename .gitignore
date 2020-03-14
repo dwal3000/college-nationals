@@ -1,6 +1,25 @@
 # Daniel Added #
 ###############
 .ipynb_checkpoints/
+2019_TheGame_Results_Public_Leaderboard.csv
+Figures/
+Men_NationalsScores_Predicted_Actual.png
+MensTest_WinProb_v_RatingDiff_v2.png
+MensTimesPairWereTop2.png
+MensTimes_in_Top2.png
+NationalsScores_Predicted_Actual.png
+NationalsScores_Predicted_minus_Actual.png
+Untitled.ipynb
+WomenTraining_Margin_v_RatingDiff.png
+WomenTraining_WinProb_v_RatingDiff.png
+Women_NationalsScores_Predicted_Actual.png
+WomensBracket.pdf
+WomensTest_WinProb_v_RatingDiff.png
+WomensTest_WinProb_v_RatingDiff_v2.png
+WomensTimesPairWereTop2.png
+WomensTimes_in_Top2.png
+no_longer_needed/
+
 
 # Compiled source #
 ###################
