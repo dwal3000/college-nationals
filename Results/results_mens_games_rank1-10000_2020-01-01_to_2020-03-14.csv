@@ -1,0 +1,1594 @@
+,Date,Team,TeamRank,TeamRating,Score,Opponent,OppRank,OppRating,RatingDiff,GameTo15VictoryMargin
+0,2020-01-24,North Carolina,1,2340,"Score(team_a=13, team_b=3)",Duke,93.0,1271.0,1069.0,11.538461538461537
+1,2020-01-25,North Carolina,1,2340,"Score(team_a=13, team_b=4)",North Carolina-Charlotte,81.0,1326.0,1014.0,10.384615384615383
+2,2020-01-25,North Carolina,1,2340,"Score(team_a=13, team_b=2)",Carleton College-GoP,89.0,1287.0,1053.0,12.692307692307692
+3,2020-01-26,North Carolina,1,2340,"Score(team_a=15, team_b=2)",Kentucky,73.0,1379.0,961.0,13.0
+4,2020-01-26,North Carolina,1,2340,"Score(team_a=15, team_b=8)",South Carolina,26.0,1754.0,586.0,7.0
+5,2020-01-26,North Carolina,1,2340,"Score(team_a=14, team_b=10)",North Carolina State,21.0,1829.0,511.0,4.285714285714286
+6,2020-02-08,North Carolina,1,2340,"Score(team_a=13, team_b=8)",Purdue,51.0,1505.0,835.0,5.769230769230768
+7,2020-02-08,North Carolina,1,2340,"Score(team_a=13, team_b=2)",Temple,48.0,1513.0,827.0,12.692307692307692
+8,2020-02-08,North Carolina,1,2340,"Score(team_a=13, team_b=4)",Carnegie Mellon,75.0,1375.0,965.0,10.384615384615383
+9,2020-02-09,North Carolina,1,2340,"Score(team_a=11, team_b=8)",Ohio State,7.0,2079.0,261.0,4.090909090909091
+10,2020-02-09,North Carolina,1,2340,"Score(team_a=13, team_b=7)",Georgia,22.0,1825.0,515.0,6.9230769230769225
+11,2020-03-07,North Carolina,1,2340,"Score(team_a=13, team_b=8)",Northeastern,37.0,1640.0,700.0,5.769230769230768
+12,2020-03-07,North Carolina,1,2340,"Score(team_a=11, team_b=8)",Minnesota,11.0,2003.0,337.0,4.090909090909091
+13,2020-03-07,North Carolina,1,2340,"Score(team_a=11, team_b=6)",North Carolina-Wilmington,20.0,1835.0,505.0,6.8181818181818175
+14,2020-03-07,North Carolina,1,2340,"Score(team_a=15, team_b=8)",Texas,31.0,1706.0,634.0,7.0
+15,2020-03-08,North Carolina,1,2340,"Score(team_a=15, team_b=12)",Ohio State,7.0,2079.0,261.0,3.0
+16,2020-03-08,North Carolina,1,2340,"Score(team_a=15, team_b=10)",Massachusetts,8.0,2070.0,270.0,5.0
+17,2020-03-08,North Carolina,1,2340,"Score(team_a=15, team_b=9)",Pittsburgh,9.0,2052.0,288.0,6.0
+18,2020-01-25,Washington,2,2291,"Score(team_a=13, team_b=1)",Santa Clara,40.0,1628.0,663.0,13.846153846153845
+19,2020-01-25,Washington,2,2291,"Score(team_a=13, team_b=5)",California-Santa Barbara,27.0,1731.0,560.0,9.23076923076923
+20,2020-01-25,Washington,2,2291,"Score(team_a=13, team_b=3)",Western Washington,28.0,1731.0,560.0,11.538461538461537
+21,2020-01-25,Washington,2,2291,"Score(team_a=13, team_b=7)",Colorado State,14.0,1921.0,370.0,6.9230769230769225
+22,2020-01-26,Washington,2,2291,"Score(team_a=13, team_b=5)",Utah,42.0,1615.0,676.0,9.23076923076923
+23,2020-01-26,Washington,2,2291,"Score(team_a=13, team_b=5)",UCLA,16.0,1883.0,408.0,9.23076923076923
+24,2020-01-26,Washington,2,2291,"Score(team_a=13, team_b=11)",Cal Poly-SLO,3.0,2194.0,97.0,2.3076923076923075
+25,2020-02-15,Washington,2,2291,"Score(team_a=15, team_b=8)",Stanford,41.0,1618.0,673.0,7.0
+26,2020-02-15,Washington,2,2291,"Score(team_a=15, team_b=3)",San Diego State,158.0,1005.0,1286.0,12.0
+27,2020-02-15,Washington,2,2291,"Score(team_a=13, team_b=7)",Utah,42.0,1615.0,676.0,6.9230769230769225
+28,2020-02-16,Washington,2,2291,"Score(team_a=15, team_b=8)",Oklahoma State,35.0,1651.0,640.0,7.0
+29,2020-02-16,Washington,2,2291,"Score(team_a=14, team_b=8)",California-Santa Cruz,36.0,1644.0,647.0,6.428571428571429
+30,2020-02-16,Washington,2,2291,"Score(team_a=11, team_b=9)",Colorado,5.0,2169.0,122.0,2.727272727272727
+31,2020-02-17,Washington,2,2291,"Score(team_a=15, team_b=2)",Stanford,41.0,1618.0,673.0,13.0
+32,2020-02-17,Washington,2,2291,"Score(team_a=11, team_b=7)",Cal Poly-SLO,3.0,2194.0,97.0,5.454545454545454
+33,2020-02-17,Washington,2,2291,"Score(team_a=15, team_b=7)",Oregon,6.0,2107.0,184.0,8.0
+34,2020-03-07,Washington,2,2291,"Score(team_a=12, team_b=9)",Oregon State,19.0,1839.0,452.0,3.75
+35,2020-03-07,Washington,2,2291,"Score(team_a=13, team_b=2)",Southern California,90.0,1285.0,1006.0,12.692307692307692
+36,2020-03-07,Washington,2,2291,"Score(team_a=13, team_b=9)",California,15.0,1900.0,391.0,4.615384615384615
+37,2020-03-08,Washington,2,2291,"Score(team_a=13, team_b=10)",Colorado State,14.0,1921.0,370.0,3.4615384615384612
+38,2020-03-08,Washington,2,2291,"Score(team_a=8, team_b=9)",Oregon,6.0,2107.0,184.0,-1.6666666666666667
+39,2020-03-08,Washington,2,2291,"Score(team_a=10, team_b=13)",Cal Poly-SLO,3.0,2194.0,97.0,-3.4615384615384612
+40,2020-01-24,Cal Poly-SLO,3,2194,"Score(team_a=10, team_b=13)",Brigham Young,4.0,2190.0,4.0,-3.4615384615384612
+41,2020-01-25,Cal Poly-SLO,3,2194,"Score(team_a=13, team_b=6)",Tulane,49.0,1510.0,684.0,8.076923076923077
+42,2020-01-25,Cal Poly-SLO,3,2194,"Score(team_a=13, team_b=3)",Southern California,90.0,1285.0,909.0,11.538461538461537
+43,2020-01-25,Cal Poly-SLO,3,2194,"Score(team_a=13, team_b=6)",Utah,42.0,1615.0,579.0,8.076923076923077
+44,2020-01-25,Cal Poly-SLO,3,2194,"Score(team_a=13, team_b=8)",Dartmouth,32.0,1695.0,499.0,5.769230769230768
+45,2020-01-26,Cal Poly-SLO,3,2194,"Score(team_a=12, team_b=10)",British Columbia,12.0,1949.0,245.0,2.5
+46,2020-01-26,Cal Poly-SLO,3,2194,"Score(team_a=13, team_b=8)",California,15.0,1900.0,294.0,5.769230769230768
+48,2020-02-15,Cal Poly-SLO,3,2194,"Score(team_a=14, team_b=8)",Oklahoma State,35.0,1651.0,543.0,6.428571428571429
+49,2020-02-15,Cal Poly-SLO,3,2194,"Score(team_a=14, team_b=3)",California-Davis,53.0,1493.0,701.0,11.785714285714285
+50,2020-02-15,Cal Poly-SLO,3,2194,"Score(team_a=14, team_b=1)",Illinois,56.0,1464.0,730.0,13.928571428571429
+51,2020-02-16,Cal Poly-SLO,3,2194,"Score(team_a=12, team_b=6)",Stanford,41.0,1618.0,576.0,7.5
+52,2020-02-16,Cal Poly-SLO,3,2194,"Score(team_a=11, team_b=8)",UCLA,16.0,1883.0,311.0,4.090909090909091
+53,2020-02-16,Cal Poly-SLO,3,2194,"Score(team_a=9, team_b=11)",Oregon,6.0,2107.0,87.0,-2.727272727272727
+54,2020-02-17,Cal Poly-SLO,3,2194,"Score(team_a=15, team_b=7)",Utah,42.0,1615.0,579.0,8.0
+56,2020-02-17,Cal Poly-SLO,3,2194,"Score(team_a=9, team_b=8)",Colorado,5.0,2169.0,25.0,1.6666666666666667
+57,2020-03-07,Cal Poly-SLO,3,2194,"Score(team_a=13, team_b=4)",Whitman,58.0,1452.0,742.0,10.384615384615383
+58,2020-03-07,Cal Poly-SLO,3,2194,"Score(team_a=12, team_b=6)",Stanford,41.0,1618.0,576.0,7.5
+59,2020-03-07,Cal Poly-SLO,3,2194,"Score(team_a=13, team_b=7)",Colorado State,14.0,1921.0,273.0,6.9230769230769225
+60,2020-03-08,Cal Poly-SLO,3,2194,"Score(team_a=13, team_b=9)",California,15.0,1900.0,294.0,4.615384615384615
+61,2020-03-08,Cal Poly-SLO,3,2194,"Score(team_a=11, team_b=12)",Colorado,5.0,2169.0,25.0,-1.25
+63,2020-01-24,Brigham Young,4,2190,"Score(team_a=13, team_b=9)",California-Santa Barbara,27.0,1731.0,459.0,4.615384615384615
+65,2020-01-25,Brigham Young,4,2190,"Score(team_a=13, team_b=10)",Case Western Reserve,54.0,1493.0,697.0,3.4615384615384612
+66,2020-01-25,Brigham Young,4,2190,"Score(team_a=13, team_b=10)",British Columbia,12.0,1949.0,241.0,3.4615384615384612
+67,2020-01-25,Brigham Young,4,2190,"Score(team_a=13, team_b=8)",California-San Diego,39.0,1631.0,559.0,5.769230769230768
+68,2020-01-25,Brigham Young,4,2190,"Score(team_a=13, team_b=7)",UCLA,16.0,1883.0,307.0,6.9230769230769225
+69,2020-02-14,Brigham Young,4,2190,"Score(team_a=13, team_b=10)",Wisconsin,29.0,1713.0,477.0,3.4615384615384612
+70,2020-02-14,Brigham Young,4,2190,"Score(team_a=13, team_b=4)",Michigan,17.0,1855.0,335.0,10.384615384615383
+71,2020-02-14,Brigham Young,4,2190,"Score(team_a=13, team_b=8)",Auburn,47.0,1536.0,654.0,5.769230769230768
+72,2020-02-14,Brigham Young,4,2190,"Score(team_a=11, team_b=9)",Minnesota,11.0,2003.0,187.0,2.727272727272727
+73,2020-02-15,Brigham Young,4,2190,"Score(team_a=10, team_b=9)",Carleton College-CUT,10.0,2042.0,148.0,1.5
+74,2020-02-15,Brigham Young,4,2190,"Score(team_a=11, team_b=10)",Pittsburgh,9.0,2052.0,138.0,1.3636363636363635
+75,2020-02-15,Brigham Young,4,2190,"Score(team_a=12, team_b=9)",Massachusetts,8.0,2070.0,120.0,3.75
+76,2020-02-15,Brigham Young,4,2190,"Score(team_a=10, team_b=11)",Brown,13.0,1937.0,253.0,-1.3636363636363635
+77,2020-02-15,Colorado,5,2169,"Score(team_a=12, team_b=10)",Oregon State,19.0,1839.0,330.0,2.5
+78,2020-02-15,Colorado,5,2169,"Score(team_a=10, team_b=6)",California-Santa Barbara,27.0,1731.0,438.0,6.0
+79,2020-02-15,Colorado,5,2169,"Score(team_a=12, team_b=7)",UCLA,16.0,1883.0,286.0,6.25
+80,2020-02-16,Colorado,5,2169,"Score(team_a=11, team_b=8)",California-Santa Cruz,36.0,1644.0,525.0,4.090909090909091
+81,2020-02-16,Colorado,5,2169,"Score(team_a=14, team_b=6)",Oklahoma State,35.0,1651.0,518.0,8.571428571428571
+83,2020-02-17,Colorado,5,2169,"Score(team_a=10, team_b=8)",UCLA,16.0,1883.0,286.0,3.0
+84,2020-02-17,Colorado,5,2169,"Score(team_a=11, team_b=12)",Oregon,6.0,2107.0,62.0,-1.25
+86,2020-03-07,Colorado,5,2169,"Score(team_a=11, team_b=8)",California-Santa Cruz,36.0,1644.0,525.0,4.090909090909091
+87,2020-03-07,Colorado,5,2169,"Score(team_a=13, team_b=11)",Tufts,18.0,1855.0,314.0,2.3076923076923075
+88,2020-03-07,Colorado,5,2169,"Score(team_a=12, team_b=9)",UCLA,16.0,1883.0,286.0,3.75
+89,2020-03-08,Colorado,5,2169,"Score(team_a=11, team_b=7)",California-Santa Barbara,27.0,1731.0,438.0,5.454545454545454
+91,2020-03-08,Colorado,5,2169,"Score(team_a=13, team_b=10)",Oregon,6.0,2107.0,62.0,3.4615384615384612
+92,2020-01-25,Oregon,6,2107,"Score(team_a=15, team_b=11)",Humboldt State,87.0,1301.0,806.0,4.0
+94,2020-01-25,Oregon,6,2107,"Score(team_a=15, team_b=5)",Whitman,58.0,1452.0,655.0,10.0
+95,2020-01-25,Oregon,6,2107,"Score(team_a=15, team_b=3)",Montana,195.0,885.0,1222.0,12.0
+96,2020-01-26,Oregon,6,2107,"Score(team_a=15, team_b=3)",Humboldt State,87.0,1301.0,806.0,12.0
+97,2020-01-26,Oregon,6,2107,"Score(team_a=15, team_b=10)",Oregon State,19.0,1839.0,268.0,5.0
+98,2020-02-15,Oregon,6,2107,"Score(team_a=15, team_b=5)",Southern California,90.0,1285.0,822.0,10.0
+99,2020-02-15,Oregon,6,2107,"Score(team_a=15, team_b=9)",California-Santa Cruz,36.0,1644.0,463.0,6.0
+100,2020-02-15,Oregon,6,2107,"Score(team_a=13, team_b=9)",California-San Diego,39.0,1631.0,476.0,4.615384615384615
+101,2020-02-16,Oregon,6,2107,"Score(team_a=15, team_b=11)",UCLA,16.0,1883.0,224.0,4.0
+102,2020-02-16,Oregon,6,2107,"Score(team_a=12, team_b=8)",Stanford,41.0,1618.0,489.0,5.0
+104,2020-02-17,Oregon,6,2107,"Score(team_a=12, team_b=11)",Oregon State,19.0,1839.0,268.0,1.25
+107,2020-03-07,Oregon,6,2107,"Score(team_a=13, team_b=6)",California-Santa Barbara,27.0,1731.0,376.0,8.076923076923077
+108,2020-03-07,Oregon,6,2107,"Score(team_a=12, team_b=7)",Utah,42.0,1615.0,492.0,6.25
+109,2020-03-07,Oregon,6,2107,"Score(team_a=10, team_b=9)",British Columbia,12.0,1949.0,158.0,1.5
+110,2020-03-08,Oregon,6,2107,"Score(team_a=13, team_b=12)",Tufts,18.0,1855.0,252.0,1.1538461538461537
+113,2020-02-08,Ohio State,7,2079,"Score(team_a=12, team_b=5)",Duke,93.0,1271.0,808.0,8.75
+114,2020-02-08,Ohio State,7,2079,"Score(team_a=13, team_b=4)",Appalachian State,119.0,1158.0,921.0,10.384615384615383
+115,2020-02-08,Ohio State,7,2079,"Score(team_a=13, team_b=8)",Virginia,57.0,1462.0,617.0,5.769230769230768
+117,2020-03-07,Ohio State,7,2079,"Score(team_a=12, team_b=6)",North Carolina State,21.0,1829.0,250.0,7.5
+118,2020-03-07,Ohio State,7,2079,"Score(team_a=12, team_b=13)",Texas-Dallas,30.0,1706.0,373.0,-1.1538461538461537
+119,2020-03-07,Ohio State,7,2079,"Score(team_a=11, team_b=8)",Carleton College-CUT,10.0,2042.0,37.0,4.090909090909091
+120,2020-03-07,Ohio State,7,2079,"Score(team_a=15, team_b=10)",Georgia,22.0,1825.0,254.0,5.0
+122,2020-03-08,Ohio State,7,2079,"Score(team_a=14, team_b=13)",North Carolina-Wilmington,20.0,1835.0,244.0,1.0714285714285714
+123,2020-03-08,Ohio State,7,2079,"Score(team_a=14, team_b=13)",Brown,13.0,1937.0,142.0,1.0714285714285714
+124,2020-02-14,Massachusetts,8,2070,"Score(team_a=13, team_b=8)",Auburn,47.0,1536.0,534.0,5.769230769230768
+125,2020-02-14,Massachusetts,8,2070,"Score(team_a=13, team_b=10)",Minnesota,11.0,2003.0,67.0,3.4615384615384612
+126,2020-02-14,Massachusetts,8,2070,"Score(team_a=10, team_b=13)",Carleton College-CUT,10.0,2042.0,28.0,-3.4615384615384612
+127,2020-02-15,Massachusetts,8,2070,"Score(team_a=13, team_b=3)",Cincinnati,62.0,1426.0,644.0,11.538461538461537
+128,2020-02-15,Massachusetts,8,2070,"Score(team_a=13, team_b=2)",South Florida,174.0,949.0,1121.0,12.692307692307692
+130,2020-02-15,Massachusetts,8,2070,"Score(team_a=13, team_b=5)",Cornell,82.0,1323.0,747.0,9.23076923076923
+131,2020-02-16,Massachusetts,8,2070,"Score(team_a=10, team_b=13)",Minnesota,11.0,2003.0,67.0,-3.4615384615384612
+132,2020-02-16,Massachusetts,8,2070,"Score(team_a=15, team_b=6)",Cincinnati,62.0,1426.0,644.0,9.0
+133,2020-03-07,Massachusetts,8,2070,"Score(team_a=12, team_b=10)",Georgia,22.0,1825.0,245.0,2.5
+134,2020-03-07,Massachusetts,8,2070,"Score(team_a=13, team_b=6)",Purdue,51.0,1505.0,565.0,8.076923076923077
+135,2020-03-07,Massachusetts,8,2070,"Score(team_a=10, team_b=6)",Pittsburgh,9.0,2052.0,18.0,6.0
+136,2020-03-07,Massachusetts,8,2070,"Score(team_a=15, team_b=11)",North Carolina State,21.0,1829.0,241.0,4.0
+137,2020-03-08,Massachusetts,8,2070,"Score(team_a=15, team_b=13)",North Carolina-Wilmington,20.0,1835.0,235.0,2.0
+139,2020-03-08,Massachusetts,8,2070,"Score(team_a=15, team_b=12)",Minnesota,11.0,2003.0,67.0,3.0
+140,2020-02-14,Pittsburgh,9,2052,"Score(team_a=13, team_b=6)",Texas A&M,69.0,1391.0,661.0,8.076923076923077
+141,2020-02-14,Pittsburgh,9,2052,"Score(team_a=13, team_b=5)",Central Florida,101.0,1220.0,832.0,9.23076923076923
+142,2020-02-14,Pittsburgh,9,2052,"Score(team_a=12, team_b=11)",Minnesota,11.0,2003.0,49.0,1.25
+144,2020-02-15,Pittsburgh,9,2052,"Score(team_a=9, team_b=10)",Brown,13.0,1937.0,115.0,-1.5
+145,2020-02-15,Pittsburgh,9,2052,"Score(team_a=12, team_b=6)",Auburn,47.0,1536.0,516.0,7.5
+146,2020-02-15,Pittsburgh,9,2052,"Score(team_a=10, team_b=15)",Carleton College-CUT,10.0,2042.0,10.0,-5.0
+147,2020-02-16,Pittsburgh,9,2052,"Score(team_a=11, team_b=10)",Brown,13.0,1937.0,115.0,1.3636363636363635
+148,2020-02-16,Pittsburgh,9,2052,"Score(team_a=15, team_b=5)",Tufts,18.0,1855.0,197.0,10.0
+149,2020-03-07,Pittsburgh,9,2052,"Score(team_a=11, team_b=4)",Purdue,51.0,1505.0,547.0,9.545454545454545
+150,2020-03-07,Pittsburgh,9,2052,"Score(team_a=10, team_b=7)",Georgia,22.0,1825.0,227.0,4.5
+152,2020-03-07,Pittsburgh,9,2052,"Score(team_a=15, team_b=12)",Carleton College-CUT,10.0,2042.0,10.0,3.0
+153,2020-03-08,Pittsburgh,9,2052,"Score(team_a=15, team_b=14)",Brown,13.0,1937.0,115.0,1.0
+154,2020-03-08,Pittsburgh,9,2052,"Score(team_a=15, team_b=11)",Minnesota,11.0,2003.0,49.0,4.0
+157,2020-02-14,Carleton College-CUT,10,2042,"Score(team_a=11, team_b=9)",Brown,13.0,1937.0,105.0,2.727272727272727
+158,2020-02-14,Carleton College-CUT,10,2042,"Score(team_a=13, team_b=7)",Central Florida,101.0,1220.0,822.0,6.9230769230769225
+160,2020-02-15,Carleton College-CUT,10,2042,"Score(team_a=13, team_b=7)",Auburn,47.0,1536.0,506.0,6.9230769230769225
+161,2020-02-15,Carleton College-CUT,10,2042,"Score(team_a=13, team_b=10)",Northeastern,37.0,1640.0,402.0,3.4615384615384612
+163,2020-02-16,Carleton College-CUT,10,2042,"Score(team_a=11, team_b=12)",Michigan,17.0,1855.0,187.0,-1.25
+164,2020-02-16,Carleton College-CUT,10,2042,"Score(team_a=13, team_b=10)",Georgia Tech,25.0,1784.0,258.0,3.4615384615384612
+165,2020-03-07,Carleton College-CUT,10,2042,"Score(team_a=10, team_b=11)",Texas-Dallas,30.0,1706.0,336.0,-1.3636363636363635
+166,2020-03-07,Carleton College-CUT,10,2042,"Score(team_a=11, team_b=6)",North Carolina State,21.0,1829.0,213.0,6.8181818181818175
+169,2020-03-08,Carleton College-CUT,10,2042,"Score(team_a=15, team_b=9)",Wisconsin,29.0,1713.0,329.0,6.0
+170,2020-03-08,Carleton College-CUT,10,2042,"Score(team_a=15, team_b=9)",Texas,31.0,1706.0,336.0,6.0
+171,2020-03-08,Carleton College-CUT,10,2042,"Score(team_a=13, team_b=11)",Georgia,22.0,1825.0,217.0,2.3076923076923075
+175,2020-02-15,Minnesota,11,2003,"Score(team_a=13, team_b=5)",Texas A&M,69.0,1391.0,612.0,9.23076923076923
+176,2020-02-15,Minnesota,11,2003,"Score(team_a=13, team_b=3)",Harvard,143.0,1047.0,956.0,11.538461538461537
+177,2020-02-15,Minnesota,11,2003,"Score(team_a=13, team_b=6)",Central Florida,101.0,1220.0,783.0,8.076923076923077
+178,2020-02-15,Minnesota,11,2003,"Score(team_a=15, team_b=10)",Wisconsin,29.0,1713.0,290.0,5.0
+180,2020-02-16,Minnesota,11,2003,"Score(team_a=15, team_b=12)",Northwestern,33.0,1678.0,325.0,3.0
+181,2020-03-07,Minnesota,11,2003,"Score(team_a=12, team_b=9)",North Carolina-Wilmington,20.0,1835.0,168.0,3.75
+183,2020-03-07,Minnesota,11,2003,"Score(team_a=12, team_b=8)",Northeastern,37.0,1640.0,363.0,5.0
+184,2020-03-07,Minnesota,11,2003,"Score(team_a=15, team_b=6)",Tennessee,50.0,1507.0,496.0,9.0
+185,2020-03-08,Minnesota,11,2003,"Score(team_a=15, team_b=8)",Texas-Dallas,30.0,1706.0,297.0,7.0
+188,2020-01-25,British Columbia,12,1949,"Score(team_a=13, team_b=7)",California-San Diego,39.0,1631.0,318.0,6.9230769230769225
+190,2020-01-25,British Columbia,12,1949,"Score(team_a=11, team_b=13)",UCLA,16.0,1883.0,66.0,-2.3076923076923075
+191,2020-01-25,British Columbia,12,1949,"Score(team_a=15, team_b=13)",Case Western Reserve,54.0,1493.0,456.0,2.0
+192,2020-01-26,British Columbia,12,1949,"Score(team_a=13, team_b=9)",Santa Clara,40.0,1628.0,321.0,4.615384615384615
+194,2020-01-26,British Columbia,12,1949,"Score(team_a=12, team_b=13)",Colorado State,14.0,1921.0,28.0,-1.1538461538461537
+195,2020-01-26,British Columbia,12,1949,"Score(team_a=13, team_b=9)",Dartmouth,32.0,1695.0,254.0,4.615384615384615
+196,2020-03-07,British Columbia,12,1949,"Score(team_a=9, team_b=7)",Utah,42.0,1615.0,334.0,3.3333333333333335
+197,2020-03-07,British Columbia,12,1949,"Score(team_a=10, team_b=9)",California-Santa Barbara,27.0,1731.0,218.0,1.5
+199,2020-03-07,British Columbia,12,1949,"Score(team_a=9, team_b=11)",California,15.0,1900.0,49.0,-2.727272727272727
+200,2020-03-08,British Columbia,12,1949,"Score(team_a=11, team_b=6)",UCLA,16.0,1883.0,66.0,6.8181818181818175
+201,2020-03-08,British Columbia,12,1949,"Score(team_a=11, team_b=9)",Oregon State,19.0,1839.0,110.0,2.727272727272727
+202,2020-02-14,Brown,13,1937,"Score(team_a=13, team_b=6)",Central Florida,101.0,1220.0,717.0,8.076923076923077
+203,2020-02-14,Brown,13,1937,"Score(team_a=11, team_b=10)",LSU,61.0,1430.0,507.0,1.3636363636363635
+205,2020-02-15,Brown,13,1937,"Score(team_a=12, team_b=10)",Auburn,47.0,1536.0,401.0,2.5
+208,2020-02-15,Brown,13,1937,"Score(team_a=9, team_b=11)",Michigan,17.0,1855.0,82.0,-2.727272727272727
+210,2020-02-16,Brown,13,1937,"Score(team_a=13, team_b=11)",Northeastern,37.0,1640.0,297.0,2.3076923076923075
+211,2020-03-07,Brown,13,1937,"Score(team_a=13, team_b=1)",Tennessee,50.0,1507.0,430.0,13.846153846153845
+212,2020-03-07,Brown,13,1937,"Score(team_a=13, team_b=8)",Wisconsin,29.0,1713.0,224.0,5.769230769230768
+213,2020-03-07,Brown,13,1937,"Score(team_a=12, team_b=11)",Texas,31.0,1706.0,231.0,1.25
+214,2020-03-07,Brown,13,1937,"Score(team_a=15, team_b=8)",Northeastern,37.0,1640.0,297.0,7.0
+216,2020-03-08,Brown,13,1937,"Score(team_a=14, team_b=13)",Texas-Dallas,30.0,1706.0,231.0,1.0714285714285714
+218,2020-01-25,Colorado State,14,1921,"Score(team_a=13, team_b=12)",Western Washington,28.0,1731.0,190.0,1.1538461538461537
+219,2020-01-25,Colorado State,14,1921,"Score(team_a=13, team_b=9)",California-Santa Barbara,27.0,1731.0,190.0,4.615384615384615
+220,2020-01-25,Colorado State,14,1921,"Score(team_a=13, team_b=8)",Santa Clara,40.0,1628.0,293.0,5.769230769230768
+222,2020-01-26,Colorado State,14,1921,"Score(team_a=13, team_b=7)",California-San Diego,39.0,1631.0,290.0,6.9230769230769225
+223,2020-01-26,Colorado State,14,1921,"Score(team_a=11, team_b=13)",California,15.0,1900.0,21.0,-2.3076923076923075
+225,2020-01-26,Colorado State,14,1921,"Score(team_a=13, team_b=6)",Utah,42.0,1615.0,306.0,8.076923076923077
+226,2020-03-07,Colorado State,14,1921,"Score(team_a=8, team_b=12)",Stanford,41.0,1618.0,303.0,-5.0
+227,2020-03-07,Colorado State,14,1921,"Score(team_a=12, team_b=7)",Whitman,58.0,1452.0,469.0,6.25
+229,2020-03-07,Colorado State,14,1921,"Score(team_a=13, team_b=11)",UCLA,16.0,1883.0,38.0,2.3076923076923075
+231,2020-03-08,Colorado State,14,1921,"Score(team_a=10, team_b=8)",California,15.0,1900.0,21.0,3.0
+232,2020-03-08,Colorado State,14,1921,"Score(team_a=13, team_b=12)",Tufts,18.0,1855.0,66.0,1.1538461538461537
+233,2020-01-25,California,15,1900,"Score(team_a=13, team_b=5)",Connecticut,95.0,1262.0,638.0,9.23076923076923
+234,2020-01-25,California,15,1900,"Score(team_a=12, team_b=9)",Northwestern,33.0,1678.0,222.0,3.75
+235,2020-01-25,California,15,1900,"Score(team_a=13, team_b=8)",Stanford,41.0,1618.0,282.0,5.769230769230768
+236,2020-01-25,California,15,1900,"Score(team_a=13, team_b=10)",Victoria,63.0,1424.0,476.0,3.4615384615384612
+239,2020-01-26,California,15,1900,"Score(team_a=11, team_b=12)",UCLA,16.0,1883.0,17.0,-1.25
+240,2020-03-07,California,15,1900,"Score(team_a=13, team_b=4)",Southern California,90.0,1285.0,615.0,10.384615384615383
+241,2020-03-07,California,15,1900,"Score(team_a=9, team_b=10)",Oregon State,19.0,1839.0,61.0,-1.5
+246,2020-03-08,California,15,1900,"Score(team_a=10, team_b=7)",California-Santa Barbara,27.0,1731.0,169.0,4.5
+247,2020-01-25,UCLA,16,1883,"Score(team_a=12, team_b=11)",California-San Diego,39.0,1631.0,252.0,1.25
+249,2020-01-25,UCLA,16,1883,"Score(team_a=13, team_b=7)",Case Western Reserve,54.0,1493.0,390.0,6.9230769230769225
+251,2020-01-26,UCLA,16,1883,"Score(team_a=13, team_b=9)",Dartmouth,32.0,1695.0,188.0,4.615384615384615
+254,2020-02-15,UCLA,16,1883,"Score(team_a=11, team_b=7)",California-Santa Barbara,27.0,1731.0,152.0,5.454545454545454
+255,2020-02-15,UCLA,16,1883,"Score(team_a=12, team_b=10)",Oregon State,19.0,1839.0,44.0,2.5
+259,2020-02-16,UCLA,16,1883,"Score(team_a=9, team_b=7)",Stanford,41.0,1618.0,265.0,3.3333333333333335
+260,2020-02-16,UCLA,16,1883,"Score(team_a=15, team_b=6)",California-San Diego,39.0,1631.0,252.0,9.0
+262,2020-02-17,UCLA,16,1883,"Score(team_a=8, team_b=10)",Oregon State,19.0,1839.0,44.0,-3.0
+263,2020-02-17,UCLA,16,1883,"Score(team_a=14, team_b=6)",Stanford,41.0,1618.0,265.0,8.571428571428571
+264,2020-03-07,UCLA,16,1883,"Score(team_a=10, team_b=8)",Tufts,18.0,1855.0,28.0,3.0
+265,2020-03-07,UCLA,16,1883,"Score(team_a=10, team_b=9)",California-Santa Cruz,36.0,1644.0,239.0,1.5
+269,2020-03-08,UCLA,16,1883,"Score(team_a=9, team_b=7)",Stanford,41.0,1618.0,265.0,3.3333333333333335
+270,2020-02-14,Michigan,17,1855,"Score(team_a=13, team_b=4)",South Florida,174.0,949.0,906.0,10.384615384615383
+272,2020-02-14,Michigan,17,1855,"Score(team_a=12, team_b=10)",Wisconsin,29.0,1713.0,142.0,2.5
+273,2020-02-14,Michigan,17,1855,"Score(team_a=13, team_b=6)",LSU,61.0,1430.0,425.0,8.076923076923077
+274,2020-02-15,Michigan,17,1855,"Score(team_a=10, team_b=9)",Cornell,82.0,1323.0,532.0,1.5
+275,2020-02-15,Michigan,17,1855,"Score(team_a=12, team_b=8)",Florida State,155.0,1009.0,846.0,5.0
+278,2020-02-16,Michigan,17,1855,"Score(team_a=14, team_b=11)",Texas,31.0,1706.0,149.0,3.2142857142857144
+279,2020-02-14,Tufts,18,1855,"Score(team_a=10, team_b=9)",Georgia Tech,25.0,1784.0,71.0,1.5
+280,2020-02-14,Tufts,18,1855,"Score(team_a=13, team_b=8)",LSU,61.0,1430.0,425.0,5.769230769230768
+281,2020-02-14,Tufts,18,1855,"Score(team_a=12, team_b=8)",Virginia Tech,55.0,1475.0,380.0,5.0
+282,2020-02-15,Tufts,18,1855,"Score(team_a=11, team_b=9)",Texas,31.0,1706.0,149.0,2.727272727272727
+283,2020-02-15,Tufts,18,1855,"Score(team_a=9, team_b=7)",Texas-Dallas,30.0,1706.0,149.0,3.3333333333333335
+284,2020-02-15,Tufts,18,1855,"Score(team_a=13, team_b=4)",Cincinnati,62.0,1426.0,429.0,10.384615384615383
+285,2020-02-15,Tufts,18,1855,"Score(team_a=7, team_b=14)",Georgia Tech,25.0,1784.0,71.0,-7.5
+286,2020-02-16,Tufts,18,1855,"Score(team_a=13, team_b=10)",Northeastern,37.0,1640.0,215.0,3.4615384615384612
+290,2020-03-07,Tufts,18,1855,"Score(team_a=12, team_b=6)",California-Santa Cruz,36.0,1644.0,211.0,7.5
+291,2020-03-07,Tufts,18,1855,"Score(team_a=10, team_b=8)",Stanford,41.0,1618.0,237.0,3.0
+293,2020-03-08,Tufts,18,1855,"Score(team_a=9, team_b=8)",California-Santa Barbara,27.0,1731.0,124.0,1.6666666666666667
+295,2020-01-25,Oregon State,19,1839,"Score(team_a=15, team_b=11)",Nevada-Reno,74.0,1376.0,463.0,4.0
+296,2020-01-25,Oregon State,19,1839,"Score(team_a=15, team_b=4)",Lewis & Clark,167.0,983.0,856.0,11.0
+297,2020-01-25,Oregon State,19,1839,"Score(team_a=15, team_b=1)",Montana,195.0,885.0,954.0,14.0
+299,2020-01-26,Oregon State,19,1839,"Score(team_a=15, team_b=6)",Whitman,58.0,1452.0,387.0,9.0
+303,2020-02-15,Oregon State,19,1839,"Score(team_a=6, team_b=13)",California-Santa Barbara,27.0,1731.0,108.0,-8.076923076923077
+304,2020-02-16,Oregon State,19,1839,"Score(team_a=13, team_b=9)",California-San Diego,39.0,1631.0,208.0,4.615384615384615
+305,2020-02-16,Oregon State,19,1839,"Score(team_a=11, team_b=8)",Illinois,56.0,1464.0,375.0,4.090909090909091
+306,2020-02-16,Oregon State,19,1839,"Score(team_a=12, team_b=5)",San Diego State,158.0,1005.0,834.0,8.75
+307,2020-02-16,Oregon State,19,1839,"Score(team_a=13, team_b=8)",California-Santa Cruz,36.0,1644.0,195.0,5.769230769230768
+312,2020-03-07,Oregon State,19,1839,"Score(team_a=13, team_b=6)",Southern California,90.0,1285.0,554.0,8.076923076923077
+313,2020-03-07,Oregon State,19,1839,"Score(team_a=8, team_b=10)",California-Santa Barbara,27.0,1731.0,108.0,-3.0
+314,2020-03-08,Oregon State,19,1839,"Score(team_a=12, team_b=7)",Stanford,41.0,1618.0,221.0,6.25
+316,2020-01-25,North Carolina-Wilmington,20,1835,"Score(team_a=9, team_b=6)",Kentucky,73.0,1379.0,456.0,5.0
+317,2020-01-25,North Carolina-Wilmington,20,1835,"Score(team_a=13, team_b=5)",Florida State,155.0,1009.0,826.0,9.23076923076923
+318,2020-01-25,North Carolina-Wilmington,20,1835,"Score(team_a=13, team_b=7)",Indiana,91.0,1281.0,554.0,6.9230769230769225
+319,2020-01-26,North Carolina-Wilmington,20,1835,"Score(team_a=14, team_b=7)",North Carolina-Charlotte,81.0,1326.0,509.0,7.5
+320,2020-01-26,North Carolina-Wilmington,20,1835,"Score(team_a=10, team_b=13)",North Carolina State,21.0,1829.0,6.0,-3.4615384615384612
+321,2020-01-26,North Carolina-Wilmington,20,1835,"Score(team_a=12, team_b=11)",South Carolina,26.0,1754.0,81.0,1.25
+322,2020-02-08,North Carolina-Wilmington,20,1835,"Score(team_a=10, team_b=7)",Tennessee,50.0,1507.0,328.0,4.5
+323,2020-02-08,North Carolina-Wilmington,20,1835,"Score(team_a=10, team_b=5)",Emory,121.0,1150.0,685.0,7.5
+324,2020-02-08,North Carolina-Wilmington,20,1835,"Score(team_a=11, team_b=9)",William & Mary,23.0,1798.0,37.0,2.727272727272727
+325,2020-02-09,North Carolina-Wilmington,20,1835,"Score(team_a=11, team_b=12)",Notre Dame,45.0,1583.0,252.0,-1.25
+327,2020-03-07,North Carolina-Wilmington,20,1835,"Score(team_a=12, team_b=7)",Northeastern,37.0,1640.0,195.0,6.25
+329,2020-03-07,North Carolina-Wilmington,20,1835,"Score(team_a=15, team_b=13)",Wisconsin,29.0,1713.0,122.0,2.0
+332,2020-03-08,North Carolina-Wilmington,20,1835,"Score(team_a=13, team_b=12)",Texas-Dallas,30.0,1706.0,129.0,1.1538461538461537
+333,2020-01-25,North Carolina State,21,1829,"Score(team_a=13, team_b=6)",Tennessee,50.0,1507.0,322.0,8.076923076923077
+334,2020-01-25,North Carolina State,21,1829,"Score(team_a=13, team_b=5)",North Carolina-Asheville,154.0,1011.0,818.0,9.23076923076923
+335,2020-01-25,North Carolina State,21,1829,"Score(team_a=13, team_b=7)",Richmond,98.0,1249.0,580.0,6.9230769230769225
+336,2020-01-26,North Carolina State,21,1829,"Score(team_a=15, team_b=4)",Duke,93.0,1271.0,558.0,11.0
+339,2020-02-08,North Carolina State,21,1829,"Score(team_a=13, team_b=5)",Notre Dame,45.0,1583.0,246.0,9.23076923076923
+341,2020-02-08,North Carolina State,21,1829,"Score(team_a=13, team_b=4)",Maryland,114.0,1181.0,648.0,10.384615384615383
+342,2020-02-09,North Carolina State,21,1829,"Score(team_a=9, team_b=11)",Georgia,22.0,1825.0,4.0,-2.727272727272727
+345,2020-03-07,North Carolina State,21,1829,"Score(team_a=10, team_b=8)",Texas-Dallas,30.0,1706.0,123.0,3.0
+347,2020-03-08,North Carolina State,21,1829,"Score(team_a=11, team_b=13)",Northeastern,37.0,1640.0,189.0,-2.3076923076923075
+348,2020-03-08,North Carolina State,21,1829,"Score(team_a=15, team_b=8)",Tennessee,50.0,1507.0,322.0,7.0
+349,2020-03-08,North Carolina State,21,1829,"Score(team_a=13, team_b=10)",Wisconsin,29.0,1713.0,116.0,3.4615384615384612
+350,2020-02-08,Georgia,22,1825,"Score(team_a=13, team_b=9)",Penn State,83.0,1318.0,507.0,4.615384615384615
+351,2020-02-08,Georgia,22,1825,"Score(team_a=13, team_b=7)",Ohio,109.0,1197.0,628.0,6.9230769230769225
+352,2020-02-08,Georgia,22,1825,"Score(team_a=13, team_b=7)",Alabama,43.0,1608.0,217.0,6.9230769230769225
+357,2020-03-07,Georgia,22,1825,"Score(team_a=10, team_b=8)",Purdue,51.0,1505.0,320.0,3.0
+359,2020-03-08,Georgia,22,1825,"Score(team_a=13, team_b=11)",Tennessee,50.0,1507.0,318.0,2.3076923076923075
+360,2020-03-08,Georgia,22,1825,"Score(team_a=15, team_b=11)",Northeastern,37.0,1640.0,185.0,4.0
+362,2020-02-08,William & Mary,23,1798,"Score(team_a=11, team_b=8)",Emory,121.0,1150.0,648.0,4.090909090909091
+363,2020-02-08,William & Mary,23,1798,"Score(team_a=12, team_b=4)",Tennessee,50.0,1507.0,291.0,10.0
+365,2020-02-09,William & Mary,23,1798,"Score(team_a=12, team_b=9)",Alabama,43.0,1608.0,190.0,3.75
+366,2020-02-29,William & Mary,23,1798,"Score(team_a=13, team_b=9)",Wisconsin-Milwaukee,67.0,1401.0,397.0,4.615384615384615
+367,2020-02-29,William & Mary,23,1798,"Score(team_a=13, team_b=1)",Kennesaw State,198.0,872.0,926.0,13.846153846153845
+368,2020-02-29,William & Mary,23,1798,"Score(team_a=13, team_b=2)",Indiana,91.0,1281.0,517.0,12.692307692307692
+369,2020-02-29,William & Mary,23,1798,"Score(team_a=13, team_b=9)",Temple,48.0,1513.0,285.0,4.615384615384615
+370,2020-03-01,William & Mary,23,1798,"Score(team_a=13, team_b=14)",South Carolina,26.0,1754.0,44.0,-1.0714285714285714
+371,2020-03-01,William & Mary,23,1798,"Score(team_a=10, team_b=12)",Dartmouth,32.0,1695.0,103.0,-2.5
+372,2020-03-01,William & Mary,23,1798,"Score(team_a=15, team_b=4)",Temple,48.0,1513.0,285.0,11.0
+373,2020-01-25,Vermont,24,1792,"Score(team_a=13, team_b=9)",Lehigh,70.0,1383.0,409.0,4.615384615384615
+374,2020-01-25,Vermont,24,1792,"Score(team_a=13, team_b=4)",Christopher Newport,247.0,680.0,1112.0,10.384615384615383
+376,2020-01-25,Vermont,24,1792,"Score(team_a=13, team_b=1)",Drexel,211.0,826.0,966.0,13.846153846153845
+377,2020-01-26,Vermont,24,1792,"Score(team_a=15, team_b=6)",Syracuse,171.0,970.0,822.0,9.0
+378,2020-01-26,Vermont,24,1792,"Score(team_a=15, team_b=6)",Liberty,79.0,1332.0,460.0,9.0
+379,2020-01-26,Vermont,24,1792,"Score(team_a=15, team_b=13)",James Madison,34.0,1666.0,126.0,2.0
+380,2020-02-29,Vermont,24,1792,"Score(team_a=8, team_b=9)",Virginia Tech,55.0,1475.0,317.0,-1.6666666666666667
+381,2020-02-29,Vermont,24,1792,"Score(team_a=13, team_b=4)",Penn State,83.0,1318.0,474.0,10.384615384615383
+382,2020-02-29,Vermont,24,1792,"Score(team_a=13, team_b=3)",Georgia State,164.0,992.0,800.0,11.538461538461537
+383,2020-02-29,Vermont,24,1792,"Score(team_a=12, team_b=7)",South Carolina,26.0,1754.0,38.0,6.25
+384,2020-03-01,Vermont,24,1792,"Score(team_a=15, team_b=14)",Temple,48.0,1513.0,279.0,1.0
+385,2020-03-01,Vermont,24,1792,"Score(team_a=12, team_b=15)",Alabama,43.0,1608.0,184.0,-3.0
+386,2020-03-01,Vermont,24,1792,"Score(team_a=15, team_b=6)",Virginia,57.0,1462.0,330.0,9.0
+387,2020-01-18,Georgia Tech,25,1784,"Score(team_a=9, team_b=7)",Jacksonville State,127.0,1139.0,645.0,3.3333333333333335
+388,2020-01-18,Georgia Tech,25,1784,"Score(team_a=11, team_b=6)",Alabama,43.0,1608.0,176.0,6.8181818181818175
+389,2020-01-18,Georgia Tech,25,1784,"Score(team_a=13, team_b=3)",Mississippi,280.0,484.0,1300.0,11.538461538461537
+390,2020-01-18,Georgia Tech,25,1784,"Score(team_a=12, team_b=11)",Tennessee-Chattanooga,68.0,1398.0,386.0,1.25
+391,2020-01-19,Georgia Tech,25,1784,"Score(team_a=11, team_b=14)",Illinois,56.0,1464.0,320.0,-3.2142857142857144
+392,2020-01-19,Georgia Tech,25,1784,"Score(team_a=15, team_b=9)",Florida,64.0,1421.0,363.0,6.0
+394,2020-02-14,Georgia Tech,25,1784,"Score(team_a=13, team_b=4)",Harvard,143.0,1047.0,737.0,10.384615384615383
+395,2020-02-14,Georgia Tech,25,1784,"Score(team_a=7, team_b=10)",Texas-Dallas,30.0,1706.0,78.0,-4.5
+396,2020-02-14,Georgia Tech,25,1784,"Score(team_a=13, team_b=8)",Texas A&M,69.0,1391.0,393.0,5.769230769230768
+397,2020-02-15,Georgia Tech,25,1784,"Score(team_a=13, team_b=7)",Northwestern,33.0,1678.0,106.0,6.9230769230769225
+398,2020-02-15,Georgia Tech,25,1784,"Score(team_a=13, team_b=5)",Cornell,82.0,1323.0,461.0,9.23076923076923
+400,2020-02-16,Georgia Tech,25,1784,"Score(team_a=10, team_b=11)",Texas,31.0,1706.0,78.0,-1.3636363636363635
+402,2020-01-25,South Carolina,26,1754,"Score(team_a=11, team_b=6)",Appalachian State,119.0,1158.0,596.0,6.8181818181818175
+403,2020-01-25,South Carolina,26,1754,"Score(team_a=13, team_b=4)",Air Force,152.0,1013.0,741.0,10.384615384615383
+404,2020-01-25,South Carolina,26,1754,"Score(team_a=13, team_b=4)",Georgetown,65.0,1407.0,347.0,10.384615384615383
+405,2020-01-26,South Carolina,26,1754,"Score(team_a=15, team_b=6)",Tennessee,50.0,1507.0,247.0,9.0
+408,2020-02-29,South Carolina,26,1754,"Score(team_a=13, team_b=4)",Georgia State,164.0,992.0,762.0,10.384615384615383
+409,2020-02-29,South Carolina,26,1754,"Score(team_a=11, team_b=7)",Penn State,83.0,1318.0,436.0,5.454545454545454
+410,2020-02-29,South Carolina,26,1754,"Score(team_a=11, team_b=9)",Virginia Tech,55.0,1475.0,279.0,2.727272727272727
+413,2020-03-01,South Carolina,26,1754,"Score(team_a=14, team_b=9)",Virginia,57.0,1462.0,292.0,5.357142857142857
+414,2020-03-01,South Carolina,26,1754,"Score(team_a=12, team_b=13)",Alabama,43.0,1608.0,146.0,-1.1538461538461537
+416,2020-01-25,California-Santa Barbara,27,1731,"Score(team_a=11, team_b=12)",Western Washington,28.0,1731.0,0.0,-1.25
+419,2020-01-25,California-Santa Barbara,27,1731,"Score(team_a=10, team_b=12)",Santa Clara,40.0,1628.0,103.0,-2.5
+420,2020-01-26,California-Santa Barbara,27,1731,"Score(team_a=13, team_b=7)",Connecticut,95.0,1262.0,469.0,6.9230769230769225
+421,2020-01-26,California-Santa Barbara,27,1731,"Score(team_a=13, team_b=11)",Tulane,49.0,1510.0,221.0,2.3076923076923075
+425,2020-02-16,California-Santa Barbara,27,1731,"Score(team_a=12, team_b=4)",Southern California,90.0,1285.0,446.0,10.0
+426,2020-02-16,California-Santa Barbara,27,1731,"Score(team_a=8, team_b=10)",California-Davis,53.0,1493.0,238.0,-3.0
+427,2020-02-16,California-Santa Barbara,27,1731,"Score(team_a=10, team_b=7)",Utah,42.0,1615.0,116.0,4.5
+428,2020-02-16,California-Santa Barbara,27,1731,"Score(team_a=7, team_b=11)",Stanford,41.0,1618.0,113.0,-5.454545454545454
+429,2020-02-17,California-Santa Barbara,27,1731,"Score(team_a=11, team_b=6)",California-Santa Cruz,36.0,1644.0,87.0,6.8181818181818175
+430,2020-02-17,California-Santa Barbara,27,1731,"Score(team_a=11, team_b=7)",Oklahoma State,35.0,1651.0,80.0,5.454545454545454
+433,2020-03-07,California-Santa Barbara,27,1731,"Score(team_a=9, team_b=8)",Utah,42.0,1615.0,116.0,1.6666666666666667
+438,2020-01-25,Western Washington,28,1731,"Score(team_a=12, team_b=11)",California-Santa Barbara,27.0,1731.0,0.0,1.25
+440,2020-01-25,Western Washington,28,1731,"Score(team_a=8, team_b=9)",Santa Clara,40.0,1628.0,103.0,-1.6666666666666667
+442,2020-01-26,Western Washington,28,1731,"Score(team_a=11, team_b=8)",Case Western Reserve,54.0,1493.0,238.0,4.090909090909091
+443,2020-01-26,Western Washington,28,1731,"Score(team_a=13, team_b=6)",Victoria,63.0,1424.0,307.0,8.076923076923077
+445,2020-02-08,Western Washington,28,1731,"Score(team_a=11, team_b=9)",Humboldt State,87.0,1301.0,430.0,2.727272727272727
+446,2020-02-08,Western Washington,28,1731,"Score(team_a=10, team_b=6)",Arizona,46.0,1569.0,162.0,6.0
+447,2020-02-08,Western Washington,28,1731,"Score(team_a=10, team_b=7)",Nevada-Reno,74.0,1376.0,355.0,4.5
+448,2020-02-09,Western Washington,28,1731,"Score(team_a=9, team_b=8)",Claremont,86.0,1301.0,430.0,1.6666666666666667
+449,2020-02-09,Western Washington,28,1731,"Score(team_a=8, team_b=3)",Chico State,128.0,1138.0,593.0,9.375
+450,2020-02-09,Western Washington,28,1731,"Score(team_a=7, team_b=8)",California-Santa Cruz,36.0,1644.0,87.0,-1.875
+452,2020-02-14,Wisconsin,29,1713,"Score(team_a=13, team_b=12)",Florida,64.0,1421.0,292.0,1.1538461538461537
+454,2020-02-14,Wisconsin,29,1713,"Score(team_a=12, team_b=9)",Auburn,47.0,1536.0,177.0,3.75
+455,2020-02-15,Wisconsin,29,1713,"Score(team_a=13, team_b=6)",Virginia Tech,55.0,1475.0,238.0,8.076923076923077
+456,2020-02-15,Wisconsin,29,1713,"Score(team_a=8, team_b=11)",Texas,31.0,1706.0,7.0,-4.090909090909091
+458,2020-02-16,Wisconsin,29,1713,"Score(team_a=15, team_b=6)",Cornell,82.0,1323.0,390.0,9.0
+459,2020-02-16,Wisconsin,29,1713,"Score(team_a=14, team_b=11)",Texas-Dallas,30.0,1706.0,7.0,3.2142857142857144
+460,2020-03-07,Wisconsin,29,1713,"Score(team_a=12, team_b=10)",Texas,31.0,1706.0,7.0,2.5
+462,2020-03-07,Wisconsin,29,1713,"Score(team_a=13, team_b=11)",Tennessee,50.0,1507.0,206.0,2.3076923076923075
+465,2020-03-08,Wisconsin,29,1713,"Score(team_a=15, team_b=11)",Purdue,51.0,1505.0,208.0,4.0
+467,2020-02-14,Texas-Dallas,30,1706,"Score(team_a=10, team_b=7)",Virginia Tech,55.0,1475.0,231.0,4.5
+469,2020-02-14,Texas-Dallas,30,1706,"Score(team_a=9, team_b=12)",Northeastern,37.0,1640.0,66.0,-3.75
+470,2020-02-15,Texas-Dallas,30,1706,"Score(team_a=13, team_b=5)",South Florida,174.0,949.0,757.0,9.23076923076923
+471,2020-02-15,Texas-Dallas,30,1706,"Score(team_a=13, team_b=3)",Central Florida,101.0,1220.0,486.0,11.538461538461537
+473,2020-02-15,Texas-Dallas,30,1706,"Score(team_a=12, team_b=13)",Cincinnati,62.0,1426.0,280.0,-1.1538461538461537
+474,2020-02-16,Texas-Dallas,30,1706,"Score(team_a=11, team_b=10)",Florida,64.0,1421.0,285.0,1.3636363636363635
+479,2020-03-07,Texas-Dallas,30,1706,"Score(team_a=14, team_b=13)",Purdue,51.0,1505.0,201.0,1.0714285714285714
+483,2020-02-14,Texas,31,1706,"Score(team_a=13, team_b=8)",Harvard,143.0,1047.0,659.0,5.769230769230768
+484,2020-02-14,Texas,31,1706,"Score(team_a=13, team_b=8)",Cornell,82.0,1323.0,383.0,5.769230769230768
+485,2020-02-14,Texas,31,1706,"Score(team_a=13, team_b=7)",Florida State,155.0,1009.0,697.0,6.9230769230769225
+488,2020-02-15,Texas,31,1706,"Score(team_a=11, team_b=8)",LSU,61.0,1430.0,276.0,4.090909090909091
+489,2020-02-15,Texas,31,1706,"Score(team_a=14, team_b=12)",Northeastern,37.0,1640.0,66.0,2.142857142857143
+493,2020-03-07,Texas,31,1706,"Score(team_a=7, team_b=10)",Tennessee,50.0,1507.0,199.0,-4.5
+496,2020-03-08,Texas,31,1706,"Score(team_a=15, team_b=10)",Purdue,51.0,1505.0,201.0,5.0
+498,2020-03-08,Texas,31,1706,"Score(team_a=15, team_b=12)",Northeastern,37.0,1640.0,66.0,3.0
+499,2020-01-25,Dartmouth,32,1695,"Score(team_a=13, team_b=10)",Utah,42.0,1615.0,80.0,3.4615384615384612
+500,2020-01-25,Dartmouth,32,1695,"Score(team_a=13, team_b=6)",Southern California,90.0,1285.0,410.0,8.076923076923077
+501,2020-01-25,Dartmouth,32,1695,"Score(team_a=11, team_b=10)",Tulane,49.0,1510.0,185.0,1.3636363636363635
+503,2020-01-26,Dartmouth,32,1695,"Score(team_a=13, team_b=9)",Northwestern,33.0,1678.0,17.0,4.615384615384615
+505,2020-01-26,Dartmouth,32,1695,"Score(team_a=8, team_b=13)",Utah,42.0,1615.0,80.0,-5.769230769230768
+507,2020-02-29,Dartmouth,32,1695,"Score(team_a=11, team_b=6)",Duke,93.0,1271.0,424.0,6.8181818181818175
+508,2020-02-29,Dartmouth,32,1695,"Score(team_a=11, team_b=6)",Carnegie Mellon,75.0,1375.0,320.0,6.8181818181818175
+509,2020-02-29,Dartmouth,32,1695,"Score(team_a=10, team_b=6)",Maryland,114.0,1181.0,514.0,6.0
+510,2020-02-29,Dartmouth,32,1695,"Score(team_a=9, team_b=7)",Alabama,43.0,1608.0,87.0,3.3333333333333335
+511,2020-03-01,Dartmouth,32,1695,"Score(team_a=13, team_b=15)",Virginia,57.0,1462.0,233.0,-2.0
+513,2020-03-01,Dartmouth,32,1695,"Score(team_a=11, team_b=12)",Notre Dame,45.0,1583.0,112.0,-1.25
+514,2020-01-25,Northwestern,33,1678,"Score(team_a=10, team_b=13)",Stanford,41.0,1618.0,60.0,-3.4615384615384612
+516,2020-01-25,Northwestern,33,1678,"Score(team_a=13, team_b=10)",Victoria,63.0,1424.0,254.0,3.4615384615384612
+517,2020-01-25,Northwestern,33,1678,"Score(team_a=13, team_b=7)",Connecticut,95.0,1262.0,416.0,6.9230769230769225
+519,2020-01-26,Northwestern,33,1678,"Score(team_a=10, team_b=11)",Santa Clara,40.0,1628.0,50.0,-1.3636363636363635
+520,2020-01-26,Northwestern,33,1678,"Score(team_a=12, team_b=8)",Stanford,41.0,1618.0,60.0,5.0
+521,2020-02-14,Northwestern,33,1678,"Score(team_a=12, team_b=9)",Cincinnati,62.0,1426.0,252.0,3.75
+522,2020-02-14,Northwestern,33,1678,"Score(team_a=13, team_b=10)",Florida,64.0,1421.0,257.0,3.4615384615384612
+523,2020-02-14,Northwestern,33,1678,"Score(team_a=11, team_b=12)",Northeastern,37.0,1640.0,38.0,-1.25
+524,2020-02-15,Northwestern,33,1678,"Score(team_a=12, team_b=10)",Texas A&M,69.0,1391.0,287.0,2.5
+526,2020-02-15,Northwestern,33,1678,"Score(team_a=12, team_b=10)",LSU,61.0,1430.0,248.0,2.5
+527,2020-02-15,Northwestern,33,1678,"Score(team_a=14, team_b=11)",Florida,64.0,1421.0,257.0,3.2142857142857144
+528,2020-02-16,Northwestern,33,1678,"Score(team_a=15, team_b=6)",Cincinnati,62.0,1426.0,252.0,9.0
+530,2020-03-07,Northwestern,33,1678,"Score(team_a=11, team_b=2)",Wisconsin-Eau Claire,199.0,872.0,806.0,12.272727272727272
+532,2020-03-07,Northwestern,33,1678,"Score(team_a=13, team_b=2)",Kansas State,222.0,771.0,907.0,12.692307692307692
+533,2020-03-07,Northwestern,33,1678,"Score(team_a=11, team_b=2)",Luther,170.0,971.0,707.0,12.272727272727272
+534,2020-03-08,Northwestern,33,1678,"Score(team_a=12, team_b=2)",Truman State,97.0,1250.0,428.0,12.5
+535,2020-03-08,Northwestern,33,1678,"Score(team_a=12, team_b=6)",Kansas,105.0,1217.0,461.0,7.5
+536,2020-03-08,Northwestern,33,1678,"Score(team_a=9, team_b=5)",Missouri S&T,84.0,1318.0,360.0,6.666666666666667
+537,2020-01-25,James Madison,34,1666,"Score(team_a=13, team_b=9)",Drexel,211.0,826.0,840.0,4.615384615384615
+538,2020-01-25,James Madison,34,1666,"Score(team_a=13, team_b=7)",Navy,122.0,1150.0,516.0,6.9230769230769225
+539,2020-01-25,James Madison,34,1666,"Score(team_a=13, team_b=4)",Syracuse,171.0,970.0,696.0,10.384615384615383
+540,2020-01-25,James Madison,34,1666,"Score(team_a=13, team_b=3)",Williams,191.0,899.0,767.0,11.538461538461537
+541,2020-01-26,James Madison,34,1666,"Score(team_a=15, team_b=9)",Lehigh,70.0,1383.0,283.0,6.0
+542,2020-01-26,James Madison,34,1666,"Score(team_a=15, team_b=8)",Boston University,78.0,1338.0,328.0,7.0
+545,2020-02-15,Oklahoma State,35,1651,"Score(team_a=11, team_b=9)",Illinois,56.0,1464.0,187.0,2.727272727272727
+546,2020-02-15,Oklahoma State,35,1651,"Score(team_a=15, team_b=7)",California-Davis,53.0,1493.0,158.0,8.0
+549,2020-02-16,Oklahoma State,35,1651,"Score(team_a=12, team_b=9)",California-Santa Cruz,36.0,1644.0,7.0,3.75
+550,2020-02-16,Oklahoma State,35,1651,"Score(team_a=8, team_b=11)",Utah,42.0,1615.0,36.0,-4.090909090909091
+551,2020-02-17,Oklahoma State,35,1651,"Score(team_a=14, team_b=8)",California-San Diego,39.0,1631.0,20.0,6.428571428571429
+553,2020-02-22,Oklahoma State,35,1651,"Score(team_a=15, team_b=10)",Truman State,97.0,1250.0,401.0,5.0
+554,2020-02-22,Oklahoma State,35,1651,"Score(team_a=15, team_b=7)",Texas Christian,140.0,1066.0,585.0,8.0
+555,2020-02-22,Oklahoma State,35,1651,"Score(team_a=15, team_b=7)",Colorado School of Mines,203.0,850.0,801.0,8.0
+556,2020-02-23,Oklahoma State,35,1651,"Score(team_a=12, team_b=10)",Missouri,135.0,1084.0,567.0,2.5
+557,2020-02-23,Oklahoma State,35,1651,"Score(team_a=15, team_b=10)",Oklahoma,138.0,1078.0,573.0,5.0
+558,2020-02-23,Oklahoma State,35,1651,"Score(team_a=14, team_b=10)",Denver,92.0,1279.0,372.0,4.285714285714286
+559,2020-02-23,Oklahoma State,35,1651,"Score(team_a=15, team_b=13)",Washington University,60.0,1439.0,212.0,2.0
+564,2020-02-02,California-Santa Cruz,36,1644,"Score(team_a=11, team_b=4)",Cal State-Long Beach,187.0,917.0,727.0,9.545454545454545
+565,2020-02-02,California-Santa Cruz,36,1644,"Score(team_a=12, team_b=4)",Sonoma State,149.0,1024.0,620.0,10.0
+566,2020-02-02,California-Santa Cruz,36,1644,"Score(team_a=9, team_b=7)",Santa Clara,40.0,1628.0,16.0,3.3333333333333335
+568,2020-02-08,California-Santa Cruz,36,1644,"Score(team_a=10, team_b=8)",Claremont,86.0,1301.0,343.0,3.0
+569,2020-02-08,California-Santa Cruz,36,1644,"Score(team_a=12, team_b=6)",Lewis & Clark,167.0,983.0,661.0,7.5
+570,2020-02-09,California-Santa Cruz,36,1644,"Score(team_a=8, team_b=5)",Arizona,46.0,1569.0,75.0,5.625
+571,2020-02-09,California-Santa Cruz,36,1644,"Score(team_a=10, team_b=7)",Nevada-Reno,74.0,1376.0,268.0,4.5
+573,2020-02-15,California-Santa Cruz,36,1644,"Score(team_a=9, team_b=8)",California-San Diego,39.0,1631.0,13.0,1.6666666666666667
+575,2020-02-15,California-Santa Cruz,36,1644,"Score(team_a=14, team_b=6)",Southern California,90.0,1285.0,359.0,8.571428571428571
+581,2020-02-17,California-Santa Cruz,36,1644,"Score(team_a=10, team_b=9)",California-San Diego,39.0,1631.0,13.0,1.5
+585,2020-03-08,California-Santa Cruz,36,1644,"Score(team_a=11, team_b=10)",Utah,42.0,1615.0,29.0,1.3636363636363635
+586,2020-03-08,California-Santa Cruz,36,1644,"Score(team_a=11, team_b=10)",Whitman,58.0,1452.0,192.0,1.3636363636363635
+587,2020-03-08,California-Santa Cruz,36,1644,"Score(team_a=12, team_b=8)",Southern California,90.0,1285.0,359.0,5.0
+588,2020-02-14,Northeastern,37,1640,"Score(team_a=13, team_b=9)",Virginia Tech,55.0,1475.0,165.0,4.615384615384615
+591,2020-02-15,Northeastern,37,1640,"Score(team_a=11, team_b=8)",Central Florida,101.0,1220.0,420.0,4.090909090909091
+593,2020-02-15,Northeastern,37,1640,"Score(team_a=11, team_b=6)",Florida State,155.0,1009.0,631.0,6.8181818181818175
+604,2020-02-29,Miami (Ohio),38,1635,"Score(team_a=13, team_b=0)",West Virginia,303.0,380.0,1255.0,14.999999999999998
+608,2020-03-01,Miami (Ohio),38,1635,"Score(team_a=13, team_b=7)",Kenyon,183.0,927.0,708.0,6.9230769230769225
+609,2020-03-01,Miami (Ohio),38,1635,"Score(team_a=12, team_b=6)",Rochester,107.0,1211.0,424.0,7.5
+611,2020-03-07,Miami (Ohio),38,1635,"Score(team_a=12, team_b=8)",Wright State,123.0,1149.0,486.0,5.0
+612,2020-03-07,Miami (Ohio),38,1635,"Score(team_a=15, team_b=3)",Denison,271.0,534.0,1101.0,12.0
+613,2020-03-08,Miami (Ohio),38,1635,"Score(team_a=15, team_b=3)",Denison,271.0,534.0,1101.0,12.0
+614,2020-03-08,Miami (Ohio),38,1635,"Score(team_a=13, team_b=6)",Wright State,123.0,1149.0,486.0,8.076923076923077
+617,2020-01-25,California-San Diego,39,1631,"Score(team_a=13, team_b=8)",Case Western Reserve,54.0,1493.0,138.0,5.769230769230768
+620,2020-01-26,California-San Diego,39,1631,"Score(team_a=9, team_b=8)",Stanford,41.0,1618.0,13.0,1.6666666666666667
+621,2020-01-26,California-San Diego,39,1631,"Score(team_a=12, team_b=5)",Santa Clara,40.0,1628.0,3.0,8.75
+623,2020-02-15,California-San Diego,39,1631,"Score(team_a=11, team_b=5)",Southern California,90.0,1285.0,346.0,8.181818181818182
+626,2020-02-16,California-San Diego,39,1631,"Score(team_a=15, team_b=7)",San Diego State,158.0,1005.0,626.0,8.0
+627,2020-02-16,California-San Diego,39,1631,"Score(team_a=13, team_b=6)",Illinois,56.0,1464.0,167.0,8.076923076923077
+641,2020-02-01,Santa Clara,40,1628,"Score(team_a=10, team_b=4)",Cal State-Long Beach,187.0,917.0,711.0,9.0
+642,2020-02-02,Santa Clara,40,1628,"Score(team_a=11, team_b=7)",California-Irvine,157.0,1008.0,620.0,5.454545454545454
+643,2020-02-02,Santa Clara,40,1628,"Score(team_a=10, team_b=6)",Arizona State,125.0,1145.0,483.0,6.0
+644,2020-02-02,Santa Clara,40,1628,"Score(team_a=11, team_b=7)",Occidental,66.0,1405.0,223.0,5.454545454545454
+647,2020-01-25,Stanford,41,1618,"Score(team_a=13, team_b=10)",Victoria,63.0,1424.0,194.0,3.4615384615384612
+648,2020-01-25,Stanford,41,1618,"Score(team_a=13, team_b=9)",Connecticut,95.0,1262.0,356.0,4.615384615384615
+650,2020-01-26,Stanford,41,1618,"Score(team_a=9, team_b=12)",Utah,42.0,1615.0,3.0,-3.75
+654,2020-02-15,Stanford,41,1618,"Score(team_a=11, team_b=8)",Utah,42.0,1615.0,3.0,4.090909090909091
+655,2020-02-15,Stanford,41,1618,"Score(team_a=10, team_b=9)",San Diego State,158.0,1005.0,613.0,1.5
+661,2020-02-17,Stanford,41,1618,"Score(team_a=6, team_b=9)",Utah,42.0,1615.0,3.0,-5.0
+665,2020-03-07,Stanford,41,1618,"Score(team_a=11, team_b=10)",Whitman,58.0,1452.0,166.0,1.3636363636363635
+669,2020-01-25,Utah,42,1615,"Score(team_a=13, team_b=9)",Southern California,90.0,1285.0,330.0,4.615384615384615
+671,2020-01-25,Utah,42,1615,"Score(team_a=11, team_b=13)",Tulane,49.0,1510.0,105.0,-2.3076923076923075
+677,2020-02-15,Utah,42,1615,"Score(team_a=13, team_b=4)",San Diego State,158.0,1005.0,610.0,10.384615384615383
+680,2020-02-16,Utah,42,1615,"Score(team_a=12, team_b=8)",California-Davis,53.0,1493.0,122.0,5.0
+681,2020-02-16,Utah,42,1615,"Score(team_a=12, team_b=4)",Southern California,90.0,1285.0,330.0,10.0
+690,2020-03-08,Utah,42,1615,"Score(team_a=6, team_b=9)",Southern California,90.0,1285.0,330.0,-5.0
+691,2020-03-08,Utah,42,1615,"Score(team_a=11, team_b=10)",Whitman,58.0,1452.0,163.0,1.3636363636363635
+692,2020-01-18,Alabama,43,1608,"Score(team_a=13, team_b=6)",Jacksonville State,127.0,1139.0,469.0,8.076923076923077
+694,2020-01-18,Alabama,43,1608,"Score(team_a=9, team_b=8)",South Florida,174.0,949.0,659.0,1.6666666666666667
+695,2020-01-18,Alabama,43,1608,"Score(team_a=15, team_b=8)",Illinois State,169.0,971.0,637.0,7.0
+696,2020-01-19,Alabama,43,1608,"Score(team_a=15, team_b=12)",Florida,64.0,1421.0,187.0,3.0
+697,2020-01-19,Alabama,43,1608,"Score(team_a=12, team_b=13)",Illinois,56.0,1464.0,144.0,-1.1538461538461537
+698,2020-02-08,Alabama,43,1608,"Score(team_a=13, team_b=7)",Ohio,109.0,1197.0,411.0,6.9230769230769225
+699,2020-02-08,Alabama,43,1608,"Score(team_a=12, team_b=10)",Penn State,83.0,1318.0,290.0,2.5
+702,2020-02-29,Alabama,43,1608,"Score(team_a=9, team_b=7)",Maryland,114.0,1181.0,427.0,3.3333333333333335
+703,2020-02-29,Alabama,43,1608,"Score(team_a=10, team_b=9)",Carnegie Mellon,75.0,1375.0,233.0,1.5
+704,2020-02-29,Alabama,43,1608,"Score(team_a=12, team_b=4)",Duke,93.0,1271.0,337.0,10.0
+706,2020-03-01,Alabama,43,1608,"Score(team_a=15, team_b=10)",Notre Dame,45.0,1583.0,25.0,5.0
+709,2020-01-25,Utah State,44,1604,"Score(team_a=13, team_b=4)",Grand Canyon,176.0,948.0,656.0,10.384615384615383
+713,2020-01-25,Utah State,44,1604,"Score(team_a=11, team_b=7)",Denver,92.0,1279.0,325.0,5.454545454545454
+714,2020-01-26,Utah State,44,1604,"Score(team_a=13, team_b=2)",Northern Arizona,104.0,1218.0,386.0,12.692307692307692
+715,2020-01-26,Utah State,44,1604,"Score(team_a=12, team_b=8)",Denver,92.0,1279.0,325.0,5.0
+716,2020-02-29,Utah State,44,1604,"Score(team_a=11, team_b=4)",Boise State,228.0,747.0,857.0,9.545454545454545
+717,2020-02-29,Utah State,44,1604,"Score(team_a=9, team_b=8)",Northern Arizona,104.0,1218.0,386.0,1.6666666666666667
+718,2020-02-29,Utah State,44,1604,"Score(team_a=11, team_b=8)",Utah Valley University,186.0,918.0,686.0,4.090909090909091
+719,2020-02-29,Utah State,44,1604,"Score(team_a=11, team_b=8)",Montana State,72.0,1379.0,225.0,4.090909090909091
+720,2020-02-29,Utah State,44,1604,"Score(team_a=11, team_b=3)",Idaho,331.0,180.0,1424.0,10.909090909090908
+721,2020-03-01,Utah State,44,1604,"Score(team_a=12, team_b=3)",Northern Arizona,104.0,1218.0,386.0,11.25
+722,2020-03-01,Utah State,44,1604,"Score(team_a=12, team_b=11)",Nevada-Reno,74.0,1376.0,228.0,1.25
+724,2020-02-08,Notre Dame,45,1583,"Score(team_a=13, team_b=7)",Maryland,114.0,1181.0,402.0,6.9230769230769225
+727,2020-02-29,Notre Dame,45,1583,"Score(team_a=8, team_b=11)",Ohio,109.0,1197.0,386.0,-4.090909090909091
+728,2020-02-29,Notre Dame,45,1583,"Score(team_a=13, team_b=7)",Johns Hopkins,133.0,1103.0,480.0,6.9230769230769225
+729,2020-02-29,Notre Dame,45,1583,"Score(team_a=13, team_b=5)",Central Florida,101.0,1220.0,363.0,9.23076923076923
+730,2020-02-29,Notre Dame,45,1583,"Score(team_a=13, team_b=10)",Virginia,57.0,1462.0,121.0,3.4615384615384612
+732,2020-03-01,Notre Dame,45,1583,"Score(team_a=13, team_b=10)",Temple,48.0,1513.0,70.0,3.4615384615384612
+734,2020-02-08,Arizona,46,1569,"Score(team_a=11, team_b=9)",Humboldt State,87.0,1301.0,268.0,2.727272727272727
+737,2020-02-08,Arizona,46,1569,"Score(team_a=11, team_b=5)",Lewis & Clark,167.0,983.0,586.0,8.181818181818182
+739,2020-02-09,Arizona,46,1569,"Score(team_a=10, team_b=1)",California-Davis,53.0,1493.0,76.0,13.5
+740,2020-02-09,Arizona,46,1569,"Score(team_a=7, team_b=4)",Claremont,86.0,1301.0,268.0,6.428571428571429
+747,2020-02-15,Auburn,47,1536,"Score(team_a=13, team_b=11)",Virginia Tech,55.0,1475.0,61.0,2.3076923076923075
+748,2020-02-16,Auburn,47,1536,"Score(team_a=9, team_b=11)",LSU,61.0,1430.0,106.0,-2.727272727272727
+749,2020-02-16,Auburn,47,1536,"Score(team_a=15, team_b=6)",Harvard,143.0,1047.0,489.0,9.0
+750,2020-02-08,Temple,48,1513,"Score(team_a=11, team_b=10)",Carnegie Mellon,75.0,1375.0,138.0,1.3636363636363635
+752,2020-02-08,Temple,48,1513,"Score(team_a=11, team_b=12)",Purdue,51.0,1505.0,8.0,-1.25
+753,2020-02-09,Temple,48,1513,"Score(team_a=9, team_b=7)",Duke,93.0,1271.0,242.0,3.3333333333333335
+754,2020-02-29,Temple,48,1513,"Score(team_a=13, team_b=9)",Indiana,91.0,1281.0,232.0,4.615384615384615
+755,2020-02-29,Temple,48,1513,"Score(team_a=13, team_b=1)",Kennesaw State,198.0,872.0,641.0,13.846153846153845
+756,2020-02-29,Temple,48,1513,"Score(team_a=12, team_b=6)",Wisconsin-Milwaukee,67.0,1401.0,112.0,7.5
+764,2020-01-25,Tulane,49,1510,"Score(team_a=10, team_b=13)",Southern California,90.0,1285.0,225.0,-3.4615384615384612
+765,2020-01-26,Tulane,49,1510,"Score(team_a=13, team_b=10)",Connecticut,95.0,1262.0,248.0,3.4615384615384612
+768,2020-01-25,Tennessee,50,1507,"Score(team_a=8, team_b=7)",Richmond,98.0,1249.0,258.0,1.875
+769,2020-01-25,Tennessee,50,1507,"Score(team_a=11, team_b=5)",North Carolina-Asheville,154.0,1011.0,496.0,8.181818181818182
+770,2020-01-25,Tennessee,50,1507,"Score(team_a=12, team_b=6)",Florida State,155.0,1009.0,498.0,7.5
+772,2020-01-26,Tennessee,50,1507,"Score(team_a=13, team_b=6)",North Carolina-Charlotte,81.0,1326.0,181.0,8.076923076923077
+773,2020-01-26,Tennessee,50,1507,"Score(team_a=10, team_b=8)",Duke,93.0,1271.0,236.0,3.0
+776,2020-02-08,Tennessee,50,1507,"Score(team_a=10, team_b=5)",Emory,121.0,1150.0,357.0,7.5
+777,2020-02-09,Tennessee,50,1507,"Score(team_a=8, team_b=9)",Virginia,57.0,1462.0,45.0,-1.6666666666666667
+784,2020-03-08,Tennessee,50,1507,"Score(team_a=12, team_b=10)",Purdue,51.0,1505.0,2.0,2.5
+786,2020-02-08,Purdue,51,1505,"Score(team_a=11, team_b=10)",Carnegie Mellon,75.0,1375.0,130.0,1.3636363636363635
+788,2020-02-09,Purdue,51,1505,"Score(team_a=13, team_b=8)",Penn State,83.0,1318.0,187.0,5.769230769230768
+789,2020-02-09,Purdue,51,1505,"Score(team_a=0, team_b=0)",Virginia,57.0,1462.0,43.0,
+797,2020-01-18,Alabama-Huntsville,52,1503,"Score(team_a=11, team_b=4)",South Florida,174.0,949.0,554.0,9.545454545454545
+798,2020-01-18,Alabama-Huntsville,52,1503,"Score(team_a=11, team_b=0)",Mississippi,280.0,484.0,1019.0,14.999999999999998
+799,2020-01-18,Alabama-Huntsville,52,1503,"Score(team_a=10, team_b=11)",Illinois,56.0,1464.0,39.0,-1.3636363636363635
+800,2020-01-18,Alabama-Huntsville,52,1503,"Score(team_a=10, team_b=11)",Jacksonville State,127.0,1139.0,364.0,-1.3636363636363635
+801,2020-01-19,Alabama-Huntsville,52,1503,"Score(team_a=15, team_b=9)",Central Florida,101.0,1220.0,283.0,6.0
+802,2020-01-19,Alabama-Huntsville,52,1503,"Score(team_a=11, team_b=7)",Mississippi State,145.0,1030.0,473.0,5.454545454545454
+803,2020-02-08,Alabama-Huntsville,52,1503,"Score(team_a=11, team_b=7)",Tennessee-Chattanooga,68.0,1398.0,105.0,5.454545454545454
+804,2020-02-08,Alabama-Huntsville,52,1503,"Score(team_a=13, team_b=5)",North Georgia,226.0,754.0,749.0,9.23076923076923
+805,2020-02-08,Alabama-Huntsville,52,1503,"Score(team_a=13, team_b=6)",Alabama-Birmingham,184.0,924.0,579.0,8.076923076923077
+806,2020-02-08,Alabama-Huntsville,52,1503,"Score(team_a=11, team_b=13)",Middle Tennessee State,71.0,1380.0,123.0,-2.3076923076923075
+807,2020-02-09,Alabama-Huntsville,52,1503,"Score(team_a=12, team_b=9)",Georgia State,164.0,992.0,511.0,3.75
+808,2020-02-09,Alabama-Huntsville,52,1503,"Score(team_a=14, team_b=12)",Middle Tennessee State,71.0,1380.0,123.0,2.142857142857143
+809,2020-02-09,Alabama-Huntsville,52,1503,"Score(team_a=13, team_b=8)",Kentucky,73.0,1379.0,124.0,5.769230769230768
+810,2020-02-08,California-Davis,53,1493,"Score(team_a=9, team_b=11)",Nevada-Reno,74.0,1376.0,117.0,-2.727272727272727
+811,2020-02-08,California-Davis,53,1493,"Score(team_a=13, team_b=4)",Puget Sound,76.0,1365.0,128.0,10.384615384615383
+812,2020-02-08,California-Davis,53,1493,"Score(team_a=11, team_b=7)",Sonoma State,149.0,1024.0,469.0,5.454545454545454
+813,2020-02-09,California-Davis,53,1493,"Score(team_a=5, team_b=6)",Chico State,128.0,1138.0,355.0,-2.5
+815,2020-02-09,California-Davis,53,1493,"Score(team_a=8, team_b=3)",Carleton College-GoP,89.0,1287.0,206.0,9.375
+816,2020-02-15,California-Davis,53,1493,"Score(team_a=9, team_b=12)",Illinois,56.0,1464.0,29.0,-3.75
+821,2020-02-16,California-Davis,53,1493,"Score(team_a=11, team_b=5)",Southern California,90.0,1285.0,208.0,8.181818181818182
+822,2020-02-17,California-Davis,53,1493,"Score(team_a=14, team_b=4)",San Diego State,158.0,1005.0,488.0,10.714285714285714
+823,2020-02-17,California-Davis,53,1493,"Score(team_a=15, team_b=7)",Illinois,56.0,1464.0,29.0,8.0
+829,2020-01-26,Case Western Reserve,54,1493,"Score(team_a=11, team_b=9)",Southern California,90.0,1285.0,208.0,2.727272727272727
+834,2020-02-15,Virginia Tech,55,1475,"Score(team_a=11, team_b=6)",Florida State,155.0,1009.0,466.0,6.8181818181818175
+835,2020-02-15,Virginia Tech,55,1475,"Score(team_a=10, team_b=11)",Florida,64.0,1421.0,54.0,-1.3636363636363635
+837,2020-02-16,Virginia Tech,55,1475,"Score(team_a=13, team_b=9)",South Florida,174.0,949.0,526.0,4.615384615384615
+838,2020-02-16,Virginia Tech,55,1475,"Score(team_a=13, team_b=10)",Texas A&M,69.0,1391.0,84.0,3.4615384615384612
+839,2020-02-29,Virginia Tech,55,1475,"Score(team_a=8, team_b=9)",Penn State,83.0,1318.0,157.0,-1.6666666666666667
+841,2020-02-29,Virginia Tech,55,1475,"Score(team_a=13, team_b=4)",Georgia State,164.0,992.0,483.0,10.384615384615383
+843,2020-03-01,Virginia Tech,55,1475,"Score(team_a=13, team_b=11)",Wisconsin-Milwaukee,67.0,1401.0,74.0,2.3076923076923075
+844,2020-03-01,Virginia Tech,55,1475,"Score(team_a=13, team_b=11)",Carnegie Mellon,75.0,1375.0,100.0,2.3076923076923075
+845,2020-03-01,Virginia Tech,55,1475,"Score(team_a=12, team_b=6)",Maryland,114.0,1181.0,294.0,7.5
+846,2020-01-18,Illinois,56,1464,"Score(team_a=11, team_b=2)",Mississippi,280.0,484.0,980.0,12.272727272727272
+847,2020-01-18,Illinois,56,1464,"Score(team_a=11, team_b=2)",South Florida,174.0,949.0,515.0,12.272727272727272
+849,2020-01-18,Illinois,56,1464,"Score(team_a=15, team_b=12)",LSU,61.0,1430.0,34.0,3.0
+855,2020-02-16,Illinois,56,1464,"Score(team_a=11, team_b=6)",San Diego State,158.0,1005.0,459.0,6.8181818181818175
+858,2020-02-17,Illinois,56,1464,"Score(team_a=9, team_b=12)",Southern California,90.0,1285.0,179.0,-3.75
+860,2020-02-08,Virginia,57,1462,"Score(team_a=13, team_b=11)",Appalachian State,119.0,1158.0,304.0,2.3076923076923075
+861,2020-02-08,Virginia,57,1462,"Score(team_a=11, team_b=8)",Duke,93.0,1271.0,191.0,4.090909090909091
+865,2020-02-29,Virginia,57,1462,"Score(team_a=7, team_b=11)",Central Florida,101.0,1220.0,242.0,-5.454545454545454
+866,2020-02-29,Virginia,57,1462,"Score(team_a=13, team_b=5)",Johns Hopkins,133.0,1103.0,359.0,9.23076923076923
+867,2020-02-29,Virginia,57,1462,"Score(team_a=13, team_b=5)",Ohio,109.0,1197.0,265.0,9.23076923076923
+873,2020-01-25,Whitman,58,1452,"Score(team_a=15, team_b=10)",Humboldt State,87.0,1301.0,151.0,5.0
+875,2020-01-25,Whitman,58,1452,"Score(team_a=15, team_b=5)",Lewis & Clark,167.0,983.0,469.0,10.0
+877,2020-01-26,Whitman,58,1452,"Score(team_a=15, team_b=5)",Humboldt State,87.0,1301.0,151.0,10.0
+878,2020-02-29,Whitman,58,1452,"Score(team_a=10, team_b=11)",Nevada-Reno,74.0,1376.0,76.0,-1.3636363636363635
+880,2020-02-29,Whitman,58,1452,"Score(team_a=11, team_b=8)",Washington State,111.0,1196.0,256.0,4.090909090909091
+881,2020-02-29,Whitman,58,1452,"Score(team_a=11, team_b=4)",Montana,195.0,885.0,567.0,9.545454545454545
+883,2020-03-01,Whitman,58,1452,"Score(team_a=10, team_b=11)",Northern Arizona,104.0,1218.0,234.0,-1.3636363636363635
+884,2020-03-01,Whitman,58,1452,"Score(team_a=5, team_b=9)",Washington State,111.0,1196.0,256.0,-6.666666666666667
+888,2020-03-08,Whitman,58,1452,"Score(team_a=12, team_b=9)",Southern California,90.0,1285.0,167.0,3.75
+891,2020-02-22,Embry-Riddle,59,1448,"Score(team_a=12, team_b=9)",Florida Tech,134.0,1088.0,360.0,3.75
+894,2020-02-22,Embry-Riddle,59,1448,"Score(team_a=13, team_b=4)",Florida Gulf Coast,237.0,730.0,718.0,10.384615384615383
+897,2020-02-23,Embry-Riddle,59,1448,"Score(team_a=15, team_b=11)",Ave Maria,100.0,1221.0,227.0,4.0
+898,2020-02-08,Washington University,60,1439,"Score(team_a=8, team_b=10)",Chico State,128.0,1138.0,301.0,-3.0
+899,2020-02-08,Washington University,60,1439,"Score(team_a=13, team_b=2)",San Jose State,289.0,465.0,974.0,12.692307692307692
+900,2020-02-08,Washington University,60,1439,"Score(team_a=5, team_b=11)",Carleton College-GoP,89.0,1287.0,152.0,-8.181818181818182
+902,2020-02-09,Washington University,60,1439,"Score(team_a=6, team_b=3)",Sonoma State,149.0,1024.0,415.0,7.5
+903,2020-02-09,Washington University,60,1439,"Score(team_a=8, team_b=3)",Lewis & Clark,167.0,983.0,456.0,9.375
+904,2020-02-09,Washington University,60,1439,"Score(team_a=9, team_b=3)",San Jose State,289.0,465.0,974.0,10.0
+905,2020-02-22,Washington University,60,1439,"Score(team_a=15, team_b=6)",Arkansas,207.0,841.0,598.0,9.0
+906,2020-02-22,Washington University,60,1439,"Score(team_a=14, team_b=8)",Colorado College,172.0,962.0,477.0,6.428571428571429
+907,2020-02-22,Washington University,60,1439,"Score(team_a=15, team_b=5)",Luther,170.0,971.0,468.0,10.0
+908,2020-02-23,Washington University,60,1439,"Score(team_a=15, team_b=6)",Nebraska,148.0,1024.0,415.0,9.0
+909,2020-02-23,Washington University,60,1439,"Score(team_a=15, team_b=6)",Texas Christian,140.0,1066.0,373.0,9.0
+910,2020-02-23,Washington University,60,1439,"Score(team_a=15, team_b=9)",Truman State,97.0,1250.0,189.0,6.0
+912,2020-01-18,LSU,61,1430,"Score(team_a=11, team_b=3)",Mississippi State,145.0,1030.0,400.0,10.909090909090908
+913,2020-01-18,LSU,61,1430,"Score(team_a=11, team_b=6)",Vanderbilt,103.0,1218.0,212.0,6.8181818181818175
+914,2020-01-18,LSU,61,1430,"Score(team_a=9, team_b=10)",Florida,64.0,1421.0,9.0,-1.5
+915,2020-01-18,LSU,61,1430,"Score(team_a=12, team_b=10)",Central Florida,101.0,1220.0,210.0,2.5
+917,2020-01-19,LSU,61,1430,"Score(team_a=14, team_b=12)",Tennessee-Chattanooga,68.0,1398.0,32.0,2.142857142857143
+918,2020-01-19,LSU,61,1430,"Score(team_a=11, team_b=15)",Illinois State,169.0,971.0,459.0,-4.0
+919,2020-02-14,LSU,61,1430,"Score(team_a=12, team_b=7)",Florida State,155.0,1009.0,421.0,6.25
+925,2020-02-15,LSU,61,1430,"Score(team_a=15, team_b=7)",South Florida,174.0,949.0,481.0,8.0
+927,2020-02-16,LSU,61,1430,"Score(team_a=14, team_b=15)",Central Florida,101.0,1220.0,210.0,-1.0
+928,2020-02-29,LSU,61,1430,"Score(team_a=13, team_b=1)",Miami,347.0,50.0,1380.0,13.846153846153845
+929,2020-02-29,LSU,61,1430,"Score(team_a=13, team_b=9)",Jacksonville State,127.0,1139.0,291.0,4.615384615384615
+930,2020-02-29,LSU,61,1430,"Score(team_a=13, team_b=6)",Stephen F. Austin,243.0,702.0,728.0,8.076923076923077
+931,2020-02-29,LSU,61,1430,"Score(team_a=13, team_b=9)",Illinois State,169.0,971.0,459.0,4.615384615384615
+932,2020-03-01,LSU,61,1430,"Score(team_a=10, team_b=8)",Mississippi State,145.0,1030.0,400.0,3.0
+933,2020-03-01,LSU,61,1430,"Score(team_a=10, team_b=6)",Emory,121.0,1150.0,280.0,6.0
+934,2020-03-01,LSU,61,1430,"Score(team_a=10, team_b=9)",Texas A&M,69.0,1391.0,39.0,1.5
+936,2020-02-14,Cincinnati,62,1426,"Score(team_a=13, team_b=10)",Florida,64.0,1421.0,5.0,3.4615384615384612
+937,2020-02-14,Cincinnati,62,1426,"Score(team_a=11, team_b=9)",South Florida,174.0,949.0,477.0,2.727272727272727
+939,2020-02-15,Cincinnati,62,1426,"Score(team_a=10, team_b=6)",Harvard,143.0,1047.0,379.0,6.0
+946,2020-01-25,Victoria,63,1424,"Score(team_a=12, team_b=10)",Connecticut,95.0,1262.0,162.0,2.5
+948,2020-01-26,Victoria,63,1424,"Score(team_a=13, team_b=9)",Southern California,90.0,1285.0,139.0,4.615384615384615
+950,2020-01-18,Florida,64,1421,"Score(team_a=11, team_b=2)",Vanderbilt,103.0,1218.0,203.0,12.272727272727272
+951,2020-01-18,Florida,64,1421,"Score(team_a=11, team_b=9)",Mississippi State,145.0,1030.0,391.0,2.727272727272727
+953,2020-01-18,Florida,64,1421,"Score(team_a=13, team_b=4)",Jacksonville State,127.0,1139.0,282.0,10.384615384615383
+959,2020-02-15,Florida,64,1421,"Score(team_a=13, team_b=9)",Cornell,82.0,1323.0,98.0,4.615384615384615
+960,2020-02-15,Florida,64,1421,"Score(team_a=13, team_b=11)",Texas A&M,69.0,1391.0,30.0,2.3076923076923075
+964,2020-02-16,Florida,64,1421,"Score(team_a=12, team_b=11)",Cornell,82.0,1323.0,98.0,1.25
+966,2020-02-29,Florida,64,1421,"Score(team_a=13, team_b=10)",Sul Ross State University,194.0,892.0,529.0,3.4615384615384612
+967,2020-02-29,Florida,64,1421,"Score(team_a=13, team_b=10)",Alabama-Birmingham,184.0,924.0,497.0,3.4615384615384612
+968,2020-02-29,Florida,64,1421,"Score(team_a=11, team_b=12)",Texas Tech,120.0,1155.0,266.0,-1.25
+969,2020-03-01,Florida,64,1421,"Score(team_a=13, team_b=11)",Illinois State,169.0,971.0,450.0,2.3076923076923075
+970,2020-03-01,Florida,64,1421,"Score(team_a=9, team_b=12)",Texas A&M,69.0,1391.0,30.0,-3.75
+971,2020-03-01,Florida,64,1421,"Score(team_a=13, team_b=6)",Texas State,94.0,1269.0,152.0,8.076923076923077
+972,2020-03-01,Florida,64,1421,"Score(team_a=12, team_b=9)",Texas Tech,120.0,1155.0,266.0,3.75
+973,2020-01-25,Georgetown,65,1407,"Score(team_a=13, team_b=5)",Air Force,152.0,1013.0,394.0,9.23076923076923
+974,2020-01-25,Georgetown,65,1407,"Score(team_a=12, team_b=11)",Appalachian State,119.0,1158.0,249.0,1.25
+976,2020-01-25,Georgetown,65,1407,"Score(team_a=8, team_b=11)",Duke,93.0,1271.0,136.0,-4.090909090909091
+977,2020-01-26,Georgetown,65,1407,"Score(team_a=12, team_b=7)",Richmond,98.0,1249.0,158.0,6.25
+978,2020-01-26,Georgetown,65,1407,"Score(team_a=10, team_b=8)",Indiana,91.0,1281.0,126.0,3.0
+979,2020-01-26,Georgetown,65,1407,"Score(team_a=10, team_b=9)",Carleton College-GoP,89.0,1287.0,120.0,1.5
+980,2020-02-22,Georgetown,65,1407,"Score(team_a=13, team_b=11)",Lehigh,70.0,1383.0,24.0,2.3076923076923075
+981,2020-02-22,Georgetown,65,1407,"Score(team_a=13, team_b=11)",Pennsylvania,113.0,1181.0,226.0,2.3076923076923075
+982,2020-02-22,Georgetown,65,1407,"Score(team_a=13, team_b=5)",Towson,252.0,649.0,758.0,9.23076923076923
+983,2020-02-23,Georgetown,65,1407,"Score(team_a=15, team_b=6)",American,206.0,843.0,564.0,9.0
+984,2020-02-23,Georgetown,65,1407,"Score(team_a=12, team_b=9)",Pennsylvania,113.0,1181.0,226.0,3.75
+985,2020-02-23,Georgetown,65,1407,"Score(team_a=15, team_b=12)",Lehigh,70.0,1383.0,24.0,3.0
+986,2020-02-29,Georgetown,65,1407,"Score(team_a=11, team_b=8)",Clemson,131.0,1131.0,276.0,4.090909090909091
+987,2020-02-29,Georgetown,65,1407,"Score(team_a=12, team_b=2)",Coastal Carolina,382.0,-632.0,2039.0,12.5
+988,2020-02-29,Georgetown,65,1407,"Score(team_a=10, team_b=2)",Radford,358.0,-32.0,1439.0,12.0
+989,2020-02-29,Georgetown,65,1407,"Score(team_a=11, team_b=6)",Wake Forest,244.0,701.0,706.0,6.8181818181818175
+990,2020-03-01,Georgetown,65,1407,"Score(team_a=15, team_b=3)",Charleston,298.0,412.0,995.0,12.0
+991,2020-03-01,Georgetown,65,1407,"Score(team_a=15, team_b=12)",Clemson,131.0,1131.0,276.0,3.0
+992,2020-03-01,Georgetown,65,1407,"Score(team_a=12, team_b=15)",Connecticut,95.0,1262.0,145.0,-3.0
+994,2020-02-01,Occidental,66,1405,"Score(team_a=10, team_b=7)",Grand Canyon,176.0,948.0,457.0,4.5
+995,2020-02-01,Occidental,66,1405,"Score(team_a=12, team_b=5)",San Jose State,289.0,465.0,940.0,8.75
+1000,2020-02-02,Occidental,66,1405,"Score(team_a=10, team_b=9)",Sonoma State,149.0,1024.0,381.0,1.5
+1003,2020-02-22,Occidental,66,1405,"Score(team_a=11, team_b=4)",Loyola Marymount,189.0,913.0,492.0,9.545454545454545
+1004,2020-02-22,Occidental,66,1405,"Score(team_a=13, team_b=3)",Cal State-Fullerton,282.0,477.0,928.0,11.538461538461537
+1005,2020-02-22,Occidental,66,1405,"Score(team_a=8, team_b=2)",California-Irvine,157.0,1008.0,397.0,11.25
+1006,2020-02-29,Occidental,66,1405,"Score(team_a=13, team_b=8)",Claremont,86.0,1301.0,104.0,5.769230769230768
+1009,2020-02-29,Occidental,66,1405,"Score(team_a=9, team_b=6)",Claremont,86.0,1301.0,104.0,5.0
+1010,2020-02-29,Occidental,66,1405,"Score(team_a=9, team_b=4)",Loyola Marymount,189.0,913.0,492.0,8.333333333333334
+1012,2020-02-29,Wisconsin-Milwaukee,67,1401,"Score(team_a=12, team_b=10)",Indiana,91.0,1281.0,120.0,2.5
+1014,2020-02-29,Wisconsin-Milwaukee,67,1401,"Score(team_a=13, team_b=6)",Kennesaw State,198.0,872.0,529.0,8.076923076923077
+1016,2020-03-01,Wisconsin-Milwaukee,67,1401,"Score(team_a=15, team_b=6)",Central Florida,101.0,1220.0,181.0,9.0
+1017,2020-03-01,Wisconsin-Milwaukee,67,1401,"Score(team_a=15, team_b=11)",Penn State,83.0,1318.0,83.0,4.0
+1018,2020-03-07,Wisconsin-Milwaukee,67,1401,"Score(team_a=9, team_b=2)",Northern Iowa,272.0,533.0,868.0,11.666666666666668
+1019,2020-03-07,Wisconsin-Milwaukee,67,1401,"Score(team_a=12, team_b=2)",Wisconsin-Oshkosh,301.0,385.0,1016.0,12.5
+1020,2020-03-07,Wisconsin-Milwaukee,67,1401,"Score(team_a=6, team_b=11)",Kansas,105.0,1217.0,184.0,-6.8181818181818175
+1021,2020-03-07,Wisconsin-Milwaukee,67,1401,"Score(team_a=9, team_b=10)",Missouri S&T,84.0,1318.0,83.0,-1.5
+1022,2020-03-08,Wisconsin-Milwaukee,67,1401,"Score(team_a=11, team_b=8)",Wisconsin-Whitewater,132.0,1104.0,297.0,4.090909090909091
+1023,2020-03-08,Wisconsin-Milwaukee,67,1401,"Score(team_a=9, team_b=6)",Iowa State,77.0,1339.0,62.0,5.0
+1024,2020-03-08,Wisconsin-Milwaukee,67,1401,"Score(team_a=11, team_b=6)",Chicago,110.0,1196.0,205.0,6.8181818181818175
+1025,2020-03-08,Wisconsin-Milwaukee,67,1401,"Score(team_a=8, team_b=7)",Kansas,105.0,1217.0,184.0,1.875
+1026,2020-03-08,Wisconsin-Milwaukee,67,1401,"Score(team_a=8, team_b=6)",Missouri,135.0,1084.0,317.0,3.75
+1027,2020-01-18,Tennessee-Chattanooga,68,1398,"Score(team_a=7, team_b=10)",Illinois State,169.0,971.0,427.0,-4.5
+1028,2020-01-18,Tennessee-Chattanooga,68,1398,"Score(team_a=12, team_b=9)",Central Florida,101.0,1220.0,178.0,3.75
+1029,2020-01-18,Tennessee-Chattanooga,68,1398,"Score(team_a=10, team_b=6)",Vanderbilt,103.0,1218.0,180.0,6.0
+1032,2020-01-19,Tennessee-Chattanooga,68,1398,"Score(team_a=9, team_b=6)",Jacksonville State,127.0,1139.0,259.0,5.0
+1034,2020-02-08,Tennessee-Chattanooga,68,1398,"Score(team_a=13, team_b=9)",Middle Tennessee State,71.0,1380.0,18.0,4.615384615384615
+1035,2020-02-08,Tennessee-Chattanooga,68,1398,"Score(team_a=13, team_b=1)",North Georgia,226.0,754.0,644.0,13.846153846153845
+1036,2020-02-08,Tennessee-Chattanooga,68,1398,"Score(team_a=13, team_b=5)",Alabama-Birmingham,184.0,924.0,474.0,9.23076923076923
+1037,2020-02-09,Tennessee-Chattanooga,68,1398,"Score(team_a=12, team_b=8)",Mississippi State,145.0,1030.0,368.0,5.0
+1038,2020-02-09,Tennessee-Chattanooga,68,1398,"Score(team_a=9, team_b=11)",Kentucky,73.0,1379.0,19.0,-2.727272727272727
+1039,2020-02-09,Tennessee-Chattanooga,68,1398,"Score(team_a=11, team_b=10)",Middle Tennessee State,71.0,1380.0,18.0,1.3636363636363635
+1042,2020-02-14,Texas A&M,69,1391,"Score(team_a=13, team_b=5)",South Florida,174.0,949.0,442.0,9.23076923076923
+1046,2020-02-15,Texas A&M,69,1391,"Score(team_a=12, team_b=13)",Central Florida,101.0,1220.0,171.0,-1.1538461538461537
+1047,2020-02-16,Texas A&M,69,1391,"Score(team_a=13, team_b=5)",Florida State,155.0,1009.0,382.0,9.23076923076923
+1049,2020-02-29,Texas A&M,69,1391,"Score(team_a=13, team_b=4)",Texas-San Antonio,291.0,451.0,940.0,10.384615384615383
+1050,2020-02-29,Texas A&M,69,1391,"Score(team_a=13, team_b=10)",Mississippi State,145.0,1030.0,361.0,3.4615384615384612
+1051,2020-02-29,Texas A&M,69,1391,"Score(team_a=13, team_b=7)",St John's,294.0,436.0,955.0,6.9230769230769225
+1052,2020-02-29,Texas A&M,69,1391,"Score(team_a=11, team_b=8)",Emory,121.0,1150.0,241.0,4.090909090909091
+1054,2020-03-01,Texas A&M,69,1391,"Score(team_a=12, team_b=3)",Jacksonville State,127.0,1139.0,252.0,11.25
+1058,2020-01-25,Lehigh,70,1383,"Score(team_a=13, team_b=5)",Christopher Newport,247.0,680.0,703.0,9.23076923076923
+1059,2020-01-25,Lehigh,70,1383,"Score(team_a=13, team_b=12)",Navy,122.0,1150.0,233.0,1.1538461538461537
+1061,2020-01-26,Lehigh,70,1383,"Score(team_a=15, team_b=11)",Virginia Commonwealth University,126.0,1142.0,241.0,4.0
+1062,2020-01-26,Lehigh,70,1383,"Score(team_a=14, team_b=7)",Villanova,112.0,1192.0,191.0,7.5
+1063,2020-02-22,Lehigh,70,1383,"Score(team_a=10, team_b=9)",Pennsylvania,113.0,1181.0,202.0,1.5
+1065,2020-02-22,Lehigh,70,1383,"Score(team_a=13, team_b=8)",George Washington,160.0,1000.0,383.0,5.769230769230768
+1067,2020-02-23,Lehigh,70,1383,"Score(team_a=14, team_b=7)",Liberty,79.0,1332.0,51.0,7.5
+1070,2020-02-08,Middle Tennessee State,71,1380,"Score(team_a=13, team_b=7)",North Georgia,226.0,754.0,626.0,6.9230769230769225
+1071,2020-02-08,Middle Tennessee State,71,1380,"Score(team_a=13, team_b=7)",Alabama-Birmingham,184.0,924.0,456.0,6.9230769230769225
+1073,2020-02-09,Middle Tennessee State,71,1380,"Score(team_a=13, team_b=6)",Missouri,135.0,1084.0,296.0,8.076923076923077
+1076,2020-02-22,Middle Tennessee State,71,1380,"Score(team_a=12, team_b=7)",Toledo,248.0,676.0,704.0,6.25
+1077,2020-02-22,Middle Tennessee State,71,1380,"Score(team_a=7, team_b=4)",Ball State,141.0,1054.0,326.0,6.428571428571429
+1078,2020-02-22,Middle Tennessee State,71,1380,"Score(team_a=9, team_b=8)",Dayton,99.0,1234.0,146.0,1.6666666666666667
+1079,2020-02-23,Middle Tennessee State,71,1380,"Score(team_a=12, team_b=11)",Michigan State,150.0,1021.0,359.0,1.25
+1080,2020-02-23,Middle Tennessee State,71,1380,"Score(team_a=12, team_b=11)",Missouri S&T,84.0,1318.0,62.0,1.25
+1081,2020-02-23,Middle Tennessee State,71,1380,"Score(team_a=13, team_b=10)",Vanderbilt,103.0,1218.0,162.0,3.4615384615384612
+1082,2020-01-18,Montana State,72,1379,"Score(team_a=13, team_b=2)",George Fox,333.0,156.0,1223.0,12.692307692307692
+1084,2020-01-18,Montana State,72,1379,"Score(team_a=13, team_b=6)",Gonzaga,102.0,1219.0,160.0,8.076923076923077
+1086,2020-01-19,Montana State,72,1379,"Score(team_a=14, team_b=12)",Gonzaga,102.0,1219.0,160.0,2.142857142857143
+1088,2020-01-19,Montana State,72,1379,"Score(team_a=12, team_b=9)",Washington State,111.0,1196.0,183.0,3.75
+1089,2020-02-29,Montana State,72,1379,"Score(team_a=11, team_b=5)",Northern Arizona,104.0,1218.0,161.0,8.181818181818182
+1090,2020-02-29,Montana State,72,1379,"Score(team_a=11, team_b=6)",Utah Valley University,186.0,918.0,461.0,6.8181818181818175
+1091,2020-02-29,Montana State,72,1379,"Score(team_a=11, team_b=1)",Idaho,331.0,180.0,1199.0,13.636363636363635
+1093,2020-02-29,Montana State,72,1379,"Score(team_a=11, team_b=5)",Boise State,228.0,747.0,632.0,8.181818181818182
+1094,2020-03-01,Montana State,72,1379,"Score(team_a=9, team_b=6)",Washington State,111.0,1196.0,183.0,5.0
+1095,2020-03-01,Montana State,72,1379,"Score(team_a=5, team_b=7)",Nevada-Reno,74.0,1376.0,3.0,-4.285714285714286
+1096,2020-03-01,Montana State,72,1379,"Score(team_a=5, team_b=10)",Northern Arizona,104.0,1218.0,161.0,-7.5
+1098,2020-01-25,Kentucky,73,1379,"Score(team_a=11, team_b=7)",Indiana,91.0,1281.0,98.0,5.454545454545454
+1099,2020-01-25,Kentucky,73,1379,"Score(team_a=11, team_b=5)",Florida State,155.0,1009.0,370.0,8.181818181818182
+1100,2020-01-25,Kentucky,73,1379,"Score(team_a=9, team_b=8)",North Carolina-Asheville,154.0,1011.0,368.0,1.6666666666666667
+1102,2020-01-26,Kentucky,73,1379,"Score(team_a=11, team_b=13)",Duke,93.0,1271.0,108.0,-2.3076923076923075
+1103,2020-01-26,Kentucky,73,1379,"Score(team_a=11, team_b=9)",North Carolina-Charlotte,81.0,1326.0,53.0,2.727272727272727
+1104,2020-02-08,Kentucky,73,1379,"Score(team_a=13, team_b=6)",Saint Louis,221.0,778.0,601.0,8.076923076923077
+1105,2020-02-08,Kentucky,73,1379,"Score(team_a=10, team_b=3)",Mississippi State,145.0,1030.0,349.0,10.5
+1106,2020-02-08,Kentucky,73,1379,"Score(team_a=7, team_b=9)",Georgia State,164.0,992.0,387.0,-3.3333333333333335
+1107,2020-02-08,Kentucky,73,1379,"Score(team_a=12, team_b=4)",Missouri,135.0,1084.0,295.0,10.0
+1108,2020-02-09,Kentucky,73,1379,"Score(team_a=15, team_b=6)",Saint Louis,221.0,778.0,601.0,9.0
+1112,2020-01-25,Nevada-Reno,74,1376,"Score(team_a=15, team_b=13)",Montana,195.0,885.0,491.0,2.0
+1113,2020-01-25,Nevada-Reno,74,1376,"Score(team_a=15, team_b=7)",Lewis & Clark,167.0,983.0,393.0,8.0
+1114,2020-01-25,Nevada-Reno,74,1376,"Score(team_a=11, team_b=12)",Humboldt State,87.0,1301.0,75.0,-1.25
+1115,2020-01-26,Nevada-Reno,74,1376,"Score(team_a=15, team_b=10)",Montana,195.0,885.0,491.0,5.0
+1118,2020-02-08,Nevada-Reno,74,1376,"Score(team_a=13, team_b=7)",Sonoma State,149.0,1024.0,352.0,6.9230769230769225
+1119,2020-02-08,Nevada-Reno,74,1376,"Score(team_a=8, team_b=9)",Puget Sound,76.0,1365.0,11.0,-1.6666666666666667
+1121,2020-02-09,Nevada-Reno,74,1376,"Score(team_a=6, team_b=5)",Carleton College-GoP,89.0,1287.0,89.0,2.5
+1123,2020-02-09,Nevada-Reno,74,1376,"Score(team_a=1, team_b=9)",Chico State,128.0,1138.0,238.0,-13.333333333333334
+1125,2020-02-29,Nevada-Reno,74,1376,"Score(team_a=11, team_b=6)",Montana,195.0,885.0,491.0,6.8181818181818175
+1127,2020-02-29,Nevada-Reno,74,1376,"Score(team_a=11, team_b=9)",Washington State,111.0,1196.0,180.0,2.727272727272727
+1135,2020-02-29,Carnegie Mellon,75,1375,"Score(team_a=12, team_b=7)",Duke,93.0,1271.0,104.0,6.25
+1138,2020-02-29,Carnegie Mellon,75,1375,"Score(team_a=7, team_b=6)",Maryland,114.0,1181.0,194.0,2.142857142857143
+1139,2020-03-01,Carnegie Mellon,75,1375,"Score(team_a=13, team_b=10)",Central Florida,101.0,1220.0,155.0,3.4615384615384612
+1141,2020-03-01,Carnegie Mellon,75,1375,"Score(team_a=8, team_b=15)",Indiana,91.0,1281.0,94.0,-7.0
+1142,2020-02-08,Puget Sound,76,1365,"Score(team_a=11, team_b=10)",Sonoma State,149.0,1024.0,341.0,1.3636363636363635
+1145,2020-02-08,Puget Sound,76,1365,"Score(team_a=6, team_b=7)",Claremont,86.0,1301.0,64.0,-2.142857142857143
+1148,2020-02-09,Puget Sound,76,1365,"Score(team_a=5, team_b=4)",Humboldt State,87.0,1301.0,64.0,3.0
+1149,2020-03-07,Puget Sound,76,1365,"Score(team_a=13, team_b=4)",George Fox,333.0,156.0,1209.0,10.384615384615383
+1151,2020-03-07,Puget Sound,76,1365,"Score(team_a=13, team_b=6)",Lewis & Clark,167.0,983.0,382.0,8.076923076923077
+1152,2020-03-08,Puget Sound,76,1365,"Score(team_a=13, team_b=9)",Washington State,111.0,1196.0,169.0,4.615384615384615
+1153,2020-03-08,Puget Sound,76,1365,"Score(team_a=12, team_b=7)",Lewis & Clark,167.0,983.0,382.0,6.25
+1154,2020-03-08,Puget Sound,76,1365,"Score(team_a=11, team_b=6)",Pacific Lutheran,156.0,1009.0,356.0,6.8181818181818175
+1155,2020-03-07,Iowa State,77,1339,"Score(team_a=13, team_b=3)",Knox,283.0,473.0,866.0,11.538461538461537
+1156,2020-03-07,Iowa State,77,1339,"Score(team_a=11, team_b=1)",Grinnell,279.0,486.0,853.0,13.636363636363635
+1157,2020-03-07,Iowa State,77,1339,"Score(team_a=9, team_b=4)",Missouri,135.0,1084.0,255.0,8.333333333333334
+1158,2020-03-07,Iowa State,77,1339,"Score(team_a=13, team_b=1)",Missouri State,209.0,832.0,507.0,13.846153846153845
+1159,2020-03-08,Iowa State,77,1339,"Score(team_a=8, team_b=9)",Kansas,105.0,1217.0,122.0,-1.6666666666666667
+1161,2020-03-08,Iowa State,77,1339,"Score(team_a=9, team_b=4)",Truman State,97.0,1250.0,89.0,8.333333333333334
+1162,2020-03-08,Iowa State,77,1339,"Score(team_a=7, team_b=8)",Minnesota-Duluth,115.0,1179.0,160.0,-1.875
+1163,2020-01-25,Boston University,78,1338,"Score(team_a=13, team_b=4)",George Mason,201.0,855.0,483.0,10.384615384615383
+1164,2020-01-25,Boston University,78,1338,"Score(team_a=10, team_b=11)",Villanova,112.0,1192.0,146.0,-1.3636363636363635
+1165,2020-01-25,Boston University,78,1338,"Score(team_a=12, team_b=9)",Mary Washington,180.0,937.0,401.0,3.75
+1166,2020-01-25,Boston University,78,1338,"Score(team_a=13, team_b=9)",American,206.0,843.0,495.0,4.615384615384615
+1167,2020-01-26,Boston University,78,1338,"Score(team_a=15, team_b=7)",Virginia Commonwealth University,126.0,1142.0,196.0,8.0
+1169,2020-01-26,Boston University,78,1338,"Score(team_a=10, team_b=9)",Liberty,79.0,1332.0,6.0,1.5
+1170,2020-01-25,Liberty,79,1332,"Score(team_a=13, team_b=11)",SUNY-Binghamton,130.0,1134.0,198.0,2.3076923076923075
+1171,2020-01-25,Liberty,79,1332,"Score(team_a=10, team_b=12)",Virginia Commonwealth University,126.0,1142.0,190.0,-2.5
+1172,2020-01-25,Liberty,79,1332,"Score(team_a=13, team_b=7)",Williams,191.0,899.0,433.0,6.9230769230769225
+1174,2020-01-26,Liberty,79,1332,"Score(team_a=13, team_b=7)",Villanova,112.0,1192.0,140.0,6.9230769230769225
+1177,2020-02-22,Liberty,79,1332,"Score(team_a=11, team_b=8)",RIT,227.0,750.0,582.0,4.090909090909091
+1178,2020-02-22,Liberty,79,1332,"Score(team_a=13, team_b=8)",Brandeis,129.0,1135.0,197.0,5.769230769230768
+1179,2020-02-22,Liberty,79,1332,"Score(team_a=13, team_b=1)",Regent University,335.0,150.0,1182.0,13.846153846153845
+1180,2020-02-23,Liberty,79,1332,"Score(team_a=15, team_b=6)",Princeton,106.0,1215.0,117.0,9.0
+1182,2020-02-23,Liberty,79,1332,"Score(team_a=10, team_b=8)",Pennsylvania,113.0,1181.0,151.0,3.0
+1183,2020-02-22,Boston College,80,1328,"Score(team_a=11, team_b=7)",Michigan State,150.0,1021.0,307.0,5.454545454545454
+1184,2020-02-22,Boston College,80,1328,"Score(team_a=10, team_b=3)",Mississippi,280.0,484.0,844.0,10.5
+1185,2020-02-22,Boston College,80,1328,"Score(team_a=8, team_b=10)",Vanderbilt,103.0,1218.0,110.0,-3.0
+1186,2020-02-22,Boston College,80,1328,"Score(team_a=12, team_b=7)",Samford,238.0,726.0,602.0,6.25
+1187,2020-02-23,Boston College,80,1328,"Score(team_a=11, team_b=12)",Missouri S&T,84.0,1318.0,10.0,-1.25
+1188,2020-02-23,Boston College,80,1328,"Score(team_a=10, team_b=7)",Michigan State,150.0,1021.0,307.0,4.5
+1189,2020-02-23,Boston College,80,1328,"Score(team_a=12, team_b=8)",Dayton,99.0,1234.0,94.0,5.0
+1191,2020-01-25,North Carolina-Charlotte,81,1326,"Score(team_a=10, team_b=8)",Duke,93.0,1271.0,55.0,3.0
+1192,2020-01-25,North Carolina-Charlotte,81,1326,"Score(team_a=9, team_b=8)",Carleton College-GoP,89.0,1287.0,39.0,1.6666666666666667
+1193,2020-01-25,North Carolina-Charlotte,81,1326,"Score(team_a=12, team_b=5)",Appalachian State,119.0,1158.0,168.0,8.75
+1197,2020-02-14,Cornell,82,1323,"Score(team_a=13, team_b=8)",Florida State,155.0,1009.0,314.0,5.769230769230768
+1199,2020-02-14,Cornell,82,1323,"Score(team_a=13, team_b=8)",Harvard,143.0,1047.0,276.0,5.769230769230768
+1208,2020-02-08,Penn State,83,1318,"Score(team_a=10, team_b=8)",Ohio,109.0,1197.0,121.0,3.0
+1213,2020-02-29,Penn State,83,1318,"Score(team_a=11, team_b=5)",Georgia State,164.0,992.0,326.0,8.181818181818182
+1214,2020-03-01,Penn State,83,1318,"Score(team_a=12, team_b=15)",Indiana,91.0,1281.0,37.0,-3.0
+1215,2020-03-01,Penn State,83,1318,"Score(team_a=13, team_b=9)",Ohio,109.0,1197.0,121.0,4.615384615384615
+1217,2020-02-22,Missouri S&T,84,1318,"Score(team_a=11, team_b=8)",Olivet Nazarene,297.0,421.0,897.0,4.090909090909091
+1218,2020-02-22,Missouri S&T,84,1318,"Score(team_a=13, team_b=5)",Union (Tennessee),214.0,812.0,506.0,9.23076923076923
+1219,2020-02-22,Missouri S&T,84,1318,"Score(team_a=13, team_b=4)",Butler,290.0,456.0,862.0,10.384615384615383
+1222,2020-02-23,Missouri S&T,84,1318,"Score(team_a=15, team_b=10)",Chicago,110.0,1196.0,122.0,5.0
+1223,2020-02-29,Missouri S&T,84,1318,"Score(team_a=9, team_b=8)",Brandeis,129.0,1135.0,183.0,1.6666666666666667
+1224,2020-02-29,Missouri S&T,84,1318,"Score(team_a=13, team_b=10)",Franciscan,117.0,1168.0,150.0,3.4615384615384612
+1225,2020-02-29,Missouri S&T,84,1318,"Score(team_a=13, team_b=1)",High Point,329.0,205.0,1113.0,13.846153846153845
+1226,2020-02-29,Missouri S&T,84,1318,"Score(team_a=12, team_b=13)",Richmond,98.0,1249.0,69.0,-1.1538461538461537
+1227,2020-03-01,Missouri S&T,84,1318,"Score(team_a=11, team_b=13)",Shippensburg,168.0,975.0,343.0,-2.3076923076923075
+1228,2020-03-01,Missouri S&T,84,1318,"Score(team_a=11, team_b=10)",Messiah,137.0,1081.0,237.0,1.3636363636363635
+1229,2020-03-01,Missouri S&T,84,1318,"Score(team_a=13, team_b=9)",North Carolina-Asheville,154.0,1011.0,307.0,4.615384615384615
+1230,2020-03-07,Missouri S&T,84,1318,"Score(team_a=10, team_b=7)",St. Thomas,239.0,723.0,595.0,4.5
+1231,2020-03-07,Missouri S&T,84,1318,"Score(team_a=13, team_b=1)",Coe,364.0,-154.0,1472.0,13.846153846153845
+1234,2020-03-08,Missouri S&T,84,1318,"Score(team_a=8, team_b=4)",Missouri,135.0,1084.0,234.0,7.5
+1235,2020-03-08,Missouri S&T,84,1318,"Score(team_a=9, team_b=4)",Carleton College-GoP,89.0,1287.0,31.0,8.333333333333334
+1238,2020-01-25,Arizona State-B B,85,1315,"Score(team_a=13, team_b=5)",Northern Arizona,104.0,1218.0,97.0,9.23076923076923
+1239,2020-01-25,Arizona State-B B,85,1315,"Score(team_a=13, team_b=5)",Colorado Mesa University,281.0,479.0,836.0,9.23076923076923
+1240,2020-01-25,Arizona State-B B,85,1315,"Score(team_a=12, team_b=7)",New Mexico,163.0,995.0,320.0,6.25
+1241,2020-01-26,Arizona State-B B,85,1315,"Score(team_a=8, team_b=9)",Denver,92.0,1279.0,36.0,-1.6666666666666667
+1242,2020-01-26,Arizona State-B B,85,1315,"Score(team_a=7, team_b=8)",Northern Arizona,104.0,1218.0,97.0,-1.875
+1245,2020-02-01,Arizona State-B B,85,1315,"Score(team_a=9, team_b=10)",Cal State-Long Beach,187.0,917.0,398.0,-1.5
+1247,2020-02-02,Arizona State-B B,85,1315,"Score(team_a=3, team_b=9)",Grand Canyon,176.0,948.0,367.0,-10.0
+1248,2020-02-02,Arizona State-B B,85,1315,"Score(team_a=10, team_b=2)",Cal Poly-Pomona,192.0,896.0,419.0,12.0
+1249,2020-02-02,Arizona State-B B,85,1315,"Score(team_a=12, team_b=6)",Chico State,128.0,1138.0,177.0,7.5
+1250,2020-02-02,Arizona State-B B,85,1315,"Score(team_a=8, team_b=5)",California-Irvine,157.0,1008.0,307.0,5.625
+1251,2020-02-22,Arizona State-B B,85,1315,"Score(team_a=10, team_b=7)",Loyola Marymount,189.0,913.0,402.0,4.5
+1253,2020-02-22,Arizona State-B B,85,1315,"Score(team_a=9, team_b=6)",Cal Poly-Pomona,192.0,896.0,419.0,5.0
+1256,2020-02-08,Claremont,86,1301,"Score(team_a=11, team_b=7)",Lewis & Clark,167.0,983.0,318.0,5.454545454545454
+1261,2020-02-09,Claremont,86,1301,"Score(team_a=5, team_b=4)",Carleton College-GoP,89.0,1287.0,14.0,3.0
+1264,2020-02-29,Claremont,86,1301,"Score(team_a=10, team_b=3)",Cal State-Long Beach,187.0,917.0,384.0,10.5
+1265,2020-02-29,Claremont,86,1301,"Score(team_a=9, team_b=6)",Loyola Marymount,189.0,913.0,388.0,5.0
+1284,2020-02-01,Rice,88,1290,"Score(team_a=13, team_b=9)",Colorado College,172.0,962.0,328.0,4.615384615384615
+1285,2020-02-02,Rice,88,1290,"Score(team_a=5, team_b=15)",Sul Ross State University,194.0,892.0,398.0,-10.0
+1286,2020-02-02,Rice,88,1290,"Score(team_a=15, team_b=8)",Colorado College,172.0,962.0,328.0,7.0
+1287,2020-02-02,Rice,88,1290,"Score(team_a=14, team_b=10)",Texas Tech,120.0,1155.0,135.0,4.285714285714286
+1288,2020-02-22,Rice,88,1290,"Score(team_a=14, team_b=9)",Kansas State,222.0,771.0,519.0,5.357142857142857
+1289,2020-02-22,Rice,88,1290,"Score(team_a=12, team_b=14)",Kansas,105.0,1217.0,73.0,-2.142857142857143
+1290,2020-02-22,Rice,88,1290,"Score(team_a=12, team_b=13)",Oklahoma,138.0,1078.0,212.0,-1.1538461538461537
+1291,2020-02-23,Rice,88,1290,"Score(team_a=13, team_b=6)",Arkansas,207.0,841.0,449.0,8.076923076923077
+1292,2020-02-23,Rice,88,1290,"Score(team_a=10, team_b=11)",Denver,92.0,1279.0,11.0,-1.3636363636363635
+1293,2020-02-23,Rice,88,1290,"Score(team_a=15, team_b=8)",Oklahoma,138.0,1078.0,212.0,7.0
+1294,2020-02-23,Rice,88,1290,"Score(team_a=9, team_b=3)",Texas Christian,140.0,1066.0,224.0,10.0
+1295,2020-01-25,Carleton College-GoP,89,1287,"Score(team_a=8, team_b=12)",Duke,93.0,1271.0,16.0,-5.0
+1298,2020-01-26,Carleton College-GoP,89,1287,"Score(team_a=10, team_b=5)",Florida State,155.0,1009.0,278.0,7.5
+1299,2020-01-26,Carleton College-GoP,89,1287,"Score(team_a=11, team_b=7)",North Carolina-Asheville,154.0,1011.0,276.0,5.454545454545454
+1301,2020-02-08,Carleton College-GoP,89,1287,"Score(team_a=10, team_b=3)",Chico State,128.0,1138.0,149.0,10.5
+1304,2020-02-08,Carleton College-GoP,89,1287,"Score(team_a=13, team_b=0)",San Jose State,289.0,465.0,822.0,14.999999999999998
+1310,2020-03-07,Carleton College-GoP,89,1287,"Score(team_a=9, team_b=8)",Nebraska,148.0,1024.0,263.0,1.6666666666666667
+1311,2020-03-07,Carleton College-GoP,89,1287,"Score(team_a=8, team_b=5)",Chicago,110.0,1196.0,91.0,5.625
+1312,2020-03-08,Carleton College-GoP,89,1287,"Score(team_a=10, team_b=9)",Minnesota-Duluth,115.0,1179.0,108.0,1.5
+1314,2020-03-08,Carleton College-GoP,89,1287,"Score(team_a=8, team_b=9)",Missouri,135.0,1084.0,203.0,-1.6666666666666667
+1328,2020-02-17,Southern California,90,1285,"Score(team_a=15, team_b=2)",San Diego State,158.0,1005.0,280.0,13.0
+1335,2020-01-25,Indiana,91,1281,"Score(team_a=8, team_b=9)",Florida State,155.0,1009.0,272.0,-1.6666666666666667
+1338,2020-01-26,Indiana,91,1281,"Score(team_a=11, team_b=9)",Appalachian State,119.0,1158.0,123.0,2.727272727272727
+1340,2020-01-26,Indiana,91,1281,"Score(team_a=9, team_b=4)",North Carolina-Asheville,154.0,1011.0,270.0,8.333333333333334
+1341,2020-02-29,Indiana,91,1281,"Score(team_a=13, team_b=5)",Kennesaw State,198.0,872.0,409.0,9.23076923076923
+1346,2020-03-01,Indiana,91,1281,"Score(team_a=9, team_b=12)",Maryland,114.0,1181.0,100.0,-3.75
+1350,2020-01-25,Denver,92,1279,"Score(team_a=11, team_b=6)",Grand Canyon,176.0,948.0,331.0,6.8181818181818175
+1353,2020-01-26,Denver,92,1279,"Score(team_a=11, team_b=9)",New Mexico,163.0,995.0,284.0,2.727272727272727
+1356,2020-02-22,Denver,92,1279,"Score(team_a=14, team_b=7)",Pacific Lutheran,156.0,1009.0,270.0,7.5
+1358,2020-02-22,Denver,92,1279,"Score(team_a=13, team_b=7)",Colorado School of Mines,203.0,850.0,429.0,6.9230769230769225
+1359,2020-02-23,Denver,92,1279,"Score(team_a=13, team_b=12)",Texas State,94.0,1269.0,10.0,1.1538461538461537
+1362,2020-02-23,Denver,92,1279,"Score(team_a=11, team_b=9)",Truman State,97.0,1250.0,29.0,2.727272727272727
+1363,2020-03-07,Denver,92,1279,"Score(team_a=13, team_b=7)",Colorado-Colorado Springs,188.0,917.0,362.0,6.9230769230769225
+1364,2020-03-07,Denver,92,1279,"Score(team_a=13, team_b=3)",Colorado Mesa University,281.0,479.0,800.0,11.538461538461537
+1365,2020-03-07,Denver,92,1279,"Score(team_a=6, team_b=13)",Air Force,152.0,1013.0,266.0,-8.076923076923077
+1367,2020-03-08,Denver,92,1279,"Score(team_a=11, team_b=9)",Colorado College,172.0,962.0,317.0,2.727272727272727
+1368,2020-03-08,Denver,92,1279,"Score(team_a=9, team_b=8)",Cutthroat Spring 2020,118.0,1166.0,113.0,1.6666666666666667
+1369,2020-03-08,Denver,92,1279,"Score(team_a=9, team_b=6)",Air Force,152.0,1013.0,266.0,5.0
+1379,2020-02-08,Duke,93,1271,"Score(team_a=12, team_b=11)",Appalachian State,119.0,1158.0,113.0,1.25
+1383,2020-02-29,Duke,93,1271,"Score(team_a=7, team_b=8)",Maryland,114.0,1181.0,90.0,-1.875
+1385,2020-03-01,Duke,93,1271,"Score(team_a=11, team_b=9)",Georgia State,164.0,992.0,279.0,2.727272727272727
+1386,2020-03-01,Duke,93,1271,"Score(team_a=15, team_b=8)",Johns Hopkins,133.0,1103.0,168.0,7.0
+1387,2020-02-22,Texas State,94,1269,"Score(team_a=15, team_b=4)",Baylor,250.0,664.0,605.0,11.0
+1389,2020-02-22,Texas State,94,1269,"Score(team_a=13, team_b=9)",John Brown,162.0,996.0,273.0,4.615384615384615
+1391,2020-02-23,Texas State,94,1269,"Score(team_a=15, team_b=8)",Arkansas,207.0,841.0,428.0,7.0
+1392,2020-02-23,Texas State,94,1269,"Score(team_a=13, team_b=10)",Colorado College,172.0,962.0,307.0,3.4615384615384612
+1393,2020-02-23,Texas State,94,1269,"Score(team_a=15, team_b=14)",Nebraska,148.0,1024.0,245.0,1.0
+1394,2020-02-29,Texas State,94,1269,"Score(team_a=13, team_b=2)",Mississippi,280.0,484.0,785.0,12.692307692307692
+1395,2020-02-29,Texas State,94,1269,"Score(team_a=13, team_b=4)",Florida State,155.0,1009.0,260.0,10.384615384615383
+1396,2020-02-29,Texas State,94,1269,"Score(team_a=13, team_b=1)",Sam Houston State,233.0,739.0,530.0,13.846153846153845
+1397,2020-02-29,Texas State,94,1269,"Score(team_a=13, team_b=5)",Iowa,161.0,997.0,272.0,9.23076923076923
+1398,2020-03-01,Texas State,94,1269,"Score(team_a=9, team_b=12)",Jacksonville State,127.0,1139.0,130.0,-3.75
+1400,2020-03-01,Texas State,94,1269,"Score(team_a=13, team_b=12)",Mississippi State,145.0,1030.0,239.0,1.1538461538461537
+1407,2020-02-29,Connecticut,95,1262,"Score(team_a=11, team_b=5)",East Carolina,254.0,637.0,625.0,8.181818181818182
+1408,2020-02-29,Connecticut,95,1262,"Score(team_a=11, team_b=7)",Vermont-C,241.0,707.0,555.0,5.454545454545454
+1410,2020-02-29,Connecticut,95,1262,"Score(team_a=13, team_b=3)",Charleston,298.0,412.0,850.0,11.538461538461537
+1412,2020-03-01,Connecticut,95,1262,"Score(team_a=15, team_b=4)",East Carolina,254.0,637.0,625.0,11.0
+1415,2020-02-01,North Texas,96,1256,"Score(team_a=8, team_b=9)",Oklahoma,138.0,1078.0,178.0,-1.6666666666666667
+1416,2020-02-01,North Texas,96,1256,"Score(team_a=9, team_b=8)",Texas Christian,140.0,1066.0,190.0,1.6666666666666667
+1417,2020-02-01,North Texas,96,1256,"Score(team_a=11, team_b=6)",Texas-Arlington,334.0,155.0,1101.0,6.8181818181818175
+1418,2020-02-02,North Texas,96,1256,"Score(team_a=6, team_b=15)",Sul Ross State University,194.0,892.0,364.0,-9.0
+1420,2020-02-02,North Texas,96,1256,"Score(team_a=12, team_b=10)",Northern Iowa,272.0,533.0,723.0,2.5
+1421,2020-02-22,North Texas,96,1256,"Score(team_a=15, team_b=2)",Arkansas State,307.0,364.0,892.0,13.0
+1422,2020-02-22,North Texas,96,1256,"Score(team_a=15, team_b=4)",Southern Methodist,277.0,498.0,758.0,11.0
+1424,2020-02-22,North Texas,96,1256,"Score(team_a=14, team_b=8)",Luther,170.0,971.0,285.0,6.428571428571429
+1425,2020-02-23,North Texas,96,1256,"Score(team_a=14, team_b=13)",Kansas,105.0,1217.0,39.0,1.0714285714285714
+1426,2020-02-23,North Texas,96,1256,"Score(team_a=10, team_b=14)",Truman State,97.0,1250.0,6.0,-4.285714285714286
+1427,2020-02-23,North Texas,96,1256,"Score(team_a=10, team_b=12)",Texas Christian,140.0,1066.0,190.0,-2.5
+1428,2020-02-23,North Texas,96,1256,"Score(team_a=11, team_b=3)",Oklahoma,138.0,1078.0,178.0,10.909090909090908
+1430,2020-02-22,Truman State,97,1250,"Score(team_a=13, team_b=8)",Colorado School of Mines,203.0,850.0,400.0,5.769230769230768
+1431,2020-02-22,Truman State,97,1250,"Score(team_a=12, team_b=8)",Texas Christian,140.0,1066.0,184.0,5.0
+1436,2020-03-07,Truman State,97,1250,"Score(team_a=13, team_b=7)",Illinois State,169.0,971.0,279.0,6.9230769230769225
+1437,2020-03-07,Truman State,97,1250,"Score(team_a=12, team_b=5)",Carleton College Karls,232.0,740.0,510.0,8.75
+1438,2020-03-07,Truman State,97,1250,"Score(team_a=13, team_b=10)",Chicago,110.0,1196.0,54.0,3.4615384615384612
+1439,2020-03-07,Truman State,97,1250,"Score(team_a=10, team_b=5)",Nebraska,148.0,1024.0,226.0,7.5
+1441,2020-03-08,Truman State,97,1250,"Score(team_a=8, team_b=13)",Chicago,110.0,1196.0,54.0,-5.769230769230768
+1443,2020-03-08,Truman State,97,1250,"Score(team_a=9, team_b=6)",Missouri State,209.0,832.0,418.0,5.0
+1444,2020-01-25,Richmond,98,1249,"Score(team_a=7, team_b=8)",North Carolina-Asheville,154.0,1011.0,238.0,-1.875
+1448,2020-01-26,Richmond,98,1249,"Score(team_a=9, team_b=11)",Appalachian State,119.0,1158.0,91.0,-2.727272727272727
+1449,2020-01-26,Richmond,98,1249,"Score(team_a=9, team_b=6)",Air Force,152.0,1013.0,236.0,5.0
+1450,2020-02-29,Richmond,98,1249,"Score(team_a=13, team_b=11)",Oberlin,144.0,1045.0,204.0,2.3076923076923075
+1451,2020-02-29,Richmond,98,1249,"Score(team_a=9, team_b=10)",Portland,124.0,1146.0,103.0,-1.5
+1452,2020-02-29,Richmond,98,1249,"Score(team_a=11, team_b=9)",Berry,193.0,896.0,353.0,2.727272727272727
+1454,2020-03-01,Richmond,98,1249,"Score(team_a=12, team_b=7)",Franciscan,117.0,1168.0,81.0,6.25
+1455,2020-03-01,Richmond,98,1249,"Score(team_a=12, team_b=8)",Xavier,177.0,946.0,303.0,5.0
+1456,2020-03-01,Richmond,98,1249,"Score(team_a=11, team_b=9)",Messiah,137.0,1081.0,168.0,2.727272727272727
+1457,2020-02-22,Dayton,99,1234,"Score(team_a=9, team_b=10)",Ball State,141.0,1054.0,180.0,-1.5
+1458,2020-02-22,Dayton,99,1234,"Score(team_a=13, team_b=4)",Toledo,248.0,676.0,558.0,10.384615384615383
+1460,2020-02-22,Dayton,99,1234,"Score(team_a=11, team_b=7)",Union (Tennessee),214.0,812.0,422.0,5.454545454545454
+1461,2020-02-23,Dayton,99,1234,"Score(team_a=11, team_b=13)",Vanderbilt,103.0,1218.0,16.0,-2.3076923076923075
+1462,2020-02-23,Dayton,99,1234,"Score(team_a=13, team_b=4)",Ball State,141.0,1054.0,180.0,10.384615384615383
+1464,2020-03-07,Dayton,99,1234,"Score(team_a=10, team_b=4)",Towson,252.0,649.0,585.0,9.0
+1465,2020-03-07,Dayton,99,1234,"Score(team_a=13, team_b=5)",RIT,227.0,750.0,484.0,9.23076923076923
+1466,2020-03-07,Dayton,99,1234,"Score(team_a=11, team_b=6)",George Washington,160.0,1000.0,234.0,6.8181818181818175
+1467,2020-03-08,Dayton,99,1234,"Score(team_a=13, team_b=9)",Rhode Island,245.0,701.0,533.0,4.615384615384615
+1468,2020-03-08,Dayton,99,1234,"Score(team_a=13, team_b=11)",Wesleyan,165.0,990.0,244.0,2.3076923076923075
+1469,2020-03-08,Dayton,99,1234,"Score(team_a=9, team_b=7)",George Washington,160.0,1000.0,234.0,3.3333333333333335
+1473,2020-02-22,Ave Maria,100,1221,"Score(team_a=13, team_b=8)",Stetson,278.0,487.0,734.0,5.769230769230768
+1475,2020-02-23,Ave Maria,100,1221,"Score(team_a=13, team_b=12)",Florida Tech,134.0,1088.0,133.0,1.1538461538461537
+1478,2020-01-18,Central Florida,101,1220,"Score(team_a=10, team_b=11)",Illinois State,169.0,971.0,249.0,-1.3636363636363635
+1480,2020-01-18,Central Florida,101,1220,"Score(team_a=15, team_b=8)",Mississippi,280.0,484.0,736.0,7.0
+1482,2020-01-19,Central Florida,101,1220,"Score(team_a=7, team_b=13)",Vanderbilt,103.0,1218.0,2.0,-6.9230769230769225
+1490,2020-02-16,Central Florida,101,1220,"Score(team_a=15, team_b=10)",Harvard,143.0,1047.0,173.0,5.0
+1492,2020-02-29,Central Florida,101,1220,"Score(team_a=13, team_b=5)",Johns Hopkins,133.0,1103.0,117.0,9.23076923076923
+1494,2020-02-29,Central Florida,101,1220,"Score(team_a=5, team_b=13)",Ohio,109.0,1197.0,23.0,-9.23076923076923
+1498,2020-03-01,Central Florida,101,1220,"Score(team_a=15, team_b=14)",Ohio,109.0,1197.0,23.0,1.0
+1502,2020-01-18,Gonzaga,102,1219,"Score(team_a=13, team_b=4)",George Fox,333.0,156.0,1063.0,10.384615384615383
+1504,2020-01-19,Gonzaga,102,1219,"Score(team_a=13, team_b=12)",Washington State,111.0,1196.0,23.0,1.1538461538461537
+1508,2020-01-18,Vanderbilt,103,1218,"Score(team_a=8, team_b=7)",Mississippi State,145.0,1030.0,188.0,1.875
+1510,2020-01-19,Vanderbilt,103,1218,"Score(team_a=8, team_b=15)",Mississippi State,145.0,1030.0,188.0,-7.0
+1512,2020-02-22,Vanderbilt,103,1218,"Score(team_a=13, team_b=6)",Mississippi,280.0,484.0,734.0,8.076923076923077
+1513,2020-02-22,Vanderbilt,103,1218,"Score(team_a=13, team_b=8)",Michigan State,150.0,1021.0,197.0,5.769230769230768
+1516,2020-02-23,Vanderbilt,103,1218,"Score(team_a=13, team_b=10)",Chicago,110.0,1196.0,22.0,3.4615384615384612
+1518,2020-01-25,Northern Arizona,104,1218,"Score(team_a=13, team_b=6)",Colorado Mesa University,281.0,479.0,739.0,8.076923076923077
+1521,2020-01-25,Northern Arizona,104,1218,"Score(team_a=12, team_b=10)",New Mexico,163.0,995.0,223.0,2.5
+1527,2020-02-29,Northern Arizona,104,1218,"Score(team_a=1, team_b=0)",Boise State,228.0,747.0,471.0,15.0
+1528,2020-02-29,Northern Arizona,104,1218,"Score(team_a=11, team_b=4)",Idaho,331.0,180.0,1038.0,9.545454545454545
+1529,2020-02-29,Northern Arizona,104,1218,"Score(team_a=11, team_b=8)",Utah Valley University,186.0,918.0,300.0,4.090909090909091
+1533,2020-02-22,Kansas,105,1217,"Score(team_a=14, team_b=11)",Oklahoma,138.0,1078.0,139.0,3.2142857142857144
+1535,2020-02-22,Kansas,105,1217,"Score(team_a=13, team_b=8)",Kansas State,222.0,771.0,446.0,5.769230769230768
+1538,2020-02-23,Kansas,105,1217,"Score(team_a=11, team_b=12)",Nebraska,148.0,1024.0,193.0,-1.25
+1539,2020-03-07,Kansas,105,1217,"Score(team_a=12, team_b=7)",Wisconsin-Oshkosh,301.0,385.0,832.0,6.25
+1540,2020-03-07,Kansas,105,1217,"Score(team_a=11, team_b=7)",Northern Iowa,272.0,533.0,684.0,5.454545454545454
+1542,2020-03-07,Kansas,105,1217,"Score(team_a=12, team_b=11)",St. Thomas,239.0,723.0,494.0,1.25
+1546,2020-02-22,Princeton,106,1215,"Score(team_a=12, team_b=11)",SUNY-Binghamton,130.0,1134.0,81.0,1.25
+1547,2020-02-22,Princeton,106,1215,"Score(team_a=13, team_b=3)",Regent University,335.0,150.0,1065.0,11.538461538461537
+1548,2020-02-22,Princeton,106,1215,"Score(team_a=13, team_b=8)",Delaware,139.0,1076.0,139.0,5.769230769230768
+1551,2020-02-23,Princeton,106,1215,"Score(team_a=14, team_b=6)",American,206.0,843.0,372.0,8.571428571428571
+1552,2020-02-29,Rochester,107,1211,"Score(team_a=11, team_b=1)",Indiana (Pennsylvania),336.0,147.0,1064.0,13.636363636363635
+1554,2020-02-29,Rochester,107,1211,"Score(team_a=9, team_b=1)",Akron,235.0,734.0,477.0,13.333333333333334
+1561,2020-02-09,Ohio,109,1197,"Score(team_a=13, team_b=8)",Emory,121.0,1150.0,47.0,5.769230769230768
+1565,2020-02-29,Ohio,109,1197,"Score(team_a=4, team_b=13)",Johns Hopkins,133.0,1103.0,94.0,-10.384615384615383
+1566,2020-03-01,Ohio,109,1197,"Score(team_a=11, team_b=12)",Maryland,114.0,1181.0,16.0,-1.25
+1569,2020-02-22,Chicago,110,1196,"Score(team_a=12, team_b=8)",Samford,238.0,726.0,470.0,5.0
+1570,2020-02-22,Chicago,110,1196,"Score(team_a=13, team_b=8)",Belmont University,308.0,353.0,843.0,5.769230769230768
+1571,2020-02-22,Chicago,110,1196,"Score(team_a=9, team_b=6)",Mississippi State,145.0,1030.0,166.0,5.0
+1572,2020-02-23,Chicago,110,1196,"Score(team_a=12, team_b=11)",Ball State,141.0,1054.0,142.0,1.25
+1575,2020-03-07,Chicago,110,1196,"Score(team_a=13, team_b=1)",Carleton College Karls,232.0,740.0,456.0,13.846153846153845
+1576,2020-03-07,Chicago,110,1196,"Score(team_a=13, team_b=2)",Illinois State,169.0,971.0,225.0,12.692307692307692
+1579,2020-03-08,Chicago,110,1196,"Score(team_a=13, team_b=4)",Kansas State,222.0,771.0,425.0,10.384615384615383
+1582,2020-03-08,Chicago,110,1196,"Score(team_a=13, team_b=6)",Luther,170.0,971.0,225.0,8.076923076923077
+1583,2020-01-18,Washington State,111,1196,"Score(team_a=15, team_b=0)",Portland State,345.0,65.0,1131.0,15.0
+1584,2020-01-18,Washington State,111,1196,"Score(team_a=15, team_b=5)",Central Washington,362.0,-95.0,1291.0,10.0
+1593,2020-02-29,Washington State,111,1196,"Score(team_a=11, team_b=5)",Montana,195.0,885.0,311.0,8.181818181818182
+1598,2020-03-07,Washington State,111,1196,"Score(team_a=12, team_b=11)",Seattle,175.0,949.0,247.0,1.25
+1599,2020-03-08,Washington State,111,1196,"Score(team_a=13, team_b=0)",Portland State,345.0,65.0,1131.0,14.999999999999998
+1601,2020-03-08,Washington State,111,1196,"Score(team_a=13, team_b=8)",Seattle,175.0,949.0,247.0,5.769230769230768
+1602,2020-03-08,Washington State,111,1196,"Score(team_a=11, team_b=13)",Portland,124.0,1146.0,50.0,-2.3076923076923075
+1603,2020-01-25,Villanova,112,1192,"Score(team_a=13, team_b=5)",American,206.0,843.0,349.0,9.23076923076923
+1605,2020-01-25,Villanova,112,1192,"Score(team_a=13, team_b=6)",George Mason,201.0,855.0,337.0,8.076923076923077
+1606,2020-01-25,Villanova,112,1192,"Score(team_a=13, team_b=6)",Mary Washington,180.0,937.0,255.0,8.076923076923077
+1608,2020-01-26,Villanova,112,1192,"Score(team_a=14, team_b=11)",Syracuse,171.0,970.0,222.0,3.2142857142857144
+1610,2020-02-22,Villanova,112,1192,"Score(team_a=12, team_b=7)",Haverford,275.0,505.0,687.0,6.25
+1611,2020-02-22,Villanova,112,1192,"Score(team_a=11, team_b=1)",SUNY-Cortland,313.0,305.0,887.0,13.636363636363635
+1612,2020-02-22,Villanova,112,1192,"Score(team_a=12, team_b=6)",Stevens Tech,234.0,737.0,455.0,7.5
+1613,2020-02-23,Villanova,112,1192,"Score(team_a=13, team_b=6)",Swarthmore,330.0,195.0,997.0,8.076923076923077
+1614,2020-02-23,Villanova,112,1192,"Score(team_a=11, team_b=8)",Ithaca,246.0,682.0,510.0,4.090909090909091
+1615,2020-02-23,Villanova,112,1192,"Score(team_a=15, team_b=10)",Stevens Tech,234.0,737.0,455.0,5.0
+1616,2020-02-23,Villanova,112,1192,"Score(team_a=15, team_b=9)",Amherst College,181.0,935.0,257.0,6.0
+1619,2020-02-22,Pennsylvania,113,1181,"Score(team_a=13, team_b=10)",Drexel,211.0,826.0,355.0,3.4615384615384612
+1620,2020-02-23,Pennsylvania,113,1181,"Score(team_a=13, team_b=11)",Brandeis,129.0,1135.0,46.0,2.3076923076923075
+1626,2020-02-09,Maryland,114,1181,"Score(team_a=10, team_b=12)",Appalachian State,119.0,1158.0,23.0,-2.5
+1636,2020-03-07,Minnesota-Duluth,115,1179,"Score(team_a=10, team_b=8)",Luther,170.0,971.0,208.0,3.0
+1637,2020-03-07,Minnesota-Duluth,115,1179,"Score(team_a=11, team_b=5)",Kansas State,222.0,771.0,408.0,8.181818181818182
+1639,2020-03-08,Minnesota-Duluth,115,1179,"Score(team_a=5, team_b=6)",Luther,170.0,971.0,208.0,-2.5
+1640,2020-03-08,Minnesota-Duluth,115,1179,"Score(team_a=9, team_b=8)",Missouri State,209.0,832.0,347.0,1.6666666666666667
+1642,2020-03-07,Marist,116,1174,"Score(team_a=10, team_b=6)",Amherst College,181.0,935.0,239.0,6.0
+1643,2020-03-07,Marist,116,1174,"Score(team_a=12, team_b=6)",MIT,274.0,518.0,656.0,7.5
+1644,2020-03-07,Marist,116,1174,"Score(team_a=13, team_b=6)",SUNY-Cortland,313.0,305.0,869.0,8.076923076923077
+1645,2020-03-07,Marist,116,1174,"Score(team_a=13, team_b=8)",Colby,205.0,843.0,331.0,5.769230769230768
+1647,2020-03-08,Marist,116,1174,"Score(team_a=15, team_b=13)",Williams,191.0,899.0,275.0,2.0
+1648,2020-02-29,Franciscan,117,1168,"Score(team_a=13, team_b=9)",Berry,193.0,896.0,272.0,4.615384615384615
+1649,2020-02-29,Franciscan,117,1168,"Score(team_a=13, team_b=9)",Shippensburg,168.0,975.0,193.0,4.615384615384615
+1651,2020-02-29,Franciscan,117,1168,"Score(team_a=10, team_b=13)",Portland,124.0,1146.0,22.0,-3.4615384615384612
+1653,2020-03-01,Franciscan,117,1168,"Score(team_a=13, team_b=9)",Navy,122.0,1150.0,18.0,4.615384615384615
+1654,2020-03-01,Franciscan,117,1168,"Score(team_a=13, team_b=11)",Brandeis,129.0,1135.0,33.0,2.3076923076923075
+1655,2020-03-07,Cutthroat Spring 2020,118,1166,"Score(team_a=13, team_b=4)",Colorado-Denver,286.0,470.0,696.0,10.384615384615383
+1656,2020-03-07,Cutthroat Spring 2020,118,1166,"Score(team_a=11, team_b=4)",Colorado College,172.0,962.0,204.0,9.545454545454545
+1660,2020-03-08,Cutthroat Spring 2020,118,1166,"Score(team_a=8, team_b=9)",Colorado-Colorado Springs,188.0,917.0,249.0,-1.6666666666666667
+1663,2020-01-25,Appalachian State,119,1158,"Score(team_a=10, team_b=9)",Air Force,152.0,1013.0,145.0,1.5
+1671,2020-02-15,Appalachian State,119,1158,"Score(team_a=10, team_b=9)",Wake Forest,244.0,701.0,457.0,1.5
+1672,2020-02-15,Appalachian State,119,1158,"Score(team_a=11, team_b=2)",Charleston,298.0,412.0,746.0,12.272727272727272
+1673,2020-02-15,Appalachian State,119,1158,"Score(team_a=11, team_b=3)",East Carolina,254.0,637.0,521.0,10.909090909090908
+1674,2020-02-15,Appalachian State,119,1158,"Score(team_a=12, team_b=3)",North Florida,310.0,333.0,825.0,11.25
+1675,2020-02-16,Appalachian State,119,1158,"Score(team_a=14, team_b=5)",Wake Forest,244.0,701.0,457.0,9.642857142857142
+1676,2020-02-16,Appalachian State,119,1158,"Score(team_a=10, team_b=11)",Clemson,131.0,1131.0,27.0,-1.3636363636363635
+1678,2020-02-01,Texas Tech,120,1155,"Score(team_a=12, team_b=11)",Sul Ross State University,194.0,892.0,263.0,1.25
+1679,2020-02-01,Texas Tech,120,1155,"Score(team_a=13, team_b=10)",Texas-San Antonio,291.0,451.0,704.0,3.4615384615384612
+1680,2020-02-01,Texas Tech,120,1155,"Score(team_a=8, team_b=9)",Arkansas,207.0,841.0,314.0,-1.6666666666666667
+1681,2020-02-02,Texas Tech,120,1155,"Score(team_a=15, team_b=10)",Northern Iowa,272.0,533.0,622.0,5.0
+1682,2020-02-02,Texas Tech,120,1155,"Score(team_a=6, team_b=13)",Arkansas,207.0,841.0,314.0,-8.076923076923077
+1683,2020-02-02,Texas Tech,120,1155,"Score(team_a=14, team_b=12)",Baylor,250.0,664.0,491.0,2.142857142857143
+1685,2020-02-29,Texas Tech,120,1155,"Score(team_a=13, team_b=11)",Alabama-Birmingham,184.0,924.0,231.0,2.3076923076923075
+1686,2020-02-29,Texas Tech,120,1155,"Score(team_a=9, team_b=6)",Sul Ross State University,194.0,892.0,263.0,5.0
+1689,2020-03-01,Texas Tech,120,1155,"Score(team_a=8, team_b=12)",Emory,121.0,1150.0,5.0,-5.0
+1690,2020-03-01,Texas Tech,120,1155,"Score(team_a=9, team_b=8)",Mississippi State,145.0,1030.0,125.0,1.6666666666666667
+1696,2020-02-29,Emory,121,1150,"Score(team_a=13, team_b=6)",St John's,294.0,436.0,714.0,8.076923076923077
+1697,2020-02-29,Emory,121,1150,"Score(team_a=13, team_b=5)",Mississippi State,145.0,1030.0,120.0,9.23076923076923
+1698,2020-02-29,Emory,121,1150,"Score(team_a=13, team_b=5)",Texas-San Antonio,291.0,451.0,699.0,9.23076923076923
+1700,2020-03-01,Emory,121,1150,"Score(team_a=11, team_b=10)",Iowa,161.0,997.0,153.0,1.3636363636363635
+1703,2020-03-01,Emory,121,1150,"Score(team_a=11, team_b=13)",Jacksonville State,127.0,1139.0,11.0,-2.3076923076923075
+1704,2020-01-25,Navy,122,1150,"Score(team_a=9, team_b=13)",Syracuse,171.0,970.0,180.0,-4.615384615384615
+1706,2020-01-25,Navy,122,1150,"Score(team_a=13, team_b=11)",Drexel,211.0,826.0,324.0,2.3076923076923075
+1708,2020-01-26,Navy,122,1150,"Score(team_a=14, team_b=9)",American,206.0,843.0,307.0,5.357142857142857
+1709,2020-01-26,Navy,122,1150,"Score(team_a=15, team_b=7)",George Mason,201.0,855.0,295.0,8.0
+1710,2020-01-26,Navy,122,1150,"Score(team_a=11, team_b=7)",Mary Washington,180.0,937.0,213.0,5.454545454545454
+1711,2020-02-29,Navy,122,1150,"Score(team_a=8, team_b=13)",Xavier,177.0,946.0,204.0,-5.769230769230768
+1712,2020-02-29,Navy,122,1150,"Score(team_a=13, team_b=11)",Oberlin,144.0,1045.0,105.0,2.3076923076923075
+1713,2020-02-29,Navy,122,1150,"Score(team_a=13, team_b=3)",Campbell,265.0,575.0,575.0,11.538461538461537
+1714,2020-02-29,Navy,122,1150,"Score(team_a=11, team_b=9)",Messiah,137.0,1081.0,69.0,2.727272727272727
+1715,2020-03-01,Navy,122,1150,"Score(team_a=13, team_b=7)",North Carolina-Asheville,154.0,1011.0,139.0,6.9230769230769225
+1717,2020-03-01,Navy,122,1150,"Score(team_a=13, team_b=9)",Air Force,152.0,1013.0,137.0,4.615384615384615
+1718,2020-03-07,Wright State,123,1149,"Score(team_a=12, team_b=8)",Denison,271.0,534.0,615.0,5.0
+1723,2020-02-29,Portland,124,1146,"Score(team_a=11, team_b=13)",North Carolina-Asheville,154.0,1011.0,135.0,-2.3076923076923075
+1726,2020-02-29,Portland,124,1146,"Score(team_a=13, team_b=4)",Campbell,265.0,575.0,571.0,10.384615384615383
+1727,2020-03-01,Portland,124,1146,"Score(team_a=11, team_b=12)",Xavier,177.0,946.0,200.0,-1.25
+1728,2020-03-01,Portland,124,1146,"Score(team_a=13, team_b=11)",Davidson,153.0,1011.0,135.0,2.3076923076923075
+1729,2020-03-01,Portland,124,1146,"Score(team_a=13, team_b=11)",Berry,193.0,896.0,250.0,2.3076923076923075
+1730,2020-03-07,Portland,124,1146,"Score(team_a=13, team_b=1)",Central Washington,362.0,-95.0,1241.0,13.846153846153845
+1732,2020-03-07,Portland,124,1146,"Score(team_a=13, team_b=9)",Whitworth,253.0,647.0,499.0,4.615384615384615
+1733,2020-03-08,Portland,124,1146,"Score(team_a=11, team_b=12)",Lewis & Clark,167.0,983.0,163.0,-1.25
+1734,2020-03-08,Portland,124,1146,"Score(team_a=13, team_b=4)",Whitworth,253.0,647.0,499.0,10.384615384615383
+1737,2020-02-01,Arizona State,125,1145,"Score(team_a=12, team_b=5)",Caltech,256.0,635.0,510.0,8.75
+1738,2020-02-01,Arizona State,125,1145,"Score(team_a=12, team_b=3)",Fresno State,312.0,315.0,830.0,11.25
+1739,2020-02-01,Arizona State,125,1145,"Score(team_a=5, team_b=8)",Cal Poly-Pomona,192.0,896.0,249.0,-5.625
+1743,2020-02-02,Arizona State,125,1145,"Score(team_a=10, team_b=6)",Cal State-Long Beach,187.0,917.0,228.0,6.0
+1744,2020-01-25,Virginia Commonwealth University,126,1142,"Score(team_a=13, team_b=11)",Williams,191.0,899.0,243.0,2.3076923076923075
+1746,2020-01-25,Virginia Commonwealth University,126,1142,"Score(team_a=11, team_b=10)",SUNY-Binghamton,130.0,1134.0,8.0,1.3636363636363635
+1747,2020-01-25,Virginia Commonwealth University,126,1142,"Score(team_a=9, team_b=12)",Christopher Newport,247.0,680.0,462.0,-3.75
+1750,2020-01-26,Virginia Commonwealth University,126,1142,"Score(team_a=15, team_b=6)",Syracuse,171.0,970.0,172.0,9.0
+1751,2020-02-29,Virginia Commonwealth University,126,1142,"Score(team_a=10, team_b=6)",Maryland-Baltimore County,316.0,282.0,860.0,6.0
+1752,2020-02-29,Virginia Commonwealth University,126,1142,"Score(team_a=11, team_b=6)",New Hampshire,251.0,659.0,483.0,6.8181818181818175
+1753,2020-02-29,Virginia Commonwealth University,126,1142,"Score(team_a=9, team_b=5)",Catholic,216.0,803.0,339.0,6.666666666666667
+1754,2020-02-29,Virginia Commonwealth University,126,1142,"Score(team_a=11, team_b=8)",George Mason,201.0,855.0,287.0,4.090909090909091
+1755,2020-03-01,Virginia Commonwealth University,126,1142,"Score(team_a=12, team_b=8)",American,206.0,843.0,299.0,5.0
+1756,2020-03-01,Virginia Commonwealth University,126,1142,"Score(team_a=12, team_b=7)",Catholic,216.0,803.0,339.0,6.25
+1761,2020-01-19,Jacksonville State,127,1139,"Score(team_a=9, team_b=14)",Illinois State,169.0,971.0,168.0,-5.357142857142857
+1763,2020-02-29,Jacksonville State,127,1139,"Score(team_a=13, team_b=8)",Stephen F. Austin,243.0,702.0,437.0,5.769230769230768
+1765,2020-02-29,Jacksonville State,127,1139,"Score(team_a=13, team_b=12)",Illinois State,169.0,971.0,168.0,1.1538461538461537
+1766,2020-02-29,Jacksonville State,127,1139,"Score(team_a=13, team_b=2)",Miami,347.0,50.0,1089.0,12.692307692307692
+1767,2020-03-01,Jacksonville State,127,1139,"Score(team_a=10, team_b=8)",Sul Ross State University,194.0,892.0,247.0,3.0
+1772,2020-02-01,Chico State,128,1138,"Score(team_a=11, team_b=8)",California-Irvine,157.0,1008.0,130.0,4.090909090909091
+1773,2020-02-01,Chico State,128,1138,"Score(team_a=7, team_b=9)",Sonoma State,149.0,1024.0,114.0,-3.3333333333333335
+1775,2020-02-02,Chico State,128,1138,"Score(team_a=6, team_b=7)",Cal State-Long Beach,187.0,917.0,221.0,-2.142857142857143
+1780,2020-02-08,Chico State,128,1138,"Score(team_a=13, team_b=3)",San Jose State,289.0,465.0,673.0,11.538461538461537
+1785,2020-02-22,Brandeis,129,1135,"Score(team_a=13, team_b=9)",RIT,227.0,750.0,385.0,4.615384615384615
+1787,2020-02-22,Brandeis,129,1135,"Score(team_a=9, team_b=8)",SUNY-Binghamton,130.0,1134.0,1.0,1.6666666666666667
+1789,2020-02-23,Brandeis,129,1135,"Score(team_a=9, team_b=11)",American,206.0,843.0,292.0,-2.727272727272727
+1792,2020-02-29,Brandeis,129,1135,"Score(team_a=11, team_b=10)",North Carolina-Asheville,154.0,1011.0,124.0,1.3636363636363635
+1793,2020-02-29,Brandeis,129,1135,"Score(team_a=12, team_b=6)",Davidson,153.0,1011.0,124.0,7.5
+1794,2020-02-29,Brandeis,129,1135,"Score(team_a=13, team_b=5)",Wooster,296.0,427.0,708.0,9.23076923076923
+1795,2020-03-01,Brandeis,129,1135,"Score(team_a=13, team_b=11)",Air Force,152.0,1013.0,122.0,2.3076923076923075
+1796,2020-03-01,Brandeis,129,1135,"Score(team_a=13, team_b=8)",Elon,219.0,782.0,353.0,5.769230769230768
+1799,2020-01-25,SUNY-Binghamton,130,1134,"Score(team_a=13, team_b=8)",Williams,191.0,899.0,235.0,5.769230769230768
+1801,2020-01-25,SUNY-Binghamton,130,1134,"Score(team_a=13, team_b=10)",Syracuse,171.0,970.0,164.0,3.4615384615384612
+1802,2020-01-26,SUNY-Binghamton,130,1134,"Score(team_a=11, team_b=13)",George Mason,201.0,855.0,279.0,-2.3076923076923075
+1804,2020-01-26,SUNY-Binghamton,130,1134,"Score(team_a=11, team_b=2)",American,206.0,843.0,291.0,12.272727272727272
+1806,2020-02-22,SUNY-Binghamton,130,1134,"Score(team_a=13, team_b=0)",Regent University,335.0,150.0,984.0,14.999999999999998
+1808,2020-02-23,SUNY-Binghamton,130,1134,"Score(team_a=15, team_b=11)",Towson,252.0,649.0,485.0,4.0
+1809,2020-02-23,SUNY-Binghamton,130,1134,"Score(team_a=13, team_b=12)",Mary Washington,180.0,937.0,197.0,1.1538461538461537
+1810,2020-02-15,Clemson,131,1131,"Score(team_a=12, team_b=5)",Wake Forest,244.0,701.0,430.0,8.75
+1811,2020-02-15,Clemson,131,1131,"Score(team_a=11, team_b=4)",Charleston,298.0,412.0,719.0,9.545454545454545
+1812,2020-02-15,Clemson,131,1131,"Score(team_a=12, team_b=3)",North Florida,310.0,333.0,798.0,11.25
+1813,2020-02-15,Clemson,131,1131,"Score(team_a=10, team_b=8)",Campbell,265.0,575.0,556.0,3.0
+1814,2020-02-16,Clemson,131,1131,"Score(team_a=15, team_b=5)",East Carolina,254.0,637.0,494.0,10.0
+1816,2020-02-29,Clemson,131,1131,"Score(team_a=15, team_b=9)",Vermont-C,241.0,707.0,424.0,6.0
+1818,2020-02-29,Clemson,131,1131,"Score(team_a=12, team_b=3)",Wake Forest,244.0,701.0,430.0,11.25
+1819,2020-02-29,Clemson,131,1131,"Score(team_a=13, team_b=0)",Coastal Carolina,382.0,-632.0,1763.0,14.999999999999998
+1820,2020-02-29,Clemson,131,1131,"Score(team_a=13, team_b=2)",Radford,358.0,-32.0,1163.0,12.692307692307692
+1822,2020-03-01,Clemson,131,1131,"Score(team_a=12, team_b=10)",East Carolina,254.0,637.0,494.0,2.5
+1825,2020-03-07,Wisconsin-Whitewater,132,1104,"Score(team_a=13, team_b=8)",Missouri State,209.0,832.0,272.0,5.769230769230768
+1826,2020-03-07,Wisconsin-Whitewater,132,1104,"Score(team_a=9, team_b=10)",Missouri,135.0,1084.0,20.0,-1.5
+1828,2020-03-08,Wisconsin-Whitewater,132,1104,"Score(team_a=11, team_b=7)",Kansas State,222.0,771.0,333.0,5.454545454545454
+1829,2020-03-08,Wisconsin-Whitewater,132,1104,"Score(team_a=9, team_b=11)",Nebraska,148.0,1024.0,80.0,-2.727272727272727
+1834,2020-03-01,Johns Hopkins,133,1103,"Score(team_a=14, team_b=11)",Kennesaw State,198.0,872.0,231.0,3.2142857142857144
+1835,2020-03-01,Johns Hopkins,133,1103,"Score(team_a=14, team_b=8)",Georgia State,164.0,992.0,111.0,6.428571428571429
+1839,2020-02-22,Florida Tech,134,1088,"Score(team_a=13, team_b=5)",Florida Gulf Coast,237.0,730.0,358.0,9.23076923076923
+1844,2020-02-08,Missouri,135,1084,"Score(team_a=11, team_b=8)",Saint Louis,221.0,778.0,306.0,4.090909090909091
+1845,2020-02-08,Missouri,135,1084,"Score(team_a=10, team_b=8)",Mississippi State,145.0,1030.0,54.0,3.0
+1846,2020-02-08,Missouri,135,1084,"Score(team_a=8, team_b=7)",Georgia State,164.0,992.0,92.0,1.875
+1849,2020-02-09,Missouri,135,1084,"Score(team_a=10, team_b=9)",Georgia State,164.0,992.0,92.0,1.5
+1850,2020-02-22,Missouri,135,1084,"Score(team_a=13, team_b=5)",Grinnell,279.0,486.0,598.0,9.23076923076923
+1852,2020-02-22,Missouri,135,1084,"Score(team_a=14, team_b=11)",Trinity,229.0,746.0,338.0,3.2142857142857144
+1853,2020-02-22,Missouri,135,1084,"Score(team_a=15, team_b=7)",Baylor,250.0,664.0,420.0,8.0
+1855,2020-02-23,Missouri,135,1084,"Score(team_a=8, team_b=12)",Colorado College,172.0,962.0,122.0,-5.0
+1856,2020-02-23,Missouri,135,1084,"Score(team_a=10, team_b=9)",Arkansas,207.0,841.0,243.0,1.5
+1857,2020-02-23,Missouri,135,1084,"Score(team_a=11, team_b=7)",John Brown,162.0,996.0,88.0,5.454545454545454
+1858,2020-03-07,Missouri,135,1084,"Score(team_a=11, team_b=1)",Grinnell,279.0,486.0,598.0,13.636363636363635
+1859,2020-03-07,Missouri,135,1084,"Score(team_a=9, team_b=7)",Knox,283.0,473.0,611.0,3.3333333333333335
+1863,2020-03-08,Missouri,135,1084,"Score(team_a=8, team_b=7)",Missouri State,209.0,832.0,252.0,1.875
+1864,2020-03-08,Missouri,135,1084,"Score(team_a=11, team_b=6)",Luther,170.0,971.0,113.0,6.8181818181818175
+1867,2020-02-22,Florida-B B,136,1083,"Score(team_a=13, team_b=6)",Stetson,278.0,487.0,596.0,8.076923076923077
+1871,2020-02-23,Florida-B B,136,1083,"Score(team_a=13, team_b=10)",Florida Gulf Coast,237.0,730.0,353.0,3.4615384615384612
+1874,2020-02-29,Messiah,137,1081,"Score(team_a=13, team_b=11)",North Carolina-Asheville,154.0,1011.0,70.0,2.3076923076923075
+1875,2020-02-29,Messiah,137,1081,"Score(team_a=12, team_b=13)",Davidson,153.0,1011.0,70.0,-1.1538461538461537
+1876,2020-02-29,Messiah,137,1081,"Score(team_a=10, team_b=8)",Xavier,177.0,946.0,135.0,3.0
+1878,2020-03-01,Messiah,137,1081,"Score(team_a=13, team_b=9)",Samford,238.0,726.0,355.0,4.615384615384615
+1881,2020-02-01,Oklahoma,138,1078,"Score(team_a=13, team_b=2)",Texas-Arlington,334.0,155.0,923.0,12.692307692307692
+1884,2020-02-01,Oklahoma,138,1078,"Score(team_a=13, team_b=6)",Texas Christian,140.0,1066.0,12.0,8.076923076923077
+1885,2020-02-02,Oklahoma,138,1078,"Score(team_a=15, team_b=8)",Baylor,250.0,664.0,414.0,7.0
+1886,2020-02-02,Oklahoma,138,1078,"Score(team_a=10, team_b=11)",Arkansas,207.0,841.0,237.0,-1.3636363636363635
+1887,2020-02-02,Oklahoma,138,1078,"Score(team_a=8, team_b=12)",John Brown,162.0,996.0,82.0,-5.0
+1889,2020-02-22,Oklahoma,138,1078,"Score(team_a=13, team_b=8)",Kansas State,222.0,771.0,307.0,5.769230769230768
+1891,2020-02-23,Oklahoma,138,1078,"Score(team_a=15, team_b=11)",Colorado College,172.0,962.0,116.0,4.0
+1895,2020-02-22,Delaware,139,1076,"Score(team_a=13, team_b=8)",Rowan,267.0,557.0,519.0,5.769230769230768
+1896,2020-02-22,Delaware,139,1076,"Score(team_a=13, team_b=9)",Christopher Newport,247.0,680.0,396.0,4.615384615384615
+1899,2020-02-23,Delaware,139,1076,"Score(team_a=15, team_b=6)",Regent University,335.0,150.0,926.0,9.0
+1900,2020-02-23,Delaware,139,1076,"Score(team_a=13, team_b=11)",George Washington,160.0,1000.0,76.0,2.3076923076923075
+1902,2020-02-01,Texas Christian,140,1066,"Score(team_a=10, team_b=6)",Texas-Arlington,334.0,155.0,911.0,6.0
+1906,2020-02-02,Texas Christian,140,1066,"Score(team_a=9, team_b=8)",Texas-Arlington,334.0,155.0,911.0,1.6666666666666667
+1907,2020-02-22,Texas Christian,140,1066,"Score(team_a=15, team_b=10)",Colorado School of Mines,203.0,850.0,216.0,5.0
+1910,2020-02-23,Texas Christian,140,1066,"Score(team_a=15, team_b=13)",John Brown,162.0,996.0,70.0,2.0
+1916,2020-02-22,Ball State,141,1054,"Score(team_a=13, team_b=3)",Toledo,248.0,676.0,378.0,11.538461538461537
+1917,2020-02-22,Ball State,141,1054,"Score(team_a=13, team_b=4)",Butler,290.0,456.0,598.0,10.384615384615383
+1920,2020-01-18,Washington B,142,1051,"Score(team_a=15, team_b=3)",Central Washington,362.0,-95.0,1146.0,12.0
+1921,2020-01-18,Washington B,142,1051,"Score(team_a=15, team_b=2)",Portland State,345.0,65.0,986.0,13.0
+1930,2020-01-26,Washington B,142,1051,"Score(team_a=13, team_b=10)",Lewis & Clark,167.0,983.0,68.0,3.4615384615384612
+1937,2020-02-15,Harvard,143,1047,"Score(team_a=12, team_b=6)",South Florida,174.0,949.0,98.0,7.5
+1938,2020-02-15,Harvard,143,1047,"Score(team_a=13, team_b=12)",Florida State,155.0,1009.0,38.0,1.1538461538461537
+1941,2020-02-22,Oberlin,144,1045,"Score(team_a=8, team_b=5)",Akron,235.0,734.0,311.0,5.625
+1942,2020-02-22,Oberlin,144,1045,"Score(team_a=6, team_b=7)",Cedarville,146.0,1026.0,19.0,-2.142857142857143
+1943,2020-02-22,Oberlin,144,1045,"Score(team_a=9, team_b=4)",Allegheny,292.0,446.0,599.0,8.333333333333334
+1945,2020-02-22,Oberlin,144,1045,"Score(team_a=13, team_b=4)",Indiana (Pennsylvania),336.0,147.0,898.0,10.384615384615383
+1946,2020-02-29,Oberlin,144,1045,"Score(team_a=12, team_b=10)",Davidson,153.0,1011.0,34.0,2.5
+1949,2020-02-29,Oberlin,144,1045,"Score(team_a=12, team_b=11)",Air Force,152.0,1013.0,32.0,1.25
+1950,2020-03-01,Oberlin,144,1045,"Score(team_a=12, team_b=13)",Elon,219.0,782.0,263.0,-1.1538461538461537
+1951,2020-03-01,Oberlin,144,1045,"Score(team_a=13, team_b=7)",Samford,238.0,726.0,319.0,6.9230769230769225
+1955,2020-01-18,Mississippi State,145,1030,"Score(team_a=5, team_b=11)",Illinois State,169.0,971.0,59.0,-8.181818181818182
+1956,2020-01-18,Mississippi State,145,1030,"Score(team_a=9, team_b=8)",South Florida,174.0,949.0,81.0,1.6666666666666667
+1959,2020-02-08,Mississippi State,145,1030,"Score(team_a=10, team_b=8)",Georgia State,164.0,992.0,38.0,3.0
+1962,2020-02-08,Mississippi State,145,1030,"Score(team_a=10, team_b=7)",Saint Louis,221.0,778.0,252.0,4.5
+1964,2020-02-09,Mississippi State,145,1030,"Score(team_a=11, team_b=9)",Saint Louis,221.0,778.0,252.0,2.727272727272727
+1965,2020-02-22,Mississippi State,145,1030,"Score(team_a=12, team_b=3)",Belmont University,308.0,353.0,677.0,11.25
+1966,2020-02-22,Mississippi State,145,1030,"Score(team_a=9, team_b=7)",Samford,238.0,726.0,304.0,3.3333333333333335
+1968,2020-02-22,Mississippi State,145,1030,"Score(team_a=11, team_b=13)",Michigan State,150.0,1021.0,9.0,-2.3076923076923075
+1969,2020-02-23,Mississippi State,145,1030,"Score(team_a=10, team_b=9)",Toledo,248.0,676.0,354.0,1.5
+1970,2020-02-23,Mississippi State,145,1030,"Score(team_a=12, team_b=8)",Samford,238.0,726.0,304.0,5.0
+1971,2020-02-23,Mississippi State,145,1030,"Score(team_a=12, team_b=8)",Union (Tennessee),214.0,812.0,218.0,5.0
+1972,2020-02-29,Mississippi State,145,1030,"Score(team_a=13, team_b=5)",St John's,294.0,436.0,594.0,9.23076923076923
+1975,2020-02-29,Mississippi State,145,1030,"Score(team_a=13, team_b=6)",Texas-San Antonio,291.0,451.0,579.0,8.076923076923077
+1976,2020-03-01,Mississippi State,145,1030,"Score(team_a=9, team_b=4)",Florida State,155.0,1009.0,21.0,8.333333333333334
+1980,2020-02-22,Cedarville,146,1026,"Score(team_a=13, team_b=2)",Indiana (Pennsylvania),336.0,147.0,879.0,12.692307692307692
+1983,2020-02-22,Cedarville,146,1026,"Score(team_a=13, team_b=3)",Akron,235.0,734.0,292.0,11.538461538461537
+1984,2020-02-22,Cedarville,146,1026,"Score(team_a=13, team_b=1)",Allegheny,292.0,446.0,580.0,13.846153846153845
+1989,2020-01-25,Brigham Young B,147,1025,"Score(team_a=11, team_b=9)",Grand Canyon,176.0,948.0,77.0,2.727272727272727
+1990,2020-02-29,Brigham Young B,147,1025,"Score(team_a=11, team_b=5)",Montana,195.0,885.0,140.0,8.181818181818182
+1995,2020-02-22,Nebraska,148,1024,"Score(team_a=14, team_b=9)",Tulsa,318.0,268.0,756.0,5.357142857142857
+1996,2020-02-22,Nebraska,148,1024,"Score(team_a=13, team_b=10)",Missouri State,209.0,832.0,192.0,3.4615384615384612
+1997,2020-02-22,Nebraska,148,1024,"Score(team_a=15, team_b=5)",Nebraska-Omaha,337.0,133.0,891.0,10.0
+1998,2020-02-22,Nebraska,148,1024,"Score(team_a=13, team_b=8)",Kansas State,222.0,771.0,253.0,5.769230769230768
+2000,2020-02-23,Nebraska,148,1024,"Score(team_a=14, team_b=12)",John Brown,162.0,996.0,28.0,2.142857142857143
+2007,2020-03-08,Nebraska,148,1024,"Score(team_a=5, team_b=13)",Luther,170.0,971.0,53.0,-9.23076923076923
+2008,2020-03-08,Nebraska,148,1024,"Score(team_a=8, team_b=7)",St. Thomas,239.0,723.0,301.0,1.875
+2010,2020-02-01,Sonoma State,149,1024,"Score(team_a=8, team_b=10)",California-Irvine,157.0,1008.0,16.0,-3.0
+2014,2020-02-02,Sonoma State,149,1024,"Score(team_a=9, team_b=6)",Cal Poly-Pomona,192.0,896.0,128.0,5.0
+2015,2020-02-02,Sonoma State,149,1024,"Score(team_a=10, team_b=6)",Grand Canyon,176.0,948.0,76.0,6.0
+2023,2020-02-09,Sonoma State,149,1024,"Score(team_a=5, team_b=2)",San Jose State,289.0,465.0,559.0,9.0
+2024,2020-02-09,Sonoma State,149,1024,"Score(team_a=2, team_b=5)",Lewis & Clark,167.0,983.0,41.0,-9.0
+2027,2020-02-22,Michigan State,150,1021,"Score(team_a=13, team_b=4)",Mississippi,280.0,484.0,537.0,10.384615384615383
+2031,2020-03-07,Colgate,151,1013,"Score(team_a=13, team_b=2)",Edinboro,366.0,-169.0,1182.0,12.692307692307692
+2034,2020-03-07,Colgate,151,1013,"Score(team_a=10, team_b=7)",SUNY-Stony Brook,197.0,879.0,134.0,4.5
+2036,2020-03-08,Colgate,151,1013,"Score(team_a=7, team_b=10)",SUNY-Albany,179.0,940.0,73.0,-4.5
+2040,2020-01-26,Air Force,152,1013,"Score(team_a=8, team_b=11)",North Carolina-Asheville,154.0,1011.0,2.0,-4.090909090909091
+2041,2020-01-26,Air Force,152,1013,"Score(team_a=3, team_b=12)",Florida State,155.0,1009.0,4.0,-11.25
+2043,2020-02-29,Air Force,152,1013,"Score(team_a=10, team_b=8)",Samford,238.0,726.0,287.0,3.0
+2044,2020-02-29,Air Force,152,1013,"Score(team_a=13, team_b=9)",Davidson,153.0,1011.0,2.0,4.615384615384615
+2046,2020-02-29,Air Force,152,1013,"Score(team_a=13, team_b=5)",High Point,329.0,205.0,808.0,9.23076923076923
+2048,2020-03-01,Air Force,152,1013,"Score(team_a=8, team_b=13)",Berry,193.0,896.0,117.0,-5.769230769230768
+2050,2020-03-07,Air Force,152,1013,"Score(team_a=13, team_b=7)",Colorado Mesa University,281.0,479.0,534.0,6.9230769230769225
+2053,2020-03-07,Air Force,152,1013,"Score(team_a=13, team_b=8)",Colorado-Colorado Springs,188.0,917.0,96.0,5.769230769230768
+2054,2020-03-08,Air Force,152,1013,"Score(team_a=12, team_b=7)",Colorado-Colorado Springs,188.0,917.0,96.0,6.25
+2067,2020-03-01,Davidson,153,1011,"Score(team_a=10, team_b=9)",Wooster,296.0,427.0,584.0,1.5
+2069,2020-03-01,Davidson,153,1011,"Score(team_a=12, team_b=6)",Shippensburg,168.0,975.0,36.0,7.5
+2080,2020-02-29,North Carolina-Asheville,154,1011,"Score(team_a=13, team_b=10)",Berry,193.0,896.0,115.0,3.4615384615384612
+2082,2020-03-01,North Carolina-Asheville,154,1011,"Score(team_a=9, team_b=10)",Shippensburg,168.0,975.0,36.0,-1.5
+2098,2020-02-16,Florida State,155,1009,"Score(team_a=11, team_b=10)",South Florida,174.0,949.0,60.0,1.3636363636363635
+2099,2020-02-29,Florida State,155,1009,"Score(team_a=13, team_b=4)",Mississippi,280.0,484.0,525.0,10.384615384615383
+2100,2020-02-29,Florida State,155,1009,"Score(team_a=10, team_b=9)",Iowa,161.0,997.0,12.0,1.5
+2102,2020-02-29,Florida State,155,1009,"Score(team_a=8, team_b=7)",Sam Houston State,233.0,739.0,270.0,1.875
+2104,2020-03-01,Florida State,155,1009,"Score(team_a=11, team_b=7)",Iowa,161.0,997.0,12.0,5.454545454545454
+2106,2020-02-22,Pacific Lutheran,156,1009,"Score(team_a=10, team_b=11)",Oklahoma Christian,230.0,745.0,264.0,-1.3636363636363635
+2108,2020-02-23,Pacific Lutheran,156,1009,"Score(team_a=15, team_b=5)",Trinity,229.0,746.0,263.0,10.0
+2109,2020-02-23,Pacific Lutheran,156,1009,"Score(team_a=11, team_b=10)",Luther,170.0,971.0,38.0,1.3636363636363635
+2110,2020-02-23,Pacific Lutheran,156,1009,"Score(team_a=15, team_b=5)",Kansas State,222.0,771.0,238.0,10.0
+2112,2020-03-07,Pacific Lutheran,156,1009,"Score(team_a=13, team_b=0)",Willamette University,357.0,-32.0,1041.0,14.999999999999998
+2113,2020-03-07,Pacific Lutheran,156,1009,"Score(team_a=13, team_b=0)",Portland State,345.0,65.0,944.0,14.999999999999998
+2114,2020-03-08,Pacific Lutheran,156,1009,"Score(team_a=13, team_b=10)",Seattle,175.0,949.0,60.0,3.4615384615384612
+2123,2020-02-02,California-Irvine,157,1008,"Score(team_a=10, team_b=3)",Caltech,256.0,635.0,373.0,10.5
+2125,2020-02-22,California-Irvine,157,1008,"Score(team_a=13, team_b=4)",Cal State-Fullerton,282.0,477.0,531.0,10.384615384615383
+2126,2020-02-22,California-Irvine,157,1008,"Score(team_a=8, team_b=9)",Loyola Marymount,189.0,913.0,95.0,-1.6666666666666667
+2129,2020-02-22,California-Irvine,157,1008,"Score(team_a=9, team_b=5)",Cal Poly-Pomona,192.0,896.0,112.0,6.666666666666667
+2140,2020-02-01,UCLA B,159,1001,"Score(team_a=6, team_b=9)",Cal State-Long Beach,187.0,917.0,84.0,-5.0
+2142,2020-02-02,UCLA B,159,1001,"Score(team_a=11, team_b=6)",San Jose State,289.0,465.0,536.0,6.8181818181818175
+2146,2020-02-22,UCLA B,159,1001,"Score(team_a=11, team_b=4)",Loyola Marymount,189.0,913.0,88.0,9.545454545454545
+2149,2020-02-22,UCLA B,159,1001,"Score(team_a=7, team_b=6)",Cal Poly-Pomona,192.0,896.0,105.0,2.142857142857143
+2150,2020-02-29,UCLA B,159,1001,"Score(team_a=8, team_b=6)",Loyola Marymount,189.0,913.0,88.0,3.75
+2154,2020-02-22,George Washington,160,1000,"Score(team_a=13, team_b=2)",Slippery Rock,304.0,374.0,626.0,12.692307692307692
+2155,2020-02-22,George Washington,160,1000,"Score(team_a=13, team_b=4)",Towson,252.0,649.0,351.0,10.384615384615383
+2156,2020-02-22,George Washington,160,1000,"Score(team_a=11, team_b=13)",Mary Washington,180.0,937.0,63.0,-2.3076923076923075
+2158,2020-02-23,George Washington,160,1000,"Score(team_a=14, team_b=13)",RIT,227.0,750.0,250.0,1.0714285714285714
+2160,2020-03-07,George Washington,160,1000,"Score(team_a=13, team_b=7)",Maine,236.0,730.0,270.0,6.9230769230769225
+2161,2020-03-07,George Washington,160,1000,"Score(team_a=13, team_b=10)",Wesleyan,165.0,990.0,10.0,3.4615384615384612
+2165,2020-02-29,Iowa,161,997,"Score(team_a=13, team_b=5)",Sam Houston State,233.0,739.0,258.0,9.23076923076923
+2167,2020-02-29,Iowa,161,997,"Score(team_a=13, team_b=7)",Mississippi,280.0,484.0,513.0,6.9230769230769225
+2170,2020-03-01,Iowa,161,997,"Score(team_a=13, team_b=8)",Illinois State,169.0,971.0,26.0,5.769230769230768
+2172,2020-02-01,John Brown,162,996,"Score(team_a=13, team_b=5)",Tulsa,318.0,268.0,728.0,9.23076923076923
+2173,2020-02-01,John Brown,162,996,"Score(team_a=13, team_b=9)",Northern Iowa,272.0,533.0,463.0,4.615384615384615
+2175,2020-02-01,John Brown,162,996,"Score(team_a=12, team_b=10)",Baylor,250.0,664.0,332.0,2.5
+2176,2020-02-02,John Brown,162,996,"Score(team_a=13, team_b=10)",Colorado College,172.0,962.0,34.0,3.4615384615384612
+2177,2020-02-02,John Brown,162,996,"Score(team_a=6, team_b=15)",Sul Ross State University,194.0,892.0,104.0,-9.0
+2180,2020-02-22,John Brown,162,996,"Score(team_a=15, team_b=8)",Baylor,250.0,664.0,332.0,7.0
+2186,2020-01-25,New Mexico,163,995,"Score(team_a=13, team_b=6)",Colorado Mesa University,281.0,479.0,516.0,8.076923076923077
+2195,2020-02-08,Georgia State,164,992,"Score(team_a=10, team_b=8)",Saint Louis,221.0,778.0,214.0,3.0
+2196,2020-02-09,Georgia State,164,992,"Score(team_a=15, team_b=6)",North Georgia,226.0,754.0,238.0,9.0
+2206,2020-03-07,Wesleyan,165,990,"Score(team_a=13, team_b=12)",Maine,236.0,730.0,260.0,1.1538461538461537
+2207,2020-03-07,Wesleyan,165,990,"Score(team_a=15, team_b=6)",Towson,252.0,649.0,341.0,9.0
+2208,2020-03-08,Wesleyan,165,990,"Score(team_a=13, team_b=9)",RIT,227.0,750.0,240.0,4.615384615384615
+2211,2020-03-07,SUNY-Buffalo,166,989,"Score(team_a=11, team_b=5)",SUNY-Albany,179.0,940.0,49.0,8.181818181818182
+2212,2020-03-07,SUNY-Buffalo,166,989,"Score(team_a=13, team_b=1)",College of New Jersey,288.0,467.0,522.0,13.846153846153845
+2213,2020-03-07,SUNY-Buffalo,166,989,"Score(team_a=11, team_b=7)",Yale,182.0,929.0,60.0,5.454545454545454
+2214,2020-03-08,SUNY-Buffalo,166,989,"Score(team_a=12, team_b=11)",Slippery Rock,304.0,374.0,615.0,1.25
+2215,2020-03-08,SUNY-Buffalo,166,989,"Score(team_a=8, team_b=9)",Yale,182.0,929.0,60.0,-1.6666666666666667
+2216,2020-01-25,Lewis & Clark,167,983,"Score(team_a=14, team_b=12)",Montana,195.0,885.0,98.0,2.142857142857143
+2221,2020-01-26,Lewis & Clark,167,983,"Score(team_a=13, team_b=14)",Montana,195.0,885.0,98.0,-1.0714285714285714
+2228,2020-02-09,Lewis & Clark,167,983,"Score(team_a=0, team_b=0)",San Jose State,289.0,465.0,518.0,
+2230,2020-03-07,Lewis & Clark,167,983,"Score(team_a=13, team_b=4)",George Fox,333.0,156.0,827.0,10.384615384615383
+2236,2020-02-29,Shippensburg,168,975,"Score(team_a=11, team_b=7)",High Point,329.0,205.0,770.0,5.454545454545454
+2238,2020-02-29,Shippensburg,168,975,"Score(team_a=9, team_b=4)",Elon,219.0,782.0,193.0,8.333333333333334
+2239,2020-02-29,Shippensburg,168,975,"Score(team_a=13, team_b=11)",Samford,238.0,726.0,249.0,2.3076923076923075
+2249,2020-02-29,Illinois State,169,971,"Score(team_a=13, team_b=6)",Stephen F. Austin,243.0,702.0,269.0,8.076923076923077
+2251,2020-02-29,Illinois State,169,971,"Score(team_a=13, team_b=3)",Miami,347.0,50.0,921.0,11.538461538461537
+2257,2020-03-07,Illinois State,169,971,"Score(team_a=10, team_b=11)",Carleton College Karls,232.0,740.0,231.0,-1.3636363636363635
+2259,2020-03-08,Illinois State,169,971,"Score(team_a=9, team_b=7)",Knox,283.0,473.0,498.0,3.3333333333333335
+2261,2020-02-22,Luther,170,971,"Score(team_a=14, team_b=13)",Colorado College,172.0,962.0,9.0,1.0714285714285714
+2262,2020-02-22,Luther,170,971,"Score(team_a=9, team_b=11)",Arkansas,207.0,841.0,130.0,-2.727272727272727
+2268,2020-02-23,Luther,170,971,"Score(team_a=13, team_b=4)",Missouri State,209.0,832.0,139.0,10.384615384615383
+2278,2020-01-25,Syracuse,171,970,"Score(team_a=13, team_b=11)",Drexel,211.0,826.0,144.0,2.3076923076923075
+2293,2020-02-22,Colorado College,172,962,"Score(team_a=13, team_b=10)",Arkansas,207.0,841.0,121.0,3.4615384615384612
+2297,2020-03-07,Colorado College,172,962,"Score(team_a=10, team_b=7)",Colorado School of Mines,203.0,850.0,112.0,4.5
+2299,2020-03-07,Colorado College,172,962,"Score(team_a=13, team_b=7)",Colorado-Denver,286.0,470.0,492.0,6.9230769230769225
+2304,2020-03-07,Purdue B,173,951,"Score(team_a=9, team_b=6)",Denison,271.0,534.0,417.0,5.0
+2307,2020-03-08,Purdue B,173,951,"Score(team_a=12, team_b=5)",Denison,271.0,534.0,417.0,8.75
+2310,2020-01-18,South Florida,174,949,"Score(team_a=11, team_b=5)",Mississippi,280.0,484.0,465.0,8.181818181818182
+2313,2020-01-19,South Florida,174,949,"Score(team_a=15, team_b=7)",Mississippi,280.0,484.0,465.0,8.0
+2323,2020-02-29,Seattle,175,949,"Score(team_a=10, team_b=6)",Portland State,345.0,65.0,884.0,6.0
+2335,2020-03-08,Seattle,175,949,"Score(team_a=11, team_b=7)",Whitworth,253.0,647.0,302.0,5.454545454545454
+2342,2020-01-26,Grand Canyon,176,948,"Score(team_a=13, team_b=5)",Colorado Mesa University,281.0,479.0,469.0,9.23076923076923
+2346,2020-02-01,Grand Canyon,176,948,"Score(team_a=13, team_b=2)",San Jose State,289.0,465.0,483.0,12.692307692307692
+2349,2020-02-02,Grand Canyon,176,948,"Score(team_a=7, team_b=10)",Cal State-Long Beach,187.0,917.0,31.0,-4.5
+2350,2020-01-25,Xavier,177,946,"Score(team_a=11, team_b=10)",Belmont University,308.0,353.0,593.0,1.3636363636363635
+2351,2020-01-25,Xavier,177,946,"Score(team_a=10, team_b=11)",Kennesaw State,198.0,872.0,74.0,-1.3636363636363635
+2353,2020-01-25,Xavier,177,946,"Score(team_a=10, team_b=11)",Berry,193.0,896.0,50.0,-1.3636363636363635
+2354,2020-01-26,Xavier,177,946,"Score(team_a=5, team_b=7)",Saint Louis,221.0,778.0,168.0,-4.285714285714286
+2356,2020-02-29,Xavier,177,946,"Score(team_a=11, team_b=9)",Campbell,265.0,575.0,371.0,2.727272727272727
+2358,2020-02-29,Xavier,177,946,"Score(team_a=13, team_b=4)",Elon,219.0,782.0,164.0,10.384615384615383
+2361,2020-03-01,Xavier,177,946,"Score(team_a=11, team_b=8)",Samford,238.0,726.0,220.0,4.090909090909091
+2362,2020-01-25,North Carolina B,178,942,"Score(team_a=13, team_b=5)",Christopher Newport,247.0,680.0,262.0,9.23076923076923
+2366,2020-01-26,North Carolina B,178,942,"Score(team_a=13, team_b=14)",Drexel,211.0,826.0,116.0,-1.0714285714285714
+2367,2020-01-26,North Carolina B,178,942,"Score(team_a=13, team_b=12)",Williams,191.0,899.0,43.0,1.1538461538461537
+2370,2020-02-08,North Carolina B,178,942,"Score(team_a=13, team_b=6)",East Carolina,254.0,637.0,305.0,8.076923076923077
+2371,2020-02-08,North Carolina B,178,942,"Score(team_a=13, team_b=6)",Campbell,265.0,575.0,367.0,8.076923076923077
+2377,2020-03-07,SUNY-Albany,179,940,"Score(team_a=11, team_b=2)",College of New Jersey,288.0,467.0,473.0,12.272727272727272
+2378,2020-03-07,SUNY-Albany,179,940,"Score(team_a=8, team_b=4)",Yale,182.0,929.0,11.0,7.5
+2382,2020-03-08,SUNY-Albany,179,940,"Score(team_a=7, team_b=12)",Yale,182.0,929.0,11.0,-6.25
+2383,2020-01-25,Mary Washington,180,937,"Score(team_a=13, team_b=12)",George Mason,201.0,855.0,82.0,1.1538461538461537
+2385,2020-01-25,Mary Washington,180,937,"Score(team_a=9, team_b=10)",American,206.0,843.0,94.0,-1.5
+2387,2020-01-26,Mary Washington,180,937,"Score(team_a=15, team_b=14)",Williams,191.0,899.0,38.0,1.0
+2388,2020-01-26,Mary Washington,180,937,"Score(team_a=14, team_b=13)",Drexel,211.0,826.0,111.0,1.0714285714285714
+2390,2020-02-22,Mary Washington,180,937,"Score(team_a=13, team_b=7)",Towson,252.0,649.0,288.0,6.9230769230769225
+2391,2020-02-22,Mary Washington,180,937,"Score(team_a=12, team_b=9)",Slippery Rock,304.0,374.0,563.0,3.75
+2393,2020-02-22,Mary Washington,180,937,"Score(team_a=10, team_b=13)",American,206.0,843.0,94.0,-3.4615384615384612
+2394,2020-02-23,Mary Washington,180,937,"Score(team_a=15, team_b=7)",Drexel,211.0,826.0,111.0,8.0
+2396,2020-02-22,Amherst College,181,935,"Score(team_a=10, team_b=7)",MIT,274.0,518.0,417.0,4.5
+2397,2020-02-22,Amherst College,181,935,"Score(team_a=13, team_b=3)",Dickinson,363.0,-141.0,1076.0,11.538461538461537
+2398,2020-02-22,Amherst College,181,935,"Score(team_a=13, team_b=7)",Ithaca,246.0,682.0,253.0,6.9230769230769225
+2400,2020-02-23,Amherst College,181,935,"Score(team_a=11, team_b=9)",Massachusetts-Lowell,259.0,615.0,320.0,2.727272727272727
+2401,2020-02-23,Amherst College,181,935,"Score(team_a=11, team_b=10)",Yale,182.0,929.0,6.0,1.3636363636363635
+2403,2020-03-07,Amherst College,181,935,"Score(team_a=10, team_b=8)",MIT,274.0,518.0,417.0,3.0
+2405,2020-03-07,Amherst College,181,935,"Score(team_a=12, team_b=3)",SUNY-Cortland,313.0,305.0,630.0,11.25
+2406,2020-03-07,Amherst College,181,935,"Score(team_a=10, team_b=8)",Colby,205.0,843.0,92.0,3.0
+2407,2020-03-08,Amherst College,181,935,"Score(team_a=9, team_b=11)",Williams,191.0,899.0,36.0,-2.727272727272727
+2409,2020-03-08,Amherst College,181,935,"Score(team_a=13, team_b=8)",Williams,191.0,899.0,36.0,5.769230769230768
+2411,2020-02-22,Yale,182,929,"Score(team_a=9, team_b=7)",Massachusetts-Lowell,259.0,615.0,314.0,3.3333333333333335
+2412,2020-02-22,Yale,182,929,"Score(team_a=11, team_b=5)",Swarthmore,330.0,195.0,734.0,8.181818181818182
+2413,2020-02-23,Yale,182,929,"Score(team_a=13, team_b=5)",SUNY-Cortland,313.0,305.0,624.0,9.23076923076923
+2414,2020-02-23,Yale,182,929,"Score(team_a=13, team_b=8)",West Chester,255.0,636.0,293.0,5.769230769230768
+2416,2020-02-23,Yale,182,929,"Score(team_a=15, team_b=10)",Stevens Tech,234.0,737.0,192.0,5.0
+2417,2020-03-07,Yale,182,929,"Score(team_a=6, team_b=4)",College of New Jersey,288.0,467.0,462.0,5.0
+2422,2020-03-08,Yale,182,929,"Score(team_a=10, team_b=8)",SUNY-Stony Brook,197.0,879.0,50.0,3.0
+2425,2020-02-29,Kenyon,183,927,"Score(team_a=6, team_b=7)",Akron,235.0,734.0,193.0,-2.142857142857143
+2426,2020-02-29,Kenyon,183,927,"Score(team_a=11, team_b=5)",Indiana (Pennsylvania),336.0,147.0,780.0,8.181818181818182
+2432,2020-02-08,Alabama-Birmingham,184,924,"Score(team_a=12, team_b=9)",North Georgia,226.0,754.0,170.0,3.75
+2436,2020-02-09,Alabama-Birmingham,184,924,"Score(team_a=11, team_b=13)",Saint Louis,221.0,778.0,146.0,-2.3076923076923075
+2437,2020-02-09,Alabama-Birmingham,184,924,"Score(team_a=10, team_b=11)",North Georgia,226.0,754.0,170.0,-1.3636363636363635
+2438,2020-02-29,Alabama-Birmingham,184,924,"Score(team_a=12, team_b=13)",Sul Ross State University,194.0,892.0,32.0,-1.1538461538461537
+2442,2020-03-01,Alabama-Birmingham,184,924,"Score(team_a=13, team_b=8)",Mississippi,280.0,484.0,440.0,5.769230769230768
+2443,2020-03-01,Alabama-Birmingham,184,924,"Score(team_a=13, team_b=3)",Stephen F. Austin,243.0,702.0,222.0,11.538461538461537
+2444,2020-03-01,Alabama-Birmingham,184,924,"Score(team_a=11, team_b=8)",Sam Houston State,233.0,739.0,185.0,4.090909090909091
+2449,2020-02-02,Colorado B,185,921,"Score(team_a=9, team_b=6)",Caltech,256.0,635.0,286.0,5.0
+2454,2020-02-22,Colorado B,185,921,"Score(team_a=13, team_b=7)",Baylor,250.0,664.0,257.0,6.9230769230769225
+2459,2020-03-07,Colorado B,185,921,"Score(team_a=11, team_b=9)",Colorado School of Mines,203.0,850.0,71.0,2.727272727272727
+2462,2020-03-08,Colorado B,185,921,"Score(team_a=5, team_b=13)",Colorado-Colorado Springs,188.0,917.0,4.0,-9.23076923076923
+2464,2020-02-29,Utah Valley University,186,918,"Score(team_a=11, team_b=2)",Idaho,331.0,180.0,738.0,12.272727272727272
+2467,2020-02-29,Utah Valley University,186,918,"Score(team_a=10, team_b=9)",Boise State,228.0,747.0,171.0,1.5
+2479,2020-02-29,Cal State-Long Beach,187,917,"Score(team_a=4, team_b=9)",Loyola Marymount,189.0,913.0,4.0,-8.333333333333334
+2483,2020-03-07,Colorado-Colorado Springs,188,917,"Score(team_a=13, team_b=8)",Colorado Mesa University,281.0,479.0,438.0,5.769230769230768
+2491,2020-02-22,Loyola Marymount,189,913,"Score(team_a=9, team_b=2)",Cal State-Fullerton,282.0,477.0,436.0,11.666666666666668
+2502,2020-01-26,Williams,191,899,"Score(team_a=15, team_b=6)",Christopher Newport,247.0,680.0,219.0,9.0
+2503,2020-03-07,Williams,191,899,"Score(team_a=10, team_b=8)",Columbia,293.0,445.0,454.0,3.0
+2504,2020-03-07,Williams,191,899,"Score(team_a=11, team_b=6)",NYU,266.0,565.0,334.0,6.8181818181818175
+2509,2020-02-01,Cal Poly-Pomona,192,896,"Score(team_a=12, team_b=6)",Fresno State,312.0,315.0,581.0,7.5
+2510,2020-02-01,Cal Poly-Pomona,192,896,"Score(team_a=10, team_b=3)",Caltech,256.0,635.0,261.0,10.5
+2518,2020-02-22,Cal Poly-Pomona,192,896,"Score(team_a=11, team_b=7)",Cal State-Fullerton,282.0,477.0,419.0,5.454545454545454
+2520,2020-01-25,Berry,193,896,"Score(team_a=10, team_b=13)",Kennesaw State,198.0,872.0,24.0,-3.4615384615384612
+2521,2020-01-25,Berry,193,896,"Score(team_a=12, team_b=5)",Belmont University,308.0,353.0,543.0,8.75
+2524,2020-01-26,Berry,193,896,"Score(team_a=9, team_b=10)",Georgia College,196.0,882.0,14.0,-1.5
+2525,2020-01-26,Berry,193,896,"Score(team_a=8, team_b=9)",Georgia Southern,204.0,850.0,46.0,-1.6666666666666667
+2527,2020-02-29,Berry,193,896,"Score(team_a=13, team_b=6)",Wooster,296.0,427.0,469.0,8.076923076923077
+2530,2020-03-01,Berry,193,896,"Score(team_a=13, team_b=8)",High Point,329.0,205.0,691.0,5.769230769230768
+2533,2020-02-01,Sul Ross State University,194,892,"Score(team_a=13, team_b=5)",Texas-San Antonio,291.0,451.0,441.0,9.23076923076923
+2535,2020-02-01,Sul Ross State University,194,892,"Score(team_a=5, team_b=13)",Arkansas,207.0,841.0,51.0,-9.23076923076923
+2539,2020-02-02,Sul Ross State University,194,892,"Score(team_a=15, team_b=13)",Arkansas,207.0,841.0,51.0,2.0
+2556,2020-03-01,Montana,195,885,"Score(team_a=13, team_b=4)",Idaho,331.0,180.0,705.0,10.384615384615383
+2557,2020-03-01,Montana,195,885,"Score(team_a=12, team_b=7)",Boise State,228.0,747.0,138.0,6.25
+2558,2020-01-25,Georgia College,196,882,"Score(team_a=11, team_b=13)",North Georgia,226.0,754.0,128.0,-2.3076923076923075
+2559,2020-01-25,Georgia College,196,882,"Score(team_a=9, team_b=6)",North Florida,310.0,333.0,549.0,5.0
+2560,2020-01-25,Georgia College,196,882,"Score(team_a=10, team_b=9)",Saint Louis,221.0,778.0,104.0,1.5
+2561,2020-01-25,Georgia College,196,882,"Score(team_a=9, team_b=6)",Georgia Southern,204.0,850.0,32.0,5.0
+2563,2020-01-26,Georgia College,196,882,"Score(team_a=9, team_b=6)",Kennesaw State,198.0,872.0,10.0,5.0
+2564,2020-02-15,Georgia College,196,882,"Score(team_a=8, team_b=13)",Troy,225.0,758.0,124.0,-5.769230769230768
+2568,2020-02-16,Georgia College,196,882,"Score(team_a=11, team_b=10)",Troy,225.0,758.0,124.0,1.3636363636363635
+2571,2020-03-07,SUNY-Stony Brook,197,879,"Score(team_a=13, team_b=4)",Edinboro,366.0,-169.0,1048.0,10.384615384615383
+2574,2020-03-08,SUNY-Stony Brook,197,879,"Score(team_a=11, team_b=4)",Slippery Rock,304.0,374.0,505.0,9.545454545454545
+2579,2020-01-25,Kennesaw State,198,872,"Score(team_a=13, team_b=6)",Belmont University,308.0,353.0,519.0,8.076923076923077
+2580,2020-01-26,Kennesaw State,198,872,"Score(team_a=10, team_b=6)",Georgia Southern,204.0,850.0,22.0,6.0
+2588,2020-03-07,Wisconsin-Eau Claire,199,872,"Score(team_a=8, team_b=10)",Kansas State,222.0,771.0,101.0,-3.0
+2591,2020-03-08,Wisconsin-Eau Claire,199,872,"Score(team_a=9, team_b=7)",Carleton College Karls,232.0,740.0,132.0,3.3333333333333335
+2592,2020-03-08,Wisconsin-Eau Claire,199,872,"Score(team_a=9, team_b=6)",Grinnell,279.0,486.0,386.0,5.0
+2598,2020-02-02,Cal Poly-SLO B,200,861,"Score(team_a=7, team_b=9)",Caltech,256.0,635.0,226.0,-3.3333333333333335
+2608,2020-01-25,George Mason,201,855,"Score(team_a=12, team_b=11)",American,206.0,843.0,12.0,1.25
+2610,2020-01-26,George Mason,201,855,"Score(team_a=15, team_b=10)",Christopher Newport,247.0,680.0,175.0,5.0
+2613,2020-01-26,George Mason,201,855,"Score(team_a=10, team_b=15)",Drexel,211.0,826.0,29.0,-5.0
+2614,2020-02-29,George Mason,201,855,"Score(team_a=9, team_b=7)",New Hampshire,251.0,659.0,196.0,3.3333333333333335
+2615,2020-02-29,George Mason,201,855,"Score(team_a=9, team_b=5)",American,206.0,843.0,12.0,6.666666666666667
+2616,2020-02-29,George Mason,201,855,"Score(team_a=12, team_b=3)",Maryland-Baltimore County,316.0,282.0,573.0,11.25
+2618,2020-03-01,George Mason,201,855,"Score(team_a=6, team_b=8)",Catholic,216.0,803.0,52.0,-3.75
+2619,2020-03-01,George Mason,201,855,"Score(team_a=10, team_b=8)",New Hampshire,251.0,659.0,196.0,3.0
+2632,2020-02-23,Colorado School of Mines,203,850,"Score(team_a=14, team_b=12)",Missouri State,209.0,832.0,18.0,2.142857142857143
+2636,2020-03-07,Colorado School of Mines,203,850,"Score(team_a=13, team_b=4)",Colorado-Denver,286.0,470.0,380.0,10.384615384615383
+2638,2020-03-08,Colorado School of Mines,203,850,"Score(team_a=8, team_b=6)",Colorado Mesa University,281.0,479.0,371.0,3.75
+2639,2020-01-25,Georgia Southern,204,850,"Score(team_a=9, team_b=8)",Saint Louis,221.0,778.0,72.0,1.6666666666666667
+2640,2020-01-25,Georgia Southern,204,850,"Score(team_a=9, team_b=8)",North Georgia,226.0,754.0,96.0,1.6666666666666667
+2642,2020-01-25,Georgia Southern,204,850,"Score(team_a=11, team_b=4)",North Florida,310.0,333.0,517.0,9.545454545454545
+2645,2020-02-15,Georgia Southern,204,850,"Score(team_a=10, team_b=4)",High Point,329.0,205.0,645.0,9.0
+2646,2020-02-15,Georgia Southern,204,850,"Score(team_a=11, team_b=4)",Trevecca,323.0,243.0,607.0,9.545454545454545
+2652,2020-02-29,Colby,205,843,"Score(team_a=9, team_b=8)",Maine,236.0,730.0,113.0,1.6666666666666667
+2653,2020-03-07,Colby,205,843,"Score(team_a=11, team_b=3)",SUNY-Cortland,313.0,305.0,538.0,10.909090909090908
+2654,2020-03-07,Colby,205,843,"Score(team_a=10, team_b=3)",MIT,274.0,518.0,325.0,10.5
+2657,2020-03-08,Colby,205,843,"Score(team_a=12, team_b=3)",Columbia,293.0,445.0,398.0,11.25
+2658,2020-03-08,Colby,205,843,"Score(team_a=12, team_b=11)",NYU,266.0,565.0,278.0,1.25
+2664,2020-01-26,American,206,843,"Score(team_a=13, team_b=10)",Christopher Newport,247.0,680.0,163.0,3.4615384615384612
+2666,2020-02-22,American,206,843,"Score(team_a=9, team_b=8)",Drexel,211.0,826.0,17.0,1.6666666666666667
+2667,2020-02-22,American,206,843,"Score(team_a=10, team_b=9)",NYU,266.0,565.0,278.0,1.5
+2668,2020-02-22,American,206,843,"Score(team_a=13, team_b=7)",Salisbury,284.0,473.0,370.0,6.9230769230769225
+2673,2020-02-29,American,206,843,"Score(team_a=7, team_b=4)",Catholic,216.0,803.0,40.0,6.428571428571429
+2675,2020-02-29,American,206,843,"Score(team_a=10, team_b=11)",New Hampshire,251.0,659.0,184.0,-1.3636363636363635
+2676,2020-02-29,American,206,843,"Score(team_a=8, team_b=2)",Maryland-Baltimore County,316.0,282.0,561.0,11.25
+2678,2020-03-01,American,206,843,"Score(team_a=13, team_b=7)",Maryland-Baltimore County,316.0,282.0,561.0,6.9230769230769225
+2679,2020-02-01,Arkansas,207,841,"Score(team_a=9, team_b=1)",Texas-San Antonio,291.0,451.0,390.0,13.333333333333334
+2698,2020-02-22,Missouri State,209,832,"Score(team_a=11, team_b=7)",Nebraska-Omaha,337.0,133.0,699.0,5.454545454545454
+2700,2020-02-22,Missouri State,209,832,"Score(team_a=15, team_b=8)",Tulsa,318.0,268.0,564.0,7.0
+2701,2020-02-23,Missouri State,209,832,"Score(team_a=15, team_b=5)",Southern Methodist,277.0,498.0,334.0,10.0
+2709,2020-03-08,Missouri State,209,832,"Score(team_a=11, team_b=6)",St. Thomas,239.0,723.0,109.0,6.8181818181818175
+2714,2020-02-29,The Ohio State University B,210,826,"Score(team_a=11, team_b=2)",West Virginia,303.0,380.0,446.0,12.272727272727272
+2728,2020-02-22,Drexel,211,826,"Score(team_a=13, team_b=11)",Salisbury,284.0,473.0,353.0,2.3076923076923075
+2729,2020-02-22,Drexel,211,826,"Score(team_a=12, team_b=9)",NYU,266.0,565.0,261.0,3.75
+2732,2020-02-23,Drexel,211,826,"Score(team_a=10, team_b=11)",Towson,252.0,649.0,177.0,-1.3636363636363635
+2733,2020-02-22,Pittsburgh B,212,821,"Score(team_a=11, team_b=12)",Christopher Newport,247.0,680.0,141.0,-1.25
+2734,2020-02-22,Pittsburgh B,212,821,"Score(team_a=11, team_b=7)",Rowan,267.0,557.0,264.0,5.454545454545454
+2736,2020-02-22,Pittsburgh B,212,821,"Score(team_a=13, team_b=9)",RIT,227.0,750.0,71.0,4.615384615384615
+2740,2020-02-22,Union (Tennessee),214,812,"Score(team_a=13, team_b=5)",Butler,290.0,456.0,356.0,9.23076923076923
+2742,2020-02-22,Union (Tennessee),214,812,"Score(team_a=13, team_b=11)",Olivet Nazarene,297.0,421.0,391.0,2.3076923076923075
+2744,2020-02-23,Union (Tennessee),214,812,"Score(team_a=15, team_b=5)",Belmont University,308.0,353.0,459.0,10.0
+2745,2020-02-23,Union (Tennessee),214,812,"Score(team_a=13, team_b=8)",Butler,290.0,456.0,356.0,5.769230769230768
+2750,2020-02-22,Florida State B,215,812,"Score(team_a=13, team_b=5)",Stetson,278.0,487.0,325.0,9.23076923076923
+2752,2020-02-23,Florida State B,215,812,"Score(team_a=8, team_b=10)",Florida Gulf Coast,237.0,730.0,82.0,-3.0
+2754,2020-02-29,Catholic,216,803,"Score(team_a=7, team_b=2)",Maryland-Baltimore County,316.0,282.0,521.0,10.714285714285714
+2756,2020-02-29,Catholic,216,803,"Score(team_a=9, team_b=5)",New Hampshire,251.0,659.0,144.0,6.666666666666667
+2760,2020-02-01,California-San Diego B,217,802,"Score(team_a=9, team_b=6)",San Jose State,289.0,465.0,337.0,5.0
+2768,2020-02-29,Elon,219,782,"Score(team_a=10, team_b=6)",Wooster,296.0,427.0,355.0,6.0
+2769,2020-02-29,Elon,219,782,"Score(team_a=11, team_b=7)",Samford,238.0,726.0,56.0,5.454545454545454
+2778,2020-03-07,Penn State B,220,782,"Score(team_a=13, team_b=2)",SUNY-Stony Brook-B,374.0,-328.0,1110.0,12.692307692307692
+2781,2020-03-07,Penn State B,220,782,"Score(team_a=9, team_b=7)",Jefferson,319.0,266.0,516.0,3.3333333333333335
+2785,2020-03-08,Penn State B,220,782,"Score(team_a=14, team_b=8)",Slippery Rock,304.0,374.0,408.0,6.428571428571429
+2788,2020-01-25,Saint Louis,221,778,"Score(team_a=11, team_b=5)",North Florida,310.0,333.0,445.0,8.181818181818182
+2789,2020-01-25,Saint Louis,221,778,"Score(team_a=7, team_b=11)",North Georgia,226.0,754.0,24.0,-5.454545454545454
+2792,2020-01-26,Saint Louis,221,778,"Score(team_a=9, team_b=10)",North Georgia,226.0,754.0,24.0,-1.5
+2804,2020-02-23,Kansas State,222,771,"Score(team_a=15, team_b=8)",Arkansas State,307.0,364.0,407.0,7.0
+2813,2020-03-08,Kansas State,222,771,"Score(team_a=13, team_b=8)",St. Thomas,239.0,723.0,48.0,5.769230769230768
+2821,2020-02-22,Colorado State B,223,765,"Score(team_a=11, team_b=6)",Southern Methodist,277.0,498.0,267.0,6.8181818181818175
+2822,2020-02-22,Colorado State B,223,765,"Score(team_a=14, team_b=7)",Arkansas State,307.0,364.0,401.0,7.5
+2824,2020-02-23,Colorado State B,223,765,"Score(team_a=15, team_b=3)",Tulsa,318.0,268.0,497.0,12.0
+2825,2020-02-23,Colorado State B,223,765,"Score(team_a=10, team_b=11)",Baylor,250.0,664.0,101.0,-1.3636363636363635
+2828,2020-02-29,Case Western Reserve B,224,760,"Score(team_a=8, team_b=7)",Akron,235.0,734.0,26.0,1.875
+2837,2020-02-15,Troy,225,758,"Score(team_a=15, team_b=8)",Trevecca,323.0,243.0,515.0,7.0
+2841,2020-01-25,North Georgia,226,754,"Score(team_a=7, team_b=12)",North Florida,310.0,333.0,421.0,-6.25
+2843,2020-01-26,North Georgia,226,754,"Score(team_a=11, team_b=4)",Belmont University,308.0,353.0,401.0,9.545454545454545
+2855,2020-02-23,RIT,227,750,"Score(team_a=15, team_b=1)",Regent University,335.0,150.0,600.0,14.0
+2856,2020-03-07,RIT,227,750,"Score(team_a=10, team_b=15)",Towson,252.0,649.0,101.0,-5.0
+2858,2020-03-07,RIT,227,750,"Score(team_a=14, team_b=13)",Maine,236.0,730.0,20.0,1.0714285714285714
+2861,2020-03-08,RIT,227,750,"Score(team_a=11, team_b=8)",Rhode Island,245.0,701.0,49.0,4.090909090909091
+2862,2020-03-08,RIT,227,750,"Score(team_a=13, team_b=9)",Towson,252.0,649.0,101.0,4.615384615384615
+2864,2020-02-29,Boise State,228,747,"Score(team_a=11, team_b=0)",Idaho,331.0,180.0,567.0,14.999999999999998
+2871,2020-02-22,Trinity,229,746,"Score(team_a=14, team_b=5)",Grinnell,279.0,486.0,260.0,9.642857142857142
+2875,2020-02-23,Trinity,229,746,"Score(team_a=7, team_b=15)",Oklahoma Christian,230.0,745.0,1.0,-8.0
+2879,2020-02-23,Oklahoma Christian,230,745,"Score(team_a=11, team_b=10)",Arkansas State,307.0,364.0,381.0,1.3636363636363635
+2882,2020-03-07,Michigan B,231,743,"Score(team_a=13, team_b=0)",Coe,364.0,-154.0,897.0,14.999999999999998
+2883,2020-03-07,Michigan B,231,743,"Score(team_a=11, team_b=12)",St. Thomas,239.0,723.0,20.0,-1.25
+2885,2020-03-08,Michigan B,231,743,"Score(team_a=13, team_b=3)",Wisconsin-Oshkosh,301.0,385.0,358.0,11.538461538461537
+2888,2020-03-08,Michigan B,231,743,"Score(team_a=8, team_b=7)",Grinnell,279.0,486.0,257.0,1.875
+2897,2020-03-08,Carleton College Karls,232,740,"Score(team_a=8, team_b=7)",Northern Iowa,272.0,533.0,207.0,1.875
+2900,2020-02-29,Sam Houston State,233,739,"Score(team_a=13, team_b=8)",Mississippi,280.0,484.0,255.0,5.769230769230768
+2903,2020-03-01,Sam Houston State,233,739,"Score(team_a=13, team_b=6)",Miami,347.0,50.0,689.0,8.076923076923077
+2904,2020-03-01,Sam Houston State,233,739,"Score(team_a=13, team_b=4)",Texas-San Antonio,291.0,451.0,288.0,10.384615384615383
+2906,2020-02-22,Stevens Tech,234,737,"Score(team_a=12, team_b=7)",SUNY-Cortland,313.0,305.0,432.0,6.25
+2907,2020-02-22,Stevens Tech,234,737,"Score(team_a=11, team_b=8)",Haverford,275.0,505.0,232.0,4.090909090909091
+2914,2020-02-22,Akron,235,734,"Score(team_a=8, team_b=3)",Allegheny,292.0,446.0,288.0,9.375
+2915,2020-02-22,Akron,235,734,"Score(team_a=11, team_b=4)",Indiana (Pennsylvania),336.0,147.0,587.0,9.545454545454545
+2920,2020-02-29,Akron,235,734,"Score(team_a=10, team_b=5)",Indiana (Pennsylvania),336.0,147.0,587.0,7.5
+2923,2020-03-01,Akron,235,734,"Score(team_a=9, team_b=8)",West Virginia,303.0,380.0,354.0,1.6666666666666667
+2930,2020-03-08,Maine,236,730,"Score(team_a=13, team_b=3)",SUNY-Fredonia,361.0,-88.0,818.0,11.538461538461537
+2931,2020-03-08,Maine,236,730,"Score(team_a=13, team_b=7)",Towson,252.0,649.0,81.0,6.9230769230769225
+2940,2020-02-22,Samford,238,726,"Score(team_a=8, team_b=6)",Belmont University,308.0,353.0,373.0,3.75
+2942,2020-02-23,Samford,238,726,"Score(team_a=14, team_b=5)",Olivet Nazarene,297.0,421.0,305.0,9.642857142857142
+2944,2020-02-23,Samford,238,726,"Score(team_a=13, team_b=8)",Butler,290.0,456.0,270.0,5.769230769230768
+2945,2020-02-29,Samford,238,726,"Score(team_a=10, team_b=5)",Campbell,265.0,575.0,151.0,7.5
+2954,2020-03-07,St. Thomas,239,723,"Score(team_a=13, team_b=1)",Coe,364.0,-154.0,877.0,13.846153846153845
+2959,2020-02-22,Northwestern B,240,709,"Score(team_a=13, team_b=9)",Stetson,278.0,487.0,222.0,4.615384615384615
+2968,2020-03-08,Northwestern B,240,709,"Score(team_a=11, team_b=6)",Knox,283.0,473.0,236.0,6.8181818181818175
+2973,2020-02-29,Vermont-C,241,707,"Score(team_a=12, team_b=9)",Charleston,298.0,412.0,295.0,3.75
+2976,2020-02-29,Vermont-C,241,707,"Score(team_a=7, team_b=9)",East Carolina,254.0,637.0,70.0,-3.3333333333333335
+2977,2020-03-01,Vermont-C,241,707,"Score(team_a=15, team_b=8)",Radford,358.0,-32.0,739.0,7.0
+2979,2020-03-01,Vermont-C,241,707,"Score(team_a=10, team_b=6)",Wake Forest,244.0,701.0,6.0,6.0
+2980,2020-02-22,Texas A&M B,242,707,"Score(team_a=10, team_b=15)",Creighton,268.0,553.0,154.0,-5.0
+2981,2020-02-22,Texas A&M B,242,707,"Score(team_a=15, team_b=1)",Drury University,375.0,-331.0,1038.0,14.0
+2982,2020-02-22,Texas A&M B,242,707,"Score(team_a=15, team_b=5)",Texas-Arlington,334.0,155.0,552.0,10.0
+2983,2020-02-22,Texas A&M B,242,707,"Score(team_a=15, team_b=3)",Grinnell,279.0,486.0,221.0,12.0
+2985,2020-02-23,Texas A&M B,242,707,"Score(team_a=14, team_b=13)",Southern Methodist,277.0,498.0,209.0,1.0714285714285714
+2986,2020-02-23,Texas A&M B,242,707,"Score(team_a=10, team_b=4)",Creighton,268.0,553.0,154.0,9.0
+2990,2020-02-29,Stephen F. Austin,243,702,"Score(team_a=13, team_b=5)",Miami,347.0,50.0,652.0,9.23076923076923
+2992,2020-03-01,Stephen F. Austin,243,702,"Score(team_a=13, team_b=6)",St John's,294.0,436.0,266.0,8.076923076923077
+2994,2020-03-01,Stephen F. Austin,243,702,"Score(team_a=13, team_b=7)",Texas-San Antonio,291.0,451.0,251.0,6.9230769230769225
+2997,2020-02-15,Wake Forest,244,701,"Score(team_a=8, team_b=5)",Charleston,298.0,412.0,289.0,5.625
+2998,2020-02-15,Wake Forest,244,701,"Score(team_a=10, team_b=6)",East Carolina,254.0,637.0,64.0,6.0
+3000,2020-02-29,Wake Forest,244,701,"Score(team_a=13, team_b=1)",Coastal Carolina,382.0,-632.0,1333.0,13.846153846153845
+3001,2020-02-29,Wake Forest,244,701,"Score(team_a=11, team_b=12)",East Carolina,254.0,637.0,64.0,-1.25
+3002,2020-02-29,Wake Forest,244,701,"Score(team_a=12, team_b=5)",Radford,358.0,-32.0,733.0,8.75
+3005,2020-03-01,Wake Forest,244,701,"Score(team_a=15, team_b=3)",Coastal Carolina,382.0,-632.0,1333.0,12.0
+3006,2020-03-01,Wake Forest,244,701,"Score(team_a=12, team_b=8)",Charleston,298.0,412.0,289.0,5.0
+3009,2020-03-07,Rhode Island,245,701,"Score(team_a=13, team_b=4)",SUNY-Fredonia,361.0,-88.0,789.0,10.384615384615383
+3016,2020-02-22,Ithaca,246,682,"Score(team_a=13, team_b=3)",Dickinson,363.0,-141.0,823.0,11.538461538461537
+3017,2020-02-22,Ithaca,246,682,"Score(team_a=11, team_b=6)",MIT,274.0,518.0,164.0,6.8181818181818175
+3030,2020-02-22,Christopher Newport,247,680,"Score(team_a=12, team_b=13)",Rowan,267.0,557.0,123.0,-1.1538461538461537
+3031,2020-02-23,Christopher Newport,247,680,"Score(team_a=13, team_b=11)",NYU,266.0,565.0,115.0,2.3076923076923075
+3032,2020-02-23,Christopher Newport,247,680,"Score(team_a=15, team_b=11)",Salisbury,284.0,473.0,207.0,4.0
+3037,2020-02-23,Toledo,248,676,"Score(team_a=8, team_b=9)",Olivet Nazarene,297.0,421.0,255.0,-1.6666666666666667
+3038,2020-02-23,Toledo,248,676,"Score(team_a=8, team_b=1)",Belmont University,308.0,353.0,323.0,13.125
+3041,2020-02-22,Texas B,249,667,"Score(team_a=10, team_b=8)",Grinnell,279.0,486.0,181.0,3.0
+3047,2020-02-01,Baylor,250,664,"Score(team_a=13, team_b=7)",Tulsa,318.0,268.0,396.0,6.9230769230769225
+3048,2020-02-01,Baylor,250,664,"Score(team_a=13, team_b=10)",Northern Iowa,272.0,533.0,131.0,3.4615384615384612
+3057,2020-02-23,Baylor,250,664,"Score(team_a=15, team_b=2)",Creighton,268.0,553.0,111.0,13.0
+3063,2020-03-01,New Hampshire,251,659,"Score(team_a=13, team_b=6)",Maryland-Baltimore County,316.0,282.0,377.0,8.076923076923077
+3067,2020-02-22,Towson,252,649,"Score(team_a=13, team_b=3)",Slippery Rock,304.0,374.0,275.0,11.538461538461537
+3078,2020-03-07,Whitworth,253,647,"Score(team_a=13, team_b=4)",Central Washington,362.0,-95.0,742.0,10.384615384615383
+3083,2020-02-08,East Carolina,254,637,"Score(team_a=3, team_b=13)",Campbell,265.0,575.0,62.0,-11.538461538461537
+3091,2020-02-15,East Carolina,254,637,"Score(team_a=10, team_b=6)",North Florida,310.0,333.0,304.0,6.0
+3092,2020-02-15,East Carolina,254,637,"Score(team_a=8, team_b=7)",Campbell,265.0,575.0,62.0,1.875
+3098,2020-02-29,East Carolina,254,637,"Score(team_a=10, team_b=7)",Charleston,298.0,412.0,225.0,4.5
+3105,2020-02-23,West Chester,255,636,"Score(team_a=10, team_b=7)",MIT,274.0,518.0,118.0,4.5
+3107,2020-02-23,West Chester,255,636,"Score(team_a=9, team_b=8)",Massachusetts-Lowell,259.0,615.0,21.0,1.6666666666666667
+3108,2020-02-01,Caltech,256,635,"Score(team_a=10, team_b=7)",Fresno State,312.0,315.0,320.0,4.5
+3118,2020-03-07,Tufts B,257,634,"Score(team_a=13, team_b=5)",Edinboro,366.0,-169.0,803.0,9.23076923076923
+3120,2020-03-08,Tufts B,257,634,"Score(team_a=12, team_b=5)",Edinboro,366.0,-169.0,803.0,8.75
+3121,2020-03-08,Tufts B,257,634,"Score(team_a=13, team_b=6)",College of New Jersey,288.0,467.0,167.0,8.076923076923077
+3126,2020-02-09,South Carolina B,258,629,"Score(team_a=15, team_b=9)",Campbell,265.0,575.0,54.0,6.0
+3130,2020-02-22,Massachusetts-Lowell,259,615,"Score(team_a=12, team_b=6)",Swarthmore,330.0,195.0,420.0,7.5
+3138,2020-02-15,Georgia Tech B,260,602,"Score(team_a=13, team_b=9)",High Point,329.0,205.0,397.0,4.615384615384615
+3140,2020-03-07,Georgia Tech B,260,602,"Score(team_a=13, team_b=5)",SUNY-Fredonia,361.0,-88.0,690.0,9.23076923076923
+3143,2020-03-08,Georgia Tech B,260,602,"Score(team_a=9, team_b=7)",Haverford,275.0,505.0,97.0,3.3333333333333335
+3150,2020-02-22,Washington University-B B,261,587,"Score(team_a=13, team_b=8)",Nebraska-Omaha,337.0,133.0,454.0,5.769230769230768
+3153,2020-02-23,Washington University-B B,261,587,"Score(team_a=13, team_b=14)",Southern Methodist,277.0,498.0,89.0,-1.0714285714285714
+3155,2020-01-18,Oregon State B,262,586,"Score(team_a=13, team_b=9)",George Fox,333.0,156.0,430.0,4.615384615384615
+3158,2020-01-19,Oregon State B,262,586,"Score(team_a=15, team_b=6)",Central Washington,362.0,-95.0,681.0,9.0
+3159,2020-01-19,Oregon State B,262,586,"Score(team_a=15, team_b=3)",Portland State,345.0,65.0,521.0,12.0
+3162,2020-03-07,Oregon State B,262,586,"Score(team_a=13, team_b=10)",George Fox,333.0,156.0,430.0,3.4615384615384612
+3164,2020-03-08,Oregon State B,262,586,"Score(team_a=13, team_b=6)",Portland State,345.0,65.0,521.0,8.076923076923077
+3167,2020-02-22,Northeastern B,264,582,"Score(team_a=5, team_b=7)",Swarthmore,330.0,195.0,387.0,-4.285714285714286
+3170,2020-02-23,Northeastern B,264,582,"Score(team_a=13, team_b=3)",Sacred Heart,314.0,284.0,298.0,11.538461538461537
+3171,2020-02-23,Northeastern B,264,582,"Score(team_a=11, team_b=4)",Swarthmore,330.0,195.0,387.0,9.545454545454545
+3180,2020-02-15,Campbell,265,575,"Score(team_a=8, team_b=9)",Charleston,298.0,412.0,163.0,-1.6666666666666667
+3182,2020-02-15,Campbell,265,575,"Score(team_a=9, team_b=7)",North Florida,310.0,333.0,242.0,3.3333333333333335
+3184,2020-02-16,Campbell,265,575,"Score(team_a=10, team_b=5)",North Florida,310.0,333.0,242.0,7.5
+3185,2020-02-16,Campbell,265,575,"Score(team_a=8, team_b=9)",Charleston,298.0,412.0,163.0,-1.6666666666666667
+3190,2020-03-01,Campbell,265,575,"Score(team_a=13, team_b=5)",Wooster,296.0,427.0,148.0,9.23076923076923
+3191,2020-03-01,Campbell,265,575,"Score(team_a=13, team_b=2)",High Point,329.0,205.0,370.0,12.692307692307692
+3192,2020-02-22,NYU,266,565,"Score(team_a=12, team_b=10)",Salisbury,284.0,473.0,92.0,2.5
+3195,2020-02-23,NYU,266,565,"Score(team_a=13, team_b=7)",Slippery Rock,304.0,374.0,191.0,6.9230769230769225
+3199,2020-03-07,NYU,266,565,"Score(team_a=9, team_b=11)",Columbia,293.0,445.0,120.0,-2.727272727272727
+3200,2020-03-08,NYU,266,565,"Score(team_a=11, team_b=6)",SUNY-Cortland,313.0,305.0,260.0,6.8181818181818175
+3202,2020-03-08,NYU,266,565,"Score(team_a=6, team_b=10)",MIT,274.0,518.0,47.0,-6.0
+3206,2020-02-23,Rowan,267,557,"Score(team_a=12, team_b=15)",Salisbury,284.0,473.0,84.0,-3.0
+3207,2020-02-23,Rowan,267,557,"Score(team_a=13, team_b=8)",Slippery Rock,304.0,374.0,183.0,5.769230769230768
+3209,2020-02-22,Creighton,268,553,"Score(team_a=15, team_b=10)",Texas-Arlington,334.0,155.0,398.0,5.0
+3210,2020-02-22,Creighton,268,553,"Score(team_a=15, team_b=7)",Drury University,375.0,-331.0,884.0,8.0
+3213,2020-02-23,Creighton,268,553,"Score(team_a=15, team_b=10)",Tulsa,318.0,268.0,285.0,5.0
+3216,2020-02-15,Maryland B,270,546,"Score(team_a=12, team_b=1)",Shenandoah,373.0,-305.0,851.0,13.75
+3219,2020-02-16,Maryland B,270,546,"Score(team_a=15, team_b=2)",St Mary's (Maryland),389.0,-844.0,1390.0,13.0
+3222,2020-03-07,Maryland B,270,546,"Score(team_a=12, team_b=8)",Edinboro,366.0,-169.0,715.0,5.0
+3224,2020-03-08,Maryland B,270,546,"Score(team_a=12, team_b=11)",College of New Jersey,288.0,467.0,79.0,1.25
+3235,2020-02-01,Northern Iowa,272,533,"Score(team_a=13, team_b=6)",Tulsa,318.0,268.0,265.0,8.076923076923077
+3242,2020-03-07,Northern Iowa,272,533,"Score(team_a=12, team_b=10)",Wisconsin-Oshkosh,301.0,385.0,148.0,2.5
+3243,2020-03-07,Northern Iowa,272,533,"Score(team_a=13, team_b=0)",Coe,364.0,-154.0,687.0,14.999999999999998
+3244,2020-03-08,Northern Iowa,272,533,"Score(team_a=6, team_b=9)",Grinnell,279.0,486.0,47.0,-5.0
+3248,2020-03-07,Brown B,273,527,"Score(team_a=9, team_b=6)",Columbia,293.0,445.0,82.0,5.0
+3254,2020-02-22,MIT,274,518,"Score(team_a=13, team_b=2)",Dickinson,363.0,-141.0,659.0,12.692307692307692
+3256,2020-02-23,MIT,274,518,"Score(team_a=8, team_b=6)",SUNY-Cortland,313.0,305.0,213.0,3.75
+3261,2020-03-07,MIT,274,518,"Score(team_a=13, team_b=4)",SUNY-Cortland,313.0,305.0,213.0,10.384615384615383
+3262,2020-03-08,MIT,274,518,"Score(team_a=9, team_b=10)",Columbia,293.0,445.0,73.0,-1.5
+3266,2020-02-22,Haverford,275,505,"Score(team_a=6, team_b=5)",SUNY-Cortland,313.0,305.0,200.0,2.5
+3277,2020-03-07,Iowa State B,276,501,"Score(team_a=6, team_b=9)",Grinnell,279.0,486.0,15.0,-5.0
+3278,2020-03-08,Iowa State B,276,501,"Score(team_a=13, team_b=2)",Coe,364.0,-154.0,655.0,12.692307692307692
+3283,2020-02-22,Southern Methodist,277,498,"Score(team_a=11, team_b=8)",Arkansas State,307.0,364.0,134.0,4.090909090909091
+3298,2020-02-23,Grinnell,279,486,"Score(team_a=15, team_b=3)",Drury University,375.0,-331.0,817.0,12.0
+3301,2020-03-07,Grinnell,279,486,"Score(team_a=9, team_b=7)",Knox,283.0,473.0,13.0,3.3333333333333335
+3315,2020-02-23,Mississippi,280,484,"Score(team_a=8, team_b=11)",Butler,290.0,456.0,28.0,-4.090909090909091
+3316,2020-02-23,Mississippi,280,484,"Score(team_a=14, team_b=6)",Belmont University,308.0,353.0,131.0,8.571428571428571
+3317,2020-02-23,Mississippi,280,484,"Score(team_a=14, team_b=5)",Olivet Nazarene,297.0,421.0,63.0,9.642857142857142
+3323,2020-03-01,Mississippi,280,484,"Score(team_a=11, team_b=12)",St John's,294.0,436.0,48.0,-1.25
+3333,2020-03-08,Colorado Mesa University,281,479,"Score(team_a=11, team_b=10)",Colorado-Denver,286.0,470.0,9.0,1.3636363636363635
+3345,2020-03-08,Knox,283,473,"Score(team_a=9, team_b=8)",Wisconsin-Oshkosh,301.0,385.0,88.0,1.6666666666666667
+3357,2020-02-23,Texas State  B,285,473,"Score(team_a=15, team_b=3)",Texas-Arlington,334.0,155.0,318.0,12.0
+3364,2020-02-15,Georgia B,287,468,"Score(team_a=10, team_b=7)",Trevecca,323.0,243.0,225.0,4.5
+3365,2020-02-15,Georgia B,287,468,"Score(team_a=9, team_b=5)",High Point,329.0,205.0,263.0,6.666666666666667
+3368,2020-02-16,Georgia B,287,468,"Score(team_a=9, team_b=10)",Trevecca,323.0,243.0,225.0,-1.5
+3374,2020-03-08,Georgia B,287,468,"Score(team_a=12, team_b=5)",SUNY-Fredonia,361.0,-88.0,556.0,8.75
+3396,2020-02-22,Butler,290,456,"Score(team_a=10, team_b=8)",Olivet Nazarene,297.0,421.0,35.0,3.0
+3408,2020-02-29,Texas-San Antonio,291,451,"Score(team_a=13, team_b=9)",St John's,294.0,436.0,15.0,4.615384615384615
+3417,2020-02-22,Allegheny,292,446,"Score(team_a=6, team_b=4)",Indiana (Pennsylvania),336.0,147.0,299.0,5.0
+3424,2020-03-08,Columbia,293,445,"Score(team_a=9, team_b=10)",SUNY-Cortland,313.0,305.0,140.0,-1.5
+3440,2020-02-29,Wooster,296,427,"Score(team_a=10, team_b=6)",High Point,329.0,205.0,222.0,6.0
+3455,2020-02-16,Charleston,298,412,"Score(team_a=9, team_b=10)",North Florida,310.0,333.0,79.0,-1.5
+3461,2020-03-01,Charleston,298,412,"Score(team_a=15, team_b=3)",Coastal Carolina,382.0,-632.0,1044.0,12.0
+3468,2020-02-02,Southern California B,299,405,"Score(team_a=8, team_b=7)",Fresno State,312.0,315.0,90.0,1.875
+3483,2020-03-08,Wisconsin-Oshkosh,301,385,"Score(team_a=11, team_b=5)",Coe,364.0,-154.0,539.0,8.181818181818182
+3488,2020-03-01,West Virginia,303,380,"Score(team_a=15, team_b=5)",Indiana (Pennsylvania),336.0,147.0,233.0,10.0
+3496,2020-03-07,Slippery Rock,304,374,"Score(team_a=13, team_b=1)",Goucher,381.0,-619.0,993.0,13.846153846153845
+3497,2020-03-07,Slippery Rock,304,374,"Score(team_a=10, team_b=6)",Hofstra,317.0,278.0,96.0,6.0
+3498,2020-03-08,Slippery Rock,304,374,"Score(team_a=15, team_b=4)",Edinboro,366.0,-169.0,543.0,11.0
+3505,2020-02-29,Dayton B,305,371,"Score(team_a=7, team_b=4)",Indiana (Pennsylvania),336.0,147.0,224.0,6.428571428571429
+3514,2020-03-01,Western Washington B,306,369,"Score(team_a=8, team_b=6)",Idaho,331.0,180.0,189.0,3.75
+3517,2020-03-07,Western Washington B,306,369,"Score(team_a=13, team_b=8)",Central Washington,362.0,-95.0,464.0,5.769230769230768
+3531,2020-01-26,Belmont University,308,353,"Score(team_a=8, team_b=7)",North Florida,310.0,333.0,20.0,1.875
+3552,2020-03-08,North Carolina State B,309,337,"Score(team_a=10, team_b=6)",SUNY-Fredonia,361.0,-88.0,425.0,6.0
+3591,2020-02-22,Sacred Heart,314,284,"Score(team_a=12, team_b=8)",Dickinson,363.0,-141.0,425.0,5.0
+3605,2020-03-08,Hofstra,317,278,"Score(team_a=11, team_b=8)",Jefferson,319.0,266.0,12.0,4.090909090909091
+3606,2020-03-08,Hofstra,317,278,"Score(team_a=13, team_b=5)",SUNY-Stony Brook-B,374.0,-328.0,606.0,9.23076923076923
+3613,2020-02-22,Tulsa,318,268,"Score(team_a=11, team_b=10)",Nebraska-Omaha,337.0,133.0,135.0,1.3636363636363635
+3623,2020-03-07,Jefferson,319,266,"Score(team_a=13, team_b=2)",SUNY-Stony Brook-B,374.0,-328.0,594.0,12.692307692307692
+3641,2020-02-22,Carnegie Mellon B,322,249,"Score(team_a=7, team_b=8)",Indiana (Pennsylvania),336.0,147.0,102.0,-1.875
+3653,2020-02-15,Trevecca,323,243,"Score(team_a=7, team_b=8)",High Point,329.0,205.0,38.0,-1.875
+3657,2020-02-16,Rutgers B,324,240,"Score(team_a=9, team_b=5)",Swarthmore,330.0,195.0,45.0,6.666666666666667
+3677,2020-03-08,Delaware B,327,215,"Score(team_a=15, team_b=3)",Edinboro,366.0,-169.0,384.0,12.0
+3715,2020-01-18,Washington C,332,160,"Score(team_a=11, team_b=12)",George Fox,333.0,156.0,4.0,-1.25
+3718,2020-01-19,Washington C,332,160,"Score(team_a=15, team_b=9)",Central Washington,362.0,-95.0,255.0,6.0
+3723,2020-01-19,George Fox,333,156,"Score(team_a=15, team_b=14)",Central Washington,362.0,-95.0,251.0,1.0
+3727,2020-03-08,George Fox,333,156,"Score(team_a=13, team_b=9)",Central Washington,362.0,-95.0,251.0,4.615384615384615
+3729,2020-03-08,George Fox,333,156,"Score(team_a=10, team_b=13)",Willamette University,357.0,-32.0,188.0,-3.4615384615384612
+3736,2020-02-22,Texas-Arlington,334,155,"Score(team_a=15, team_b=3)",Drury University,375.0,-331.0,486.0,12.0
+3739,2020-02-23,Texas-Arlington,334,155,"Score(team_a=15, team_b=13)",Nebraska-Omaha,337.0,133.0,22.0,2.0
+3779,2020-02-23,Rice B,341,100,"Score(team_a=15, team_b=1)",Drury University,375.0,-331.0,431.0,14.0
+3787,2020-03-01,LSU B,342,86,"Score(team_a=10, team_b=9)",Miami,347.0,50.0,36.0,1.5
+3791,2020-03-07,Rowan  B,343,75,"Score(team_a=9, team_b=5)",SUNY-Stony Brook-B,374.0,-328.0,403.0,6.666666666666667
+3795,2020-03-08,Rowan  B,343,75,"Score(team_a=15, team_b=5)",SUNY-Stony Brook-B,374.0,-328.0,403.0,10.0
+3805,2020-01-18,Portland State,345,65,"Score(team_a=14, team_b=15)",Central Washington,362.0,-95.0,160.0,-1.0
+3807,2020-03-07,Portland State,345,65,"Score(team_a=13, team_b=9)",Willamette University,357.0,-32.0,97.0,4.615384615384615
+3823,2020-02-15,American B,348,45,"Score(team_a=15, team_b=4)",St Mary's (Maryland),389.0,-844.0,889.0,11.0
+3827,2020-02-16,American B,348,45,"Score(team_a=11, team_b=3)",Shenandoah,373.0,-305.0,350.0,10.909090909090908
+3829,2020-02-29,American B,348,45,"Score(team_a=13, team_b=3)",St Mary's (Maryland),389.0,-844.0,889.0,11.538461538461537
+3851,2020-03-01,Alabama B,350,22,"Score(team_a=13, team_b=11)",Radford,358.0,-32.0,54.0,2.3076923076923075
+3881,2020-03-07,Cornell B,354,-19,"Score(team_a=7, team_b=5)",Goucher,381.0,-619.0,600.0,4.285714285714286
+3900,2020-03-08,Willamette University,357,-32,"Score(team_a=15, team_b=6)",Central Washington,362.0,-95.0,63.0,9.0
+3903,2020-02-29,Radford,358,-32,"Score(team_a=9, team_b=4)",Coastal Carolina,382.0,-632.0,600.0,8.333333333333334
+3908,2020-03-01,Radford,358,-32,"Score(team_a=15, team_b=2)",Coastal Carolina,382.0,-632.0,600.0,13.0
+3912,2020-02-29,George Mason  B,360,-73,"Score(team_a=7, team_b=4)",St Mary's (Maryland),389.0,-844.0,771.0,6.428571428571429
+3988,2020-02-15,Shenandoah,373,-305,"Score(team_a=9, team_b=2)",St Mary's (Maryland),389.0,-844.0,539.0,11.666666666666668
+3998,2020-03-08,SUNY-Stony Brook-B,374,-328,"Score(team_a=9, team_b=6)",Goucher,381.0,-619.0,291.0,5.0
+4008,2020-02-29,Maryland-Baltimore County B,376,-334,"Score(team_a=12, team_b=6)",St Mary's (Maryland),389.0,-844.0,510.0,7.5
+4011,2020-03-01,Maryland-Baltimore County B,376,-334,"Score(team_a=9, team_b=6)",St Mary's (Maryland),389.0,-844.0,510.0,5.0
+4014,2020-02-15,Pennsylvania B,377,-338,"Score(team_a=14, team_b=5)",St Mary's (Maryland),389.0,-844.0,506.0,9.642857142857142
+4040,2020-02-16,Towson  B,383,-651,"Score(team_a=12, team_b=10)",St Mary's (Maryland),389.0,-844.0,193.0,2.5
+4069,2020-02-29,Virginia Commonwealth University B,386,-743,"Score(team_a=9, team_b=10)",St Mary's (Maryland),389.0,-844.0,101.0,-1.5
+4071,2020-03-01,Virginia Commonwealth University B,386,-743,"Score(team_a=9, team_b=6)",St Mary's (Maryland),389.0,-844.0,101.0,5.0
