@@ -1,0 +1,184 @@
+# test_ultimate.py
+#
+# Right now this has simple tests.  In the future, this
+# could hold proper unit tests.
+
+import pandas as pd
+from ultimate import Team, Game, Tournament, get_default_parameters
+from ultimate import play_eight_team_single_elimination_bracket
+from ultimate import play_twelve_team_tournament
+from ultimate import import_teams, get_top_teams_from_region
+
+
+
+
+# Get parameters for men's division
+mens_p_a_offense, mens_k, mens_rating_diff_to_victory_margin, game_to = get_default_parameters('men')
+
+print(f'mens_p_a_offense: {mens_p_a_offense}, mens_k: {mens_k}, game_to: {game_to}')
+
+p_a_offense = .7
+
+print(f'Using p_a_offense = {p_a_offense}')
+
+
+#
+# Tests for Team class
+#
+ucla = Team(name='UCLA', rating=2200, nickname='Smaug')
+ucsb = Team(name='UCSB', rating=2100, nickname='Black Tide')
+ucsd = Team(name='UCSD', rating=2000, nickname='Air Squids')
+cal = Team(name='Cal', rating=1900, nickname='UGMO')
+print(ucla.name, ucla.nickname, ucla.rating, ucla.games_list)
+print(ucsb.name, ucsb.nickname, ucsb.rating, ucsb.games_list)
+print(ucsd.name, ucsd.nickname, ucsd.rating, ucsd.games_list)
+print(cal.name, cal.nickname, cal.rating, cal.games_list)
+
+
+
+
+#
+# Tests for Game class
+#
+ucla = Team(name='UCLA', rating=2200, nickname='Smaug', games_list=[])
+ucsb = Team(name='UCSB', rating=2000, nickname='Black Tide')
+ucsd = Team(name='UCSD', rating=1700, nickname='Air Squids')
+cal = Team(name='Cal', rating=1500, nickname='UGMO')
+
+# Game 0
+print("\nGame 0 (method='random')")
+ucla_vs_ucsb = Game(ucla, ucsb)
+ucla_vs_ucsb.play_game(method='random')
+print("Score *should* be only 15-13 or 13-15.")
+
+
+# Game 1
+print('\nGame 1')
+ucla_vs_ucsb = Game(ucla, ucsb)
+ucla_vs_ucsb.play_game(method='double negative binomial',
+                       rating_diff_to_victory_margin=mens_rating_diff_to_victory_margin,
+                       p_a_offense=p_a_offense)
+
+
+# Game 2
+print('\nGame 2')
+winner_vs_ucsd = Game(None, ucsd, child_a=ucla_vs_ucsb)
+
+winner_vs_ucsd.play_game(method='double negative binomial',
+                         rating_diff_to_victory_margin=mens_rating_diff_to_victory_margin,
+                         p_a_offense=p_a_offense)
+
+
+# Tournament 0
+print('\nTournament 0')
+semi1 = Game(ucla, ucsb, level='semi')
+semi2 = Game(cal, ucsd, level='semi')
+finals = Game(None, None, semi1, semi2, level='final')
+
+finals.play_game(method='double negative binomial',
+                 rating_diff_to_victory_margin=mens_rating_diff_to_victory_margin,
+                 p_a_offense=p_a_offense)
+
+
+
+
+# Tests for playing 8 team bracket
+print('\nEight team bracket')
+ucla = Team(name='UCLA', rating=2200, nickname='Smaug', games_list=[])
+ucsb = Team(name='UCSB', rating=2100, nickname='Black Tide')
+ucsd = Team(name='UCSD', rating=2000, nickname='Air Squids')
+cal = Team(name='Cal', rating=1900, nickname='UGMO')
+uw = Team(name='UW', rating=1800, nickname='Sundodgers')
+ore = Team(name='Oregon', rating=1700, nickname='Ego')
+whit = Team(name='Whitman', rating=1600, nickname='Sweets')
+slo = Team(name='CalPolySLO', rating=1500, nickname='Slocore')
+
+teams_list = [ucla, ucsb, ucsd, cal, uw, ore, whit, slo]
+
+placement = play_eight_team_single_elimination_bracket(teams_list, method='double negative binomial',
+                                                       rating_diff_to_victory_margin=mens_rating_diff_to_victory_margin,
+                                                       p_a_offense=p_a_offense)
+
+print(placement[0][1].name)
+
+
+
+
+
+
+# Tests for playing 12-team 1-bid tournament
+print('\n\nTest for playing 12-team 1-bid')
+uw = Team(name='UW', rating=2400, nickname='Sundodgers')
+ore = Team(name='Oregon', rating=2300, nickname='Ego')
+slo = Team(name='CalPolySLO', rating=2250, nickname='Slocore')
+ucla = Team(name='UCLA', rating=2200, nickname='Smaug', games_list=[])
+stan = Team(name='Stanford', rating=2150, nickname='Bloodthirsty')
+ucsb = Team(name='UCSB', rating=2100, nickname='Black Tide')
+ucsd = Team(name='UCSD', rating=2000, nickname='Air Squids')
+cal = Team(name='Cal', rating=1900, nickname='UGMO')
+whit = Team(name='Whitman', rating=1600, nickname='Sweets')
+sdsu = Team(name='SDSU', rating=1400, nickname='')
+orst = Team(name='Oregon State', rating=1300, nickname='?')
+wwu = Team(name='Western Washington', rating=1200, nickname='Dirt')
+
+teams_list = [uw, ore, slo, ucla, stan, ucsb, ucsd, cal, whit, sdsu, orst, wwu]
+
+placement = play_twelve_team_tournament(teams_list, num_bids=1, method='double negative binomial',
+                                                       rating_diff_to_victory_margin=mens_rating_diff_to_victory_margin,
+                                                       p_a_offense=p_a_offense)
+
+print(placement[0][1].name)
+
+
+
+
+
+# Import rankings and regions and sections and ratings
+# Get USAU Ratings and rankings
+
+womens_ranking_html = r'Rankings/USAU_team_rankings.women.2020-03-11.html'
+mens_ranking_html   = r'Rankings/USAU_team_rankings.men.2020-03-11.html'
+
+# Use pandas html reader to extract dataframe
+result = pd.read_html(womens_ranking_html)
+df_women = result[0]
+
+result = pd.read_html(mens_ranking_html)
+df_men = result[0]
+
+# Last row contains garbage, so remove it.
+df_women = df_women.drop(index=len(df_women)-1)
+df_men   = df_men.drop(index=len(df_men)-1)
+
+# Convert numeric columns to from string/object to correct type
+cols = ['Rank', 'Power Rating', 'Wins', 'Losses']
+df_women[cols] = df_women[cols].apply(pd.to_numeric)
+df_men[cols] = df_men[cols].apply(pd.to_numeric)
+
+
+
+
+
+# Simulate NW men's regionals_2019
+# Simulate Men's Northwest Regionals
+
+# Get top men's team from the northwest
+df_teams = get_top_teams_from_region(df_men, "Northwest", n=12, division='Division I')
+
+# Create teams_list from teams data frame
+def create_teams_from_dataframe(df_teams):
+    teams_list = []
+    for i in df_teams.index:
+        team_here = Team(name=df_teams.loc[i, 'Team'],
+                         rating=df_teams.loc[i, 'Power Rating'])
+        teams_list.append(team_here)
+
+    return teams_list
+
+teams_list = create_teams_from_dataframe(df_teams)
+
+placement = play_twelve_team_tournament(teams_list, num_bids=1, method='double negative binomial',
+                                                       rating_diff_to_victory_margin=mens_rating_diff_to_victory_margin,
+                                                       p_a_offense=p_a_offense)
+
+print(placement[0][1].name)
