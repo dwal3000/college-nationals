@@ -4,10 +4,10 @@
 # could hold proper unit tests.
 
 import pandas as pd
-from ultimate import Team, Game, Tournament, get_default_parameters
-from ultimate import play_eight_team_single_elimination_bracket
-from ultimate import play_twelve_team_tournament
-from ultimate import import_teams, get_top_teams_from_region
+from ultimate import Team, Game, Tournament, get_default_parameters, \
+    play_eight_team_single_elimination_bracket, play_twelve_team_tournament, \
+    import_teams, get_top_teams_from_region, create_teams_from_dataframe
+
 
 
 
@@ -157,28 +157,52 @@ df_men[cols] = df_men[cols].apply(pd.to_numeric)
 
 
 
+def simulate_regionals(df, region, division='Division I', num_participants=12, num_bids=1,
+                       method='double negative binomial',
+                       rating_diff_to_victory_margin=mens_rating_diff_to_victory_margin,
+                       p_a_offense=p_a_offense):
+    df_teams = get_top_teams_from_region(df, region, n=num_participants, division=division)
+    teams_list = create_teams_from_dataframe(df_teams)
+    print(region)
+    print(f"Teams list: {teams_list}")
+    if num_participants == 12:
+        placement = play_twelve_team_tournament(teams_list, num_bids=num_bids,
+                                                method=method,
+                                                rating_diff_to_victory_margin=rating_diff_to_victory_margin,
+                                                p_a_offense=p_a_offense)
+    else:
+        raise Exception("Sorry!  Nothing here yet besides a twelve team single bid bracket!")
 
+    return placement
 
-# Simulate NW men's regionals_2019
+#
 # Simulate Men's Northwest Regionals
+#
 
+print('\n\nNorthwest Regionals (Men)\n')
 # Get top men's team from the northwest
 df_teams = get_top_teams_from_region(df_men, "Northwest", n=12, division='Division I')
-
-# Create teams_list from teams data frame
-def create_teams_from_dataframe(df_teams):
-    teams_list = []
-    for i in df_teams.index:
-        team_here = Team(name=df_teams.loc[i, 'Team'],
-                         rating=df_teams.loc[i, 'Power Rating'])
-        teams_list.append(team_here)
-
-    return teams_list
-
 teams_list = create_teams_from_dataframe(df_teams)
-
 placement = play_twelve_team_tournament(teams_list, num_bids=1, method='double negative binomial',
                                                        rating_diff_to_victory_margin=mens_rating_diff_to_victory_margin,
                                                        p_a_offense=p_a_offense)
-
 print(placement[0][1].name)
+
+
+
+
+
+#
+# Simulate every men's regionals
+#
+
+regions = sorted(list(set(df_men["College Region"].dropna().to_list())))
+
+for region in regions:
+    print(f"\n\n{region}\n")
+    placement = simulate_regionals(df_men, region, division='Division I', num_participants=12, num_bids=1,
+                       method='double negative binomial',
+                       rating_diff_to_victory_margin=mens_rating_diff_to_victory_margin,
+                       p_a_offense=p_a_offense)
+
+    print('\n', placement[0][1].name)

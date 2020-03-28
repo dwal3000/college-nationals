@@ -684,8 +684,8 @@ def create_teams_from_dataframe(df_teams):
     for i in df_teams.index:
         team_here = Team(name=df_teams.loc[i, 'Team'],
                          rating=df_teams.loc[i, 'Power Rating'],
-                         section=df_teams.loc[i, 'Section'],
-                         region=df_teams.loc[i, 'Region'])
+                         section=df_teams.loc[i, 'College Conference'],
+                         region=df_teams.loc[i, 'College Region'])
         teams_list.append(team_here)
 
     return teams_list
