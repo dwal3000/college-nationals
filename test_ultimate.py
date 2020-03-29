@@ -4,13 +4,20 @@
 # could hold proper unit tests.
 
 import pandas as pd
-from . import (
+import ultimate
+from ultimate import (
     Team,
     Game,
     Tournament,
-    get_default_parameters,
+    utils
+)
+from ultimate.utils import get_default_parameters
+
+from ultimate.tournament import (
     play_eight_team_single_elimination_bracket,
     play_twelve_team_tournament,
+)
+from ultimate.team import (
     import_teams,
     get_top_teams_from_region,
     create_teams_from_dataframe,

@@ -1,5 +1,6 @@
 
 import pandas as pd
+import numpy as np
 
 from .game import Game
 
@@ -192,7 +193,7 @@ class Tournament:
                         - points_my_tie_group_opponents_scored_against_me
                     )
 
-                    df_teams.loc[i, "Random Number"] = random.random()
+                    df_teams.loc[i, "Random Number"] = np.random.rand()
 
                 df_teams_sorted = df_teams.sort_values(
                     [
