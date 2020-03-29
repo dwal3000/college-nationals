@@ -20,6 +20,8 @@ WomensTimesPairWereTop2.png
 WomensTimes_in_Top2.png
 no_longer_needed/
 
+#Alex Added #
+*.pyc
 
 # Compiled source #
 ###################

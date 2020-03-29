@@ -4,7 +4,7 @@
 # could hold proper unit tests.
 
 import pandas as pd
-from ultimate import (
+from . import (
     Team,
     Game,
     Tournament,
