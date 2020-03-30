@@ -25,6 +25,7 @@ from .utils import logistic_victory_margin
 # Default parameters (from 2019 Sectionals/Regionals)
 #
 
+
 def fit_logreg_to_win_loss_outcomes(X_train, y_train_class):
     """
     Returns a logistic regression model fit to outcome (W/L) vs rating diff.
@@ -105,7 +106,9 @@ def determine_optimal_value_of_p_a_offense(
                 else:
                     n_team_a_losses += 1
 
-            win_prob_array[i, j] = n_team_a_wins * 1.0 / (n_team_a_wins + n_team_a_losses)
+            win_prob_array[i, j] = (
+                n_team_a_wins * 1.0 / (n_team_a_wins + n_team_a_losses)
+            )
         rmse[i] = np.sqrt(np.mean((win_prob_array[i, :] - y_sample_predict) ** 2))
 
     optimal_p_a_offense = possible_pa_values[np.argmin(rmse)]
@@ -166,7 +169,11 @@ def get_rmse_outcome_prob(
     plt.plot([0, 1000], [0, 0], "gray", linewidth=0.5)
     s1 = plt.scatter(X_sample, y_test > 0, alpha=0.3, label="Test Data")
     p1 = plt.plot(
-        x_line, y_line, alpha=0.7, linewidth=2, label="Win Prob. inferred from Test Data"
+        x_line,
+        y_line,
+        alpha=0.7,
+        linewidth=2,
+        label="Win Prob. inferred from Test Data",
     )
     s2 = plt.scatter(
         X_sample, win_prob_array, alpha=0.3, label="Model Predicted Win Prob."
@@ -304,7 +311,9 @@ def main():
         womens_rating_diff_to_victory_margin = lambda x: logistic_victory_margin(
             x, womens_k
         )
-        mens_rating_diff_to_victory_margin = lambda x: logistic_victory_margin(x, mens_k)
+        mens_rating_diff_to_victory_margin = lambda x: logistic_victory_margin(
+            x, mens_k
+        )
 
 
 if __name__ == "__main__":

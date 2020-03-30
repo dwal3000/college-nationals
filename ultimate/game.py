@@ -1,4 +1,3 @@
-
 import random
 import re
 
@@ -11,24 +10,28 @@ from .utils import get_default_parameters
 # Handy way for storing scores
 Score = collections.namedtuple("Score", ["team_a", "team_b", "point_log"])
 
+
 class Game:
     """
     Representation of a single ultimate game between two teams. It contains multiple different 
     methods for simulating the game, and can be initialized with a starting condition `p_a_offense`
     which can simulate how windy it is (a lower value means harder to score a possession)
-    """ 
+    """
+
     def __init__(
         self,
         team_a=None,
         team_b=None,
         child_a=None,
         child_b=None,
+        a_result='winner',
+        b_result='winner',
         score=None,
         played=False,
         winner=None,
         loser=None,
         level=None,
-        division='mens',
+        division="mens",
         method="double negative binomial",
         game_to=15,
         rating_diff_to_victory_margin=None,
@@ -38,13 +41,15 @@ class Game:
             default_p_a_offense,
             default_k,
             default_rating_diff_to_victory_margin,
-            default_game_to
+            default_game_to,
         ) = get_default_parameters(division)
 
         self.team_a = team_a
         self.team_b = team_b
         self.child_a = child_a
         self.child_b = child_b
+        self.a_result = a_result
+        self.b_result = b_result
         self.score = score
         self.played = played
         self.winner = winner
@@ -52,24 +57,22 @@ class Game:
         self.level = level
         self.method = method
         self.game_to = game_to or default_game_to
-        self.rating_diff_to_victory_margin = rating_diff_to_victory_margin or default_rating_diff_to_victory_margin
+        self.rating_diff_to_victory_margin = (
+            rating_diff_to_victory_margin or default_rating_diff_to_victory_margin
+        )
         self.p_a_offense = p_a_offense or default_p_a_offense
         self.calculate_expected_score()
 
     def __repr__(self):
         if self.played:
             if self.level:
-                return (
-                    f"{self.level}: {self.team_a.name} {self.score.team_a}-{self.score.team_b} {self.team_b.name}"
-                )
+                return f"{self.level}: {self.team_a.name} {self.score.team_a}-{self.score.team_b} {self.team_b.name}"
             else:
-                return (
-                    f"{self.team_a.name} {self.score.team_a}-{self.score.team_b} {self.team_b.name}"
-                )
+                return f"{self.team_a.name} {self.score.team_a}-{self.score.team_b} {self.team_b.name}"
         else:
-            return f'''
+            return f"""
                 Game between {self.team_a.name} and {self.team_b.name} has not yet been played. Expected Score is: {self.expected_score}
-            '''
+            """
 
     def display_point_log(self):
         if self.played:
@@ -85,41 +88,55 @@ class Game:
     def calculate_expected_score(self):
         if self.team_a is not None and self.team_b is not None:
             self.expected_score = self.__class__.convert_ratings_to_expected_game_score(
-                self.team_a.rating, self.team_b.rating, self.game_to, self.rating_diff_to_victory_margin
+                self.team_a.rating,
+                self.team_b.rating,
+                self.game_to,
+                self.rating_diff_to_victory_margin,
             )
         else:
             self.expected_score = None
 
-    #TODO:
+    @property
+    def results_dict(self) -> dict:
+        if self.played:
+            return {
+                "Team A": game.team_a,
+                "Team B": game.team_b,
+                "Team A Name": game.team_a.name,
+                "Team B Name": game.team_b.name,
+                "Team A Score": game.score.team_a,
+                "Team B Score": game.score.team_b,
+                "Winner": game.winner,
+                "Loser": game.loser,
+                "Winner Name": game.winner.name,
+                "Loser Name": game.loser.name,
+            }
+        else:
+            return None
+
+    # TODO:
     def resolve_children(self):
         # Check if there is a team_a.  If there is no team_a
         # then see if there is a play-in game.  If so, play it.
         # If not, then raise error because there is no one to play!
         if not self.team_a:
             if self.child_a:
-                # Check if game has been played
-                if not self.child_a.played:
-                    # Play child_a game
-                    self.child_a.play_game()
-
-                # Winner of child_a becomes team_a
-                self.team_a = self.child_a.winner
+                # Play child_a game
+                self.child_a.play_game()
+                # Winner of child_a becomes team_a unless a_result == 'loser'
+                self.team_a = getattr(self.child_a, self.a_result)
             else:
                 raise Exception("No team team_a or game child_a!")
 
         # Same for team_b
         if not self.team_b:
             if self.child_b:
-                # Check if game has been played
-                if not self.child_b.played:
-                    # Play child_b game
-                    self.child_b.play_game()
-
-                # Winner of child_b becomes team_b
-                self.team_b = self.child_b.winner
+                # Play child_b game
+                self.child_b.play_game()
+                # Winner of child_b becomes team_bunless b_result == 'loser'
+                self.team_b = getattr(self.child_b, self.b_result)
             else:
                 raise Exception("No team team_b or game child_b!")
-
 
     def play_game(
         self,
@@ -148,7 +165,7 @@ class Game:
         Returns
         -------
         None
-        """    
+        """
         # If user doesn't specify the options here, set them to game defaults
         if not method:
             method = self.method
@@ -158,12 +175,12 @@ class Game:
             rating_diff_to_victory_margin = self.rating_diff_to_victory_margin
         if not p_a_offense:
             p_a_offense = self.p_a_offense
-        
 
         # Check if game has been played
         if not self.played:
             self.resolve_children()
-            if self.expected_score is None: self.calculate_expected_score()
+            if self.expected_score is None:
+                self.calculate_expected_score()
             # Actually play game
             team_a_wins, self.score = self.simulate_game_by_method(method)
 
@@ -179,7 +196,6 @@ class Game:
             self.team_a.games_list.append(self)
             self.team_b.games_list.append(self)
 
-    
     def play_binomial_game(self, game_to=15) -> Score:
         """
         WARNING: NOT AS REALISITC AS play_double_negative_binomial_game
@@ -266,7 +282,7 @@ class Game:
             p_b_offense = self.p_a_offense
             p_a_offense = p_b_offense * expected_score.team_a / (1.0 * game_to)
 
-         # Determine starting team
+        # Determine starting team
         team_a_on_offense = np.random.rand() < 0.5
 
         # Game starts 0-0
@@ -346,13 +362,17 @@ class Game:
 
         # Record score in named Tuple for methods where needed
         if score is None:
-            score = Score(team_a=team_a_score, team_b=team_b_score, point_log=[(team_a_score, team_b_score)])
+            score = Score(
+                team_a=team_a_score,
+                team_b=team_b_score,
+                point_log=[(team_a_score, team_b_score)],
+            )
 
         # Team A wins if they have more points
         team_a_wins = score.team_a > score.team_b
 
         return team_a_wins, score
-    
+
     @staticmethod
     def convert_ratings_to_expected_game_score(
         team_a_rating, team_b_rating, game_to, rating_diff_to_victory_margin
@@ -370,10 +390,16 @@ class Game:
             team_a_score = team_b_score - rating_diff_to_victory_margin(
                 team_b_rating - team_a_rating
             )
-        return Score(team_a=team_a_score, team_b=team_b_score, point_log=[(team_a_score, team_b_score)])
+        return Score(
+            team_a=team_a_score,
+            team_b=team_b_score,
+            point_log=[(team_a_score, team_b_score)],
+        )
 
     @classmethod
-    def simulate_game_from_ratings(cls, team_a_rating, team_b_rating, game_to=15, method='double negative binomial') -> (bool, Score):
+    def simulate_game_from_ratings(
+        cls, team_a_rating, team_b_rating, game_to=15, method="double negative binomial"
+    ) -> (bool, Score):
         """
         Simulates a single game with arbitrary teams given two ratings
         
@@ -391,8 +417,11 @@ class Game:
         -------
         (bool, Score)
             Tuple of whether or not Team A wins and resulting Score object
-        """        
-        g = cls(team_a=Team(name='Team A', rating=team_a_rating), team_b=Team(name='Team B', rating=team_b_rating), method=method, game_to=game_to)
+        """
+        g = cls(
+            team_a=Team(name="Team A", rating=team_a_rating),
+            team_b=Team(name="Team B", rating=team_b_rating),
+            method=method,
+            game_to=game_to,
+        )
         return g.simulate_game_by_method(method)
-
-
