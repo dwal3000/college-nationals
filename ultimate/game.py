@@ -100,16 +100,16 @@ class Game:
     def results_dict(self) -> dict:
         if self.played:
             return {
-                "Team A": game.team_a,
-                "Team B": game.team_b,
-                "Team A Name": game.team_a.name,
-                "Team B Name": game.team_b.name,
-                "Team A Score": game.score.team_a,
-                "Team B Score": game.score.team_b,
-                "Winner": game.winner,
-                "Loser": game.loser,
-                "Winner Name": game.winner.name,
-                "Loser Name": game.loser.name,
+                "Team A": self.team_a,
+                "Team B": self.team_b,
+                "Team A Name": self.team_a.name,
+                "Team B Name": self.team_b.name,
+                "Team A Score": self.score.team_a,
+                "Team B Score": self.score.team_b,
+                "Winner": self.winner,
+                "Loser": self.loser,
+                "Winner Name": self.winner.name,
+                "Loser Name": self.loser.name,
             }
         else:
             return None

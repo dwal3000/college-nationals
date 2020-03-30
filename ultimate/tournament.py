@@ -1,5 +1,7 @@
 import math
+import itertools
 from abc import ABC, abstractmethod
+
 
 import numpy as np
 import pandas as pd
@@ -79,19 +81,18 @@ class SingleEliminationBracket(Tournament):
 class RoundRobinTournament(Tournament):
     teams_list = []
 
-    def __init__(self, teams_list, played=False):
+    def __init__(self, teams_list=None, played=False):
         self.teams_list = teams_list
 
         # Games list is each team playing every other team
         # Warning: doesn't care about order of games
         num_teams = len(teams_list)
+        combinations = itertools.product(teams_list, teams_list)
         games_list = [
-            [Game(teams_list[i], teams_list[j]) for j in range(i)]
-            for i in range(num_teams)
+            Game(pair[0], pair[1]) for pair in combinations
+            if pair[0] != pair[1]
         ]
-        games_list = sum(games_list, [])
-
-        super.__init__(self, games_list=games_list, played=played)
+        super().__init__(games_list=games_list, played=played)
 
     def determine_placement(self):
         df_teams = pd.DataFrame(
@@ -102,7 +103,7 @@ class RoundRobinTournament(Tournament):
         )
 
         # Data frame of each game
-        df_games = pd.DataFrame([game.results_dict for game in games_list])
+        df_games = pd.DataFrame([game.results_dict for game in self.games_list])
         df_games_by_winner_name = df_games.groupby("Winner Name").count()
 
         # print(df_games['Winner Name'].value_counts())
@@ -230,9 +231,7 @@ class RoundRobinTournament(Tournament):
         df_finish = df_teams_sorted.reset_index(drop=True)
         df_finish["Finish"] = df_finish.index + 1
 
-        # print(df_finish)
-
-        return df_finish
+        return df_finish.Team.tolist()
 
 class BracketThreeOne(Tournament):
     pass
