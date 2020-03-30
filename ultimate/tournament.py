@@ -301,11 +301,176 @@ class BracketFiveOne(Tournament):
         a = Game(teams_list[1], teams_list[2])
         b = Game(teams_list[0], child_b=a)
         c = Game(teams_list[3], teams_list[4])
-        d = Game(a.loser, child_b=c)
+        d = Game(child_a=a, a_result='loser', child_b=c)
         super().__init__(games_list=[a, b, c, d], teams_list=teams_list)
     
     def determine_placement(self):
+        a, b, c, d = self.games_list
         return [b.winner, b.loser, d.winner, d.loser, c.loser]
+
+class BracketFiveTwo(Tournament):
+    def __init__(self, teams_list):
+        a = Game(teams_list[1], teams_list[4])
+        b = Game(teams_list[3], teams_list[2])
+        c = Game(child_a=a, child_b=b)
+        d = Game(child_a=a, child_b=b, a_result='loser', b_result='loser')
+        super().__init__(games_list=[a, b, c, d], teams_list=teams_list)
+
+    def determine_placement(self):
+        return [self.teams_list[0], c.winner, c.loser, d.winner, d.loser]
+
+
+class BracketSixOneOne(Tournament):
+    def __init__(self, teams_list):
+        a = Game(teams_list[3], teams_list[4])
+        b = Game(teams_list[2], teams_list[5])
+        c = Game(teams_list[0], child_b=a)
+        d = Game(teams_list[1], child_b=b)
+        e = Game(child_a=c, child_b=d)
+        f = Game(child_a=c, child_b=d, a_result='loser', b_result='loser')
+        g = Game(child_a=a, child_b=b, a_result='loser', b_result='loser')
+        super().__init__(games_list=[a, b, c, d, e, f, g], teams_list=teams_list)
+
+    def determine_placement(self):
+        a, b, c, d, e, f, g = self.games_list
+        return [e.winner, e.loser, f.winner, f.loser, g.winner, g.loser]
+
+
+class BracketSixOneTwo(BracketSixOneOne):
+    """Seeding should be determined from pools, 1=A1, 2=B1, 3=A2, 4=B2, 5=A3, 6=B3"""
+    def __init__(self, teams_list):
+        super().__init__(teams_list=teams_list)
+
+    @classmethod
+    def from_pools(cls, pool_a, pool_b):
+        return cls(pool_a[0], pool_b[0], pool_a[1], pool_b[1], pool_a[2], pool_b[2])
+
+
+class BracketSixTwo(Tournament):
+    """
+    Note  that  this  bracket  is  not  to  be  used  in  situations  where  more  
+    than  two  teams qualify for the next level. 
+    """
+    def __init__(self, pool_a, pool_b):
+        a = Game(pool_a[0], pool_b[0])
+        b = Game(pool_a[1], pool_b[2])
+        c = Game(pool_a[2], pool_b[1])
+        d = Game(child_a=b, child_b=c)
+        e = Game(child_a=a, child_b=d, a_result='loser')
+        super().__init__(games_list=[a, b, c, d, e], teams_list=teams_list)
+
+    def determine_result(self):
+        a, b, c, d, e = self.games_list
+        return [a.winner, e.winner, e.loser, d.loser, b.loser, c.loser]
+
+class BracketSixThree(Tournament):
+    """
+    The following approach in used in certain formats where the top three teams must 
+    be determined in only two rounds. The finals game is for place only, as both teams 
+    have already qualified for the next event. 
+    """
+    def __init__(self, teams_list):
+        a = Game(teams_list[0], teams_list[1])
+        b = Game(teams_list[2], teams_list[5])
+        c = Game(teams_list[3], teams_list[4])
+        d = Game(child_a=b, child_b=c)
+        super().__init__(games_list=[a, b, c, d], teams_list=teams_list)
+
+    def determine_placement(self):
+        a, b, c, d = self.games_list
+        return [a.winner, a.loser, d.winner, d.loser, c.loser, b.loser]
+
+
+class BracketSixFour(Tournament):
+    """
+    The following approach is used in certain formats where the top four teams must be 
+    determined  in  only  two  rounds.  The  finals and the 2/3 game are for place only, 
+    as both teams have already qualified for the next event.  The last game for second 
+    place can be left unplayed if it meets the conditions outlined in the section on 
+    Placement Games on page 2.
+    """
+    def __init__(self, teams_list):
+        a = Game(teams_list[0], teams_list[1])
+        b = Game(teams_list[2], teams_list[3])
+        c = Game(child_a=a, child_b=b, a_result='loser')
+        d = Game(teams_list[4], teams_list[5])
+        e = Game(child_a=b, child_b=d, a_result='loser')
+        super().__init__(games_list=[a, b, c, d, e], teams_list=teams_list)
+
+    def determine_placement(self):
+        a, b, c, d, e = self.games_list
+        return [a.winner, c.winner, c.loser, e.winner, e.loser, d.loser]
+
+class BracketSevenOne(Tournament):
+    """
+    The finals are for place only, as the top three teams have already qualified for the next event.
+    """
+    def __init__(self, teams_list):
+        a = Game(teams_list[0], teams_list[1])
+        c = Game(teams_list[3], teams_list[4])
+        d = Game(teams_list[5], teams_list[6])
+        e = Game(child_a=c, child_b=d, a_result='loser')
+        super().__init__(games_list=[a, c, d, e], teams_list=teams_list)
+
+    def determine_placement(self):
+        a, c, d, e = self.games_list
+        return [a.winner, a.loser, self.teams_list[2], c.winner, e.winner, e.loser, d.loser]
+
+class BracketSevenTwo(Tournament):
+    """
+    The finals are for place only, as the top three teams have already qualified for the next event.
+    """
+    def __init__(self, teams_list):
+        a = Game(teams_list[0], teams_list[1])
+        b = Game(teams_list[3], teams_list[6])
+        c = Game(teams_list[4], teams_list[5])
+        d = Game(child_a=b, child_b=c, a_result='loser', b_result='loser')
+        super().__init__(games_list=[a, b, c, d], teams_list=teams_list)
+
+    def determine_placement(self):
+        a, b, c, d = self.games_list
+        return [a.winner, a.loser, self.teams_list[2], b.winner, c.winner, d.winner, d.loser]
+
+
+class BracketEightOne(Tournament):
+    def __init__(self, pool_a, pool_b):
+        a = Game(pool_a[0], pool_b[3])
+        b = Game(pool_b[1], pool_a[2])
+        c = Game(pool_a[1], pool_b[2])
+        d = Game(pool_b[0], pool_a[3])
+        e = Game(child_a=a, child_b=b)
+        f = Game(child_a=c, child_b=d)
+        g = Game(child_a=e, child_b=f)
+        h = Game(child_a=a, a_result='loser', child_b=b, b_result='loser')
+        i = Game(child_a=c, child_b=d, a_result='loser', b_result='loser')
+        j = Game(child_a=h, child_b=i)
+        k = Game(child_a=e, child_b=f, a_result='loser', b_result='loser')
+        l = Game(child_a=h, child_b=i, a_result='loser', b_result='loser')
+        super().__init__(games_list=[a, b, c, d, e, f, g, h, i], teams_list=teams_list)
+
+    def determine_placement(self):
+        a, b, c, d, e, f, g, h, i = self.games_list
+        return [g.winner, g.loser, k.winner, k.loser, j.winner, j.loser, l.winner, l.loser]
+
+class BracketEightTwoOne(Tournament):
+    def __init__(self, pool_a, pool_b):
+        a = Game(pool_a[0], pool_b[1])
+        b = Game(pool_a[1], pool_b[0])
+        c = Game(child_a=a, child_b=b)
+        d = Game(pool_a[2], pool_b[3])
+        e = Game(pool_a[3], pool_b[2])
+        f = Game(child_a=a, a_result='loser', child_b=d)
+        g = Game(child_a=e, child_b=b, b_result='loser')
+        h = Game(child_a=f, child_b=g)
+        i = Game(child_a=c, a_result='loser', child_b=h)
+        j = Game(child_a=d, child_b=e, a_result='loser', b_result='loser')
+        k = Game(child_a=f, child_b=g, a_result='loser', b_result='loser')
+        super().__init__(games_list=[a, b, c, d, e, f, g, h, i, j, k], teams_list=teams_list)
+
+    def determine_placement(self):
+        a, b, c, d, e, f, g, h, i, j, k = self.games_list
+        return [c.winner, i.winner, i.loser, h.loser, k.winner, k.loser, j.winner, j.loser]
+    
 
 def play_eight_team_single_elimination_bracket(
     teams_list,
