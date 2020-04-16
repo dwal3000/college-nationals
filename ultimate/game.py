@@ -8,7 +8,14 @@ import collections
 from .utils import get_default_parameters
 
 # Handy way for storing scores
-Score = collections.namedtuple("Score", ["team_a", "team_b", "point_log"])
+class Score:
+    def __init__(self, team_a, team_b, point_log):
+        self.team_a = team_a
+        self.team_b = team_b
+        self.point_log = point_log
+
+    def __repr__(self):
+        return f'{round(self.team_a, 1)} - {round(self.team_b, 1)}'
 
 
 class Game:
@@ -66,13 +73,12 @@ class Game:
     def __repr__(self):
         if self.played:
             if self.level:
-                return f"{self.level}: {self.team_a.name} {self.score.team_a}-{self.score.team_b} {self.team_b.name}"
+                return f"{self.level}: {self.team_a.name} {self.score.team_a}-{self.score.team_b} {self.team_b.name} (Expected {self.expected_score})"
             else:
-                return f"{self.team_a.name} {self.score.team_a}-{self.score.team_b} {self.team_b.name}"
+                return f"{self.team_a.name} {self.score.team_a}-{self.score.team_b} {self.team_b.name} (Expected {self.expected_score})"
         else:
-            return f"""
-                Game between {self.team_a.name} and {self.team_b.name} has not yet been played. Expected Score is: {self.expected_score}
-            """
+            return f"""Game between {self.team_a.name if self.team_a is not None else 'TBD'} and {self.team_b.name if self.team_b is not None else 'TBD'} has not yet been played. 
+    Expected Score is: {self.expected_score}"""
 
     def display_point_log(self):
         if self.played:
