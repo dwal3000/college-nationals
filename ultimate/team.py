@@ -9,13 +9,26 @@ class Team:
         self.rating = rating
         self.games_list = games_list
         self.nickname = nickname
+        self.wins = 0
+        self.losses = 0
         if not games_list:
             self.games_list = []
         else:
             self.games_list = games_list
+            self.get_record()
 
     def __repr__(self):
-        return f"{self.name} ({self.nickname})"
+        return f"{self.name} ({self.wins} - {self.losses})"
+
+    def get_record(self):
+        self.wins = 0
+        self.losses = 0
+        for game in self.games_list:
+            if game.winner.name == self.name:
+                self.wins += 1
+            else: 
+                self.losses += 1
+        return (self.wins, self.losses)
 
 
 def import_teams(ranking_html_file):

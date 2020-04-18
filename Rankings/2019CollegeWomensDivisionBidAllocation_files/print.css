@@ -1,0 +1,38 @@
+* { float:none; margin:0; }
+div.wrapper { width:800px; color:#000; display:inline;}
+#header #social_media,
+#header #header_search,
+#header h1 a span, 
+#header h2,
+#header .mainNav,
+#rail,
+#mainCol #pageControls,
+.btn,
+#footer_ad,
+#newsletter_slot { display:none; }
+
+#header { width:auto; height:150px; position:static; }
+#header h1 { position:static; left:auto; top:auto; width:auto; text-align:center;}
+#header h1 a { text-indent:0; overflow:auto; width:auto; display:inline; }
+#two_column #mainCol,
+#one_column #mainCol { background:none; border:none; padding:0; float:none; overflow:auto; width:100%; height:auto !important; display:inline; }
+#two_column #mainCol #main_content { width:auto; overflow:auto; height:auto !important; display:inline; }
+
+#one_column #main_content { width:auto; }
+#one_column #main_content #gallery_main { width:auto; float:none; }
+#one_column #main_content .photoGalleryWrpr { text-align:center; float:none; width:800px; }
+#one_column #main_content .photoGalleryPhotoCount { display:none; }
+#one_column #main_content .photoGalleryWrpr h2 { float:none; }
+#one_column #main_content .photoGalleryCycleWrpr { margin:0 auto; border:none; } 
+#one_column #main_content .photoGalleryNavLeft,
+#one_column #main_content .photoGalleryNavRight { display:none;}
+#one_column #main_content #featured_galleries_wrap { display:none; }
+#one_column #main_content #gallery_rail { display:none; }
+
+.filter-ins label,
+.filter-ins select,
+.filter-ins img,
+.filter-ins .month_year { display:none; }
+table.cal-sum td.center { display:none; }
+table.calendar_month { border-bottom:none; border-right:none; }
+#footer { color:#000; }

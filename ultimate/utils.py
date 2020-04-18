@@ -3,7 +3,7 @@ import numpy as np
 
 def get_default_parameters(division):
     womens_optimal_p_a_offense = 0.65
-    mens_optimal_p_a_offense = 0.8
+    mens_optimal_p_a_offense = 0.7
 
     womens_k = 0.0022838954964262735
     mens_k = 0.002138514393927596

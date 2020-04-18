@@ -15,7 +15,7 @@ class Score:
         self.point_log = point_log
 
     def __repr__(self):
-        return f'{round(self.team_a, 1)} - {round(self.team_b, 1)}'
+        return f"{round(self.team_a, 1)} - {round(self.team_b, 1)}"
 
 
 class Game:
@@ -31,8 +31,8 @@ class Game:
         team_b=None,
         child_a=None,
         child_b=None,
-        a_result='winner',
-        b_result='winner',
+        a_result="winner",
+        b_result="winner",
         score=None,
         played=False,
         winner=None,
@@ -42,7 +42,7 @@ class Game:
         method="double negative binomial",
         game_to=15,
         rating_diff_to_victory_margin=None,
-        p_a_offense=0.8,
+        p_a_offense=0.7,
     ):
         (
             default_p_a_offense,
@@ -88,6 +88,9 @@ class Game:
     def display_score(self):
         print(self)
 
+    def to_series(self):
+        return pd.Series(self.results_dict)
+
     def list_team_names(self):
         return [self.team_a.name, self.team_b.name]
 
@@ -106,14 +109,17 @@ class Game:
     def results_dict(self) -> dict:
         if self.played:
             return {
-                "Team A": self.team_a,
-                "Team B": self.team_b,
+                "Game Level": self.level,
                 "Team A Name": self.team_a.name,
-                "Team B Name": self.team_b.name,
                 "Team A Score": self.score.team_a,
                 "Team B Score": self.score.team_b,
-                "Winner": self.winner,
-                "Loser": self.loser,
+                "Team B Name": self.team_b.name,
+                "Expected Team A Score": self.expected_score.team_a,
+                "Expected Team B Score": self.expected_score.team_b,
+                "Upset": (
+                    (self.expected_score.team_a == 15 and self.score.team_a < 15)
+                    or (self.expected_score.team_b == 15 and self.score.team_b < 15)
+                ),
                 "Winner Name": self.winner.name,
                 "Loser Name": self.loser.name,
             }
@@ -150,6 +156,7 @@ class Game:
         game_to=None,
         rating_diff_to_victory_margin=None,
         p_a_offense=None,
+        print_results=False,
     ) -> None:
         """
         Resolves the game and all children. Game settings can be overridden when calling 
@@ -198,9 +205,12 @@ class Game:
                 self.loser = self.team_a
 
             self.played = True
-            self.display_score()
+            if print_results:
+                self.display_score()
             self.team_a.games_list.append(self)
             self.team_b.games_list.append(self)
+            self.team_a.get_record()
+            self.team_b.get_record()
 
     def play_binomial_game(self, game_to=15) -> Score:
         """

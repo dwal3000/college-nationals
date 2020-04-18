@@ -59,6 +59,9 @@ class Tournament(ABC):
         pass
 
     def show_results(self):
+        if not self.played:
+            print("Games have not yet been finished")
+            return
         order = self.determine_placement()
         print(f"{self.name} - Final Results")
         for i, team in enumerate(order):
@@ -235,9 +238,9 @@ class BracketFourOne(Tournament):
     """
 
     def __init__(self, teams_list, name=None):
-        a = Game(teams_list[0], teams_list[3])
-        b = Game(teams_list[1], teams_list[2])
-        c = Game(None, None, child_a=a, child_b=b)
+        a = Game(teams_list[0], teams_list[3], level="semi")
+        b = Game(teams_list[1], teams_list[2], level="semi")
+        c = Game(None, None, child_a=a, child_b=b, level="final")
         super().__init__(games_list=[a, b, c], teams_list=teams_list, name=name)
 
     def determine_placement(self):
@@ -248,9 +251,10 @@ class BracketFourOne(Tournament):
 class BracketFourTwoOne(Tournament):
     """
     Bracket 4.2.1
-    modified four-team double elimination. This format is very exciting if second place matters. Alone, it doesn't offer much.
-    A team that loses two games is finished. But it has its place if used as the second
-    day of a tournament where you have eliminated down to four teams the day earlier. 
+    modified four-team double elimination. This format is very exciting if second place matters. 
+    Alone, it doesn't offer much. A team that loses two games is finished. 
+    But it has its place if used as the second day of a tournament where you have eliminated 
+    down to four teams the day earlier. 
     """
 
     def __init__(self, teams_list, name=None):
@@ -463,13 +467,15 @@ class BracketEightOne(Tournament):
         b = Game(pool_b[1], pool_a[2])
         c = Game(pool_a[1], pool_b[2])
         d = Game(pool_b[0], pool_a[3])
-        e = Game(child_a=a, child_b=b)
-        f = Game(child_a=c, child_b=d)
-        g = Game(child_a=e, child_b=f)
+        e = Game(child_a=a, child_b=b, level="semi")
+        f = Game(child_a=c, child_b=d, level="semi")
+        g = Game(child_a=e, child_b=f, level="final")
         h = Game(child_a=a, a_result="loser", child_b=b, b_result="loser")
         i = Game(child_a=c, child_b=d, a_result="loser", b_result="loser")
         j = Game(child_a=h, child_b=i)
-        k = Game(child_a=e, child_b=f, a_result="loser", b_result="loser")
+        k = Game(
+            child_a=e, child_b=f, a_result="loser", b_result="loser", level="3rd place"
+        )
         l = Game(child_a=h, child_b=i, a_result="loser", b_result="loser")
         super().__init__(
             games_list=[a, b, c, d, e, f, g, h, i, j, k, l],
@@ -493,15 +499,15 @@ class BracketEightOne(Tournament):
 
 class BracketEightTwoOne(Tournament):
     def __init__(self, pool_a, pool_b, name=None):
-        a = Game(pool_a[0], pool_b[1])
-        b = Game(pool_a[1], pool_b[0])
-        c = Game(child_a=a, child_b=b)
+        a = Game(pool_a[0], pool_b[1], level="semi")
+        b = Game(pool_a[1], pool_b[0], level="semi")
+        c = Game(child_a=a, child_b=b, level="final")
         d = Game(pool_a[2], pool_b[3])
         e = Game(pool_a[3], pool_b[2])
         f = Game(child_a=a, a_result="loser", child_b=d)
         g = Game(child_a=e, child_b=b, b_result="loser")
         h = Game(child_a=f, child_b=g)
-        i = Game(child_a=c, a_result="loser", child_b=h)
+        i = Game(child_a=c, a_result="loser", child_b=h, level="2nd place")
         j = Game(child_a=d, child_b=e, a_result="loser", b_result="loser")
         k = Game(child_a=f, child_b=g, a_result="loser", b_result="loser")
         super().__init__(
@@ -676,32 +682,32 @@ class BracketSixteenTwoTwo(Tournament):
     def __init__(self, pool_a, pool_b, pool_c, pool_d, name=None):
         a = Game(pool_a[0], pool_d[0])
         b = Game(pool_c[0], pool_b[0])
-        c = Game(child_a=a, child_b=b)
+        c = Game(child_a=a, child_b=b, level="final")
         d = Game(pool_c[1], pool_d[2])
         e = Game(pool_a[2], pool_b[1])
         f = Game(pool_a[1], pool_b[2])
         g = Game(pool_c[2], pool_d[1])
 
-        h = Game(child_a=d, child_b=e, level="2nd place pre-quarters")
-        i = Game(child_a=f, child_b=g, level="2nd place pre-quarters")
+        h = Game(child_a=d, child_b=e, level="2nd place pre-q")
+        i = Game(child_a=f, child_b=g, level="2nd place pre-q")
 
-        j = Game(child_a=a, a_result="loser", child_b=h, level="2nd place quarters")
-        k = Game(child_a=i, child_b=b, b_result="loser", level="2nd place quarters")
+        j = Game(child_a=a, a_result="loser", child_b=h, level="2nd place q")
+        k = Game(child_a=i, child_b=b, b_result="loser", level="2nd place q")
 
         l = Game(child_a=j, child_b=k, level="2nd place play-in")
         m = Game(child_a=c, a_result="loser", child_b=l, level="2nd place")
 
         n = Game(child_a=h, child_b=i, a_result="loser", b_result="loser")
         o = Game(
-            child_a=c,
-            child_b=d,
+            child_a=d,
+            child_b=e,
             a_result="loser",
             b_result="loser",
             level="9th place semis",
         )
         p = Game(
-            child_a=e,
-            child_b=f,
+            child_a=f,
+            child_b=g,
             a_result="loser",
             b_result="loser",
             level="9th place semis",
@@ -744,100 +750,3 @@ class BracketSixteenTwoTwo(Tournament):
             v.winner,
             v.loser,
         ]
-
-
-def play_eight_team_single_elimination_bracket(
-    teams_list,
-    num_bids=1,
-    method="random",
-    rating_diff_to_victory_margin=None,
-    p_a_offense=None,
-):
-    # Play a bracket with 8 teams, one winner, single elim.
-    q1 = Game(teams_list[0], teams_list[7], level="quarter")
-    q2 = Game(teams_list[1], teams_list[6], level="quarter")
-    q3 = Game(teams_list[2], teams_list[5], level="quarter")
-    q4 = Game(teams_list[3], teams_list[4], level="quarter")
-    s1 = Game(child_a=q1, child_b=q4, level="semi")
-    s2 = Game(child_a=q2, child_b=q3, level="semi")
-    f = Game(child_a=s1, child_b=s2, level="final")
-
-    tourney = Tournament(games_list=[q1, q2, q3, q4, s1, s2, f])
-
-    tourney.play_games(
-        method=method,
-        rating_diff_to_victory_margin=rating_diff_to_victory_margin,
-        p_a_offense=p_a_offense,
-    )
-
-    return tourney.determine_placement()
-
-
-def play_twelve_team_tournament(
-    teams_list,
-    num_bids,
-    method="random",
-    rating_diff_to_victory_margin=None,
-    p_a_offense=None,
-):
-    # Assumes teams_list is in seed order!
-    # Currently in two pools of six format
-    # then single elimnation 8 team bracket.
-
-    # NEEDS TO BE UPDATED WITH DESIRED FORMATS!
-
-    if num_bids == 1:
-        #
-        # Pool play
-        #
-        a_seeds = [1, 3, 6, 7, 10, 12]
-        b_seeds = [2, 4, 5, 8, 9, 11]
-
-        pool_a_teams = [teams_list[i - 1] for i in a_seeds]
-        pool_b_teams = [teams_list[i - 1] for i in b_seeds]
-
-        pool_a = RoundRobinTournament(pool_a_teams)
-        pool_b = RoundRobinTournament(pool_b_teams)
-
-        print("\nPool A")
-        pool_a.play_games(
-            method=method,
-            rating_diff_to_victory_margin=rating_diff_to_victory_margin,
-            p_a_offense=p_a_offense,
-        )
-        print("\nPool B")
-        pool_b.play_games(
-            method=method,
-            rating_diff_to_victory_margin=rating_diff_to_victory_margin,
-            p_a_offense=p_a_offense,
-        )
-        pool_a_finish = pool_a.determine_placement()
-        pool_b_finish = pool_b.determine_placement()
-
-        #
-        # Bracket
-        #
-        remaining_teams = [
-            pool_a_finish.loc[0, "Team"],
-            pool_b_finish.loc[0, "Team"],
-            pool_a_finish.loc[1, "Team"],
-            pool_b_finish.loc[1, "Team"],
-            pool_b_finish.loc[2, "Team"],
-            pool_a_finish.loc[2, "Team"],
-            pool_a_finish.loc[3, "Team"],
-            pool_b_finish.loc[3, "Team"],
-        ]
-
-        print("\n8-team bracket")
-        placement = play_eight_team_single_elimination_bracket(
-            remaining_teams,
-            num_bids=1,
-            method=method,
-            rating_diff_to_victory_margin=rating_diff_to_victory_margin,
-            p_a_offense=p_a_offense,
-        )
-
-        return placement
-
-    else:
-        raise Exception("Can't do num_bids={num_bids} right now!")
