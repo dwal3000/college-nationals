@@ -363,9 +363,11 @@ class BracketSixTwo(Tournament):
         c = Game(pool_a[2], pool_b[1])
         d = Game(child_a=b, child_b=c)
         e = Game(child_a=a, child_b=d, a_result="loser")
-        super().__init__(games_list=[a, b, c, d, e], teams_list=teams_list, name=name)
+        super().__init__(
+            games_list=[a, b, c, d, e], teams_list=[*pool_a, *pool_b], name=name
+        )
 
-    def determine_result(self):
+    def determine_placement(self):
         a, b, c, d, e = self.games_list
         return [a.winner, e.winner, e.loser, d.loser, b.loser, c.loser]
 
@@ -529,25 +531,59 @@ class BracketEightTwoOne(Tournament):
             j.loser,
         ]
 
+
+class BracketEightThree(Tournament):
+    def __init__(self, pool_a, pool_b, name=None):
+        a = Game(pool_b[1], pool_a[2])
+        b = Game(pool_a[1], pool_b[2])
+        c = Game(pool_a[0], child_b=a)
+        d = Game(pool_b[0], child_b=b)
+        e = Game(child_a=c, child_b=d)
+        f = Game(pool_b[3], child_b=a, b_result="loser")
+        g = Game(pool_a[3], child_b=b, b_result="loser")
+        h = Game(child_a=f, child_b=d, b_result="loser")
+        i = Game(child_a=g, child_b=c, b_result="loser")
+        j = Game(child_a=h, child_b=i)
+        k = Game(child_a=f, a_result="loser", child_b=g, b_result="loser")
+        l = Game(child_a=h, a_result="loser", child_b=i, b_result="loser")
+
+        super().__init__(
+            games_list=[a, b, c, d, e, f, g, h, i, j, k, l], teams_list=[*pool_a, *pool_b], name=name,
+        )
+
+    def determine_placement(self):
+        a, b, c, d, e, f, g, h, i, j, k, l = self.games_list
+        return [
+            e.winner,
+            e.loser,
+            j.winner,
+            j.loser,
+            l.winner,
+            l.loser,
+            k.winner,
+            k.loser,
+        ]
+
+
 class BracketEightFour(Tournament):
     def __init__(self, pool_a, pool_b, name=None):
-        a = Game(pool_a[0], pool_b[0], level='final')
-        b = Game(pool_a[1], pool_b[1], level='2nd place semi')
-        c = Game(child_a=a, a_result='loser', child_b=b, level='2nd place')
-        d = Game(pool_a[2], pool_b[3], level='4th place q')
-        e = Game(pool_a[3], pool_b[2], level='4th place q')
-        f = Game(child_a=d, child_b=e, level='4th place semis')
-        g = Game(child_a=f, child_b=b, b_result='loser', level='4th place')
-        #the below games are not recorded in 8.4, but 12 teams 4 advance
-        #requires pools of 6 with top 4 from each pool moving to bracket,
-        #which is the only place this format will be used
+        a = Game(pool_a[0], pool_b[0], level="final")
+        b = Game(pool_a[1], pool_b[1], level="2nd place semi")
+        c = Game(child_a=a, a_result="loser", child_b=b, level="2nd place")
+        d = Game(pool_a[2], pool_b[3], level="4th place q")
+        e = Game(pool_a[3], pool_b[2], level="4th place q")
+        f = Game(child_a=d, child_b=e, level="4th place semis")
+        g = Game(child_a=f, child_b=b, b_result="loser", level="4th place")
+        # the below games are not recorded in 8.4, but 12 teams 4 advance
+        # requires pools of 6 with top 4 from each pool moving to bracket,
+        # which is the only place this format will be used
         # The bottom 2 go into a 4 team bracket for placement,
         # so this format have created a parallel 5th place pool matchup
 
-        h = Game(pool_a[4], pool_b[5], level='9th semi') 
-        i = Game(pool_a[5], pool_b[4], level='9th semi') 
-        j = Game(child_a=h, child_b=i, level='9th place')
-        k = Game(child_a=h, child_b=i, a_result='loser', b_result='loser', level='11th')
+        h = Game(pool_a[4], pool_b[5], level="9th semi")
+        i = Game(pool_a[5], pool_b[4], level="9th semi")
+        j = Game(child_a=h, child_b=i, level="9th place")
+        k = Game(child_a=h, child_b=i, a_result="loser", b_result="loser", level="11th")
         super().__init__(
             games_list=[a, b, c, d, e, f, g, h, i, j, k],
             teams_list=[*pool_a, *pool_b],
@@ -720,6 +756,151 @@ class BracketSixteenOne(Tournament):
         ]
 
 
+# 16.3.1
+# game d is wrong in manual
+class BracketSixteenThreeOne(Tournament):
+    def __init__(self, teams_list, name=None):
+        a = Game(teams_list[0], teams_list[15])
+        b = Game(teams_list[7], teams_list[8])
+        c = Game(teams_list[4], teams_list[11])
+        d = Game(teams_list[3], teams_list[12])
+        e = Game(teams_list[2], teams_list[13])
+        f = Game(teams_list[10], teams_list[5])
+        g = Game(teams_list[6], teams_list[9])
+        h = Game(teams_list[1], teams_list[14])
+        i = Game(child_a=a, child_b=b, level="quarter")
+        j = Game(child_a=c, child_b=d, level="quarter")
+        k = Game(child_a=e, child_b=f, level="quarter")
+        l = Game(child_a=g, child_b=h, level="quarter")
+        m = Game(child_a=i, child_b=j, level="semi")
+        n = Game(child_a=k, child_b=l, level="semi")
+        o = Game(child_a=m, child_b=n, level="final")
+        p = Game(child_a=a, a_result="loser", child_b=b, b_result="loser")
+        q = Game(child_a=c, a_result="loser", child_b=d, b_result="loser")
+        r = Game(child_a=e, a_result="loser", child_b=f, b_result="loser")
+        s = Game(child_a=g, a_result="loser", child_b=h, b_result="loser")
+        t = Game(child_a=p, child_b=l, b_result="loser")
+        u = Game(child_a=q, child_b=k, b_result="loser")
+        v = Game(child_a=r, child_b=j, b_result="loser")
+        w = Game(child_a=s, child_b=i, b_result="loser")
+        x = Game(child_a=t, child_b=u)
+        y = Game(child_a=v, child_b=w)
+        z = Game(child_a=x, child_b=m, b_result="loser")
+        aa = Game(child_a=y, child_b=n, b_result="loser")
+        bb = Game(child_a=z, child_b=aa, level="2nd place semi")
+        cc = Game(child_a=bb, child_b=o, b_result="loser", level="2nd place")
+        dd = Game(child_a=z, a_result="loser", child_b=aa, b_result="loser")
+        ee = Game(child_a=dd, child_b=bb, b_result="loser", level="3rd place semi")
+        ff = Game(child_a=ee, child_b=cc, b_result="loser", level="3rd place")
+        gg = Game(child_a=p, a_result="loser", child_b=q, b_result="loser")
+        hh = Game(child_a=r, a_result="loser", child_b=s, b_result="loser")
+        ii = Game(child_a=gg, child_b=hh)
+        jj = Game(child_a=hh, a_result="loser", child_b=ii, b_result="loser")
+        kk = Game(child_a=t, a_result="loser", child_b=u, b_result="loser")
+        ll = Game(child_a=v, a_result="loser", child_b=w, b_result="loser")
+        
+        super().__init__(games_list=[
+            a,
+            b,
+            c,
+            d,
+            e,
+            f,
+            g,
+            h,
+            i,
+            j,
+            k,
+            l,
+            m,
+            n,
+            o,
+            p,
+            q,
+            r,
+            s,
+            t,
+            u,
+            v,
+            w,
+            x,
+            y,
+            z,
+            aa,
+            bb,
+            cc,
+            dd,
+            ee,
+            ff,
+            gg,
+            hh,
+            ii,
+            jj,
+            kk,
+            ll,
+        ], teams_list=teams_list, name=name)
+
+    def determine_placement(self):
+        (
+            a,
+            b,
+            c,
+            d,
+            e,
+            f,
+            g,
+            h,
+            i,
+            j,
+            k,
+            l,
+            m,
+            n,
+            o,
+            p,
+            q,
+            r,
+            s,
+            t,
+            u,
+            v,
+            w,
+            x,
+            y,
+            z,
+            aa,
+            bb,
+            cc,
+            dd,
+            ee,
+            ff,
+            gg,
+            hh,
+            ii,
+            jj,
+            kk,
+            ll,
+        ) = self.games_list
+        return [
+            o.winner,
+            cc.winner,
+            ff.winner,
+            ff.loser,
+            ee.loser,
+            dd.loser,
+            x.loser,
+            y.loser,
+            kk.winner,
+            ll.winner,
+            kk.loser,
+            ll.loser,
+            ii.winner,
+            ii.loser,
+            jj.winner,
+            jj.loser,
+        ]
+
+
 class BracketSixteenTwoTwo(Tournament):
     def __init__(self, pool_a, pool_b, pool_c, pool_d, name=None):
         a = Game(pool_a[0], pool_d[0])
@@ -793,46 +974,109 @@ class BracketSixteenTwoTwo(Tournament):
             v.loser,
         ]
 
+
 class BracketSixteenFourTwo(Tournament):
     def __init__(self, pool_a, pool_b, pool_c, pool_d, name=None):
-        a = Game(pool_a[0], pool_d[0], level='semi')
-        b = Game(pool_c[0], pool_d[0], level='semi')
-        c = Game(child_a=a, child_b=b, level='final')
-        d = Game(pool_c[1], pool_b[1], level='2nd pre-q')
-        e = Game(pool_a[1], pool_d[1], level='2nd pre-q')
-        f = Game(child_a=a, a_result='loser', child_b=d, level='2nd q')
-        g = Game(child_a=b, a_result='loser', child_b=e, level='2nd q')
-        h = Game(child_a=f, child_b=g, level='2nd semi')
-        i = Game(child_a=c, a_result='loser', child_b=h, level='2nd place')
-        j = Game(pool_a[2], pool_d[2], level='4th play-in')
-        k = Game(pool_c[3], pool_d[3], level='4th play-in')
-        l = Game(child_a=d, a_result='loser', child_b=j, level='4th pre-q')
-        m = Game(child_a=e, a_result='loser', child_b=k, level='4th pre-q')
-        n = Game(child_a=g, a_result='loser', child_b=l, level='4th q')
-        o = Game(child_a=f, a_result='loser', child_b=m, level='4th q')
-        p = Game(child_a=n, child_b=o, level='4th semi')
-        q = Game(child_a=h, a_result='loser', child_b=p, level='4th place')
-        r = Game(child_a=n, a_result='loser', child_b=o, b_result='loser', level='6th semi')
-        s = Game(child_a=p, a_result='loser', child_b=r, level='6th place')
+        a = Game(pool_a[0], pool_d[0], level="semi")
+        b = Game(pool_c[0], pool_d[0], level="semi")
+        c = Game(child_a=a, child_b=b, level="final")
+        d = Game(pool_c[1], pool_b[1], level="2nd pre-q")
+        e = Game(pool_a[1], pool_d[1], level="2nd pre-q")
+        f = Game(child_a=a, a_result="loser", child_b=d, level="2nd q")
+        g = Game(child_a=b, a_result="loser", child_b=e, level="2nd q")
+        h = Game(child_a=f, child_b=g, level="2nd semi")
+        i = Game(child_a=c, a_result="loser", child_b=h, level="2nd place")
+        j = Game(pool_a[2], pool_d[2], level="4th play-in")
+        k = Game(pool_c[3], pool_d[3], level="4th play-in")
+        l = Game(child_a=d, a_result="loser", child_b=j, level="4th pre-q")
+        m = Game(child_a=e, a_result="loser", child_b=k, level="4th pre-q")
+        n = Game(child_a=g, a_result="loser", child_b=l, level="4th q")
+        o = Game(child_a=f, a_result="loser", child_b=m, level="4th q")
+        p = Game(child_a=n, child_b=o, level="4th semi")
+        q = Game(child_a=h, a_result="loser", child_b=p, level="4th place")
+        r = Game(
+            child_a=n, a_result="loser", child_b=o, b_result="loser", level="6th semi"
+        )
+        s = Game(child_a=p, a_result="loser", child_b=r, level="6th place")
         t = Game(pool_c[3], pool_b[3])
         u = Game(pool_a[3], pool_d[3])
-        v = Game(child_a=h, a_result='loser', child_b=p, level='4th place')
-        w = Game(child_a=k, a_result='loser', child_b=u)
-        x = Game(child_a=m, a_result='loser', child_b=v)
-        y = Game(child_a=l, a_result='loser', child_b=w)
+        v = Game(child_a=h, a_result="loser", child_b=p, level="4th place")
+        w = Game(child_a=k, a_result="loser", child_b=u)
+        x = Game(child_a=m, a_result="loser", child_b=v)
+        y = Game(child_a=l, a_result="loser", child_b=w)
         z = Game(child_a=x, child_b=y)
-        aa = Game(child_a=r, a_result='loser', child_b=z, level='8th place')
-        bb = Game(child_a=t, a_result='loser', child_b=u, b_result='loser')
-        cc = Game(child_a=v, a_result='loser', child_b=w, b_result='loser')
+        aa = Game(child_a=r, a_result="loser", child_b=z, level="8th place")
+        bb = Game(child_a=t, a_result="loser", child_b=u, b_result="loser")
+        cc = Game(child_a=v, a_result="loser", child_b=w, b_result="loser")
 
         super().__init__(
-            games_list=[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, bb, cc],
+            games_list=[
+                a,
+                b,
+                c,
+                d,
+                e,
+                f,
+                g,
+                h,
+                i,
+                j,
+                k,
+                l,
+                m,
+                n,
+                o,
+                p,
+                q,
+                r,
+                s,
+                t,
+                u,
+                v,
+                w,
+                x,
+                y,
+                z,
+                aa,
+                bb,
+                cc,
+            ],
             teams_list=[*pool_a, *pool_b, *pool_c, *pool_d],
             name=name,
         )
 
     def determine_placement(self):
-        a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, aa, bb, cc = self.games_list
+        (
+            a,
+            b,
+            c,
+            d,
+            e,
+            f,
+            g,
+            h,
+            i,
+            j,
+            k,
+            l,
+            m,
+            n,
+            o,
+            p,
+            q,
+            r,
+            s,
+            t,
+            u,
+            v,
+            w,
+            x,
+            y,
+            z,
+            aa,
+            bb,
+            cc,
+        ) = self.games_list
         return [
             c.winner,
             i.winner,

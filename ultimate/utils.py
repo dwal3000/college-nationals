@@ -8,9 +8,7 @@ def get_default_parameters(division):
     womens_k = 0.0022838954964262735
     mens_k = 0.002138514393927596
 
-    womens_rating_diff_to_victory_margin = lambda x: logistic_victory_margin(
-        x, womens_k
-    )
+    womens_rating_diff_to_victory_margin = lambda x: logistic_victory_margin(x, womens_k)
     mens_rating_diff_to_victory_margin = lambda x: logistic_victory_margin(x, mens_k)
 
     # Set standard game length

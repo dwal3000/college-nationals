@@ -39,7 +39,9 @@ pool_seeding = {
 }
 
 
-def get_d1_teams(teams: pd.DataFrame, custom_ranks: pd.DataFrame) -> pd.DataFrame:
+def get_d1_teams(
+    teams: pd.DataFrame, custom_ranks: pd.DataFrame, custom_teams: dict
+) -> pd.DataFrame:
     """
     Takes dataframe of D1 and D3 teams along with custom ratings
     for this season and returns a DataFrame of single rating
@@ -59,21 +61,35 @@ def get_d1_teams(teams: pd.DataFrame, custom_ranks: pd.DataFrame) -> pd.DataFram
         Table of teams eligible to compete for nationals with updated rankings.
     """
     return (
-        teams[teams.competition_division == "Division I"]
-        .merge(
-            custom_ranks[["Team", "Adjusted Rating"]],
+        teams.merge(
+            custom_ranks[["Team", "Adjusted Rating", "USAU Power Rating"]],
             left_on="team",
             right_on="Team",
-            how="inner",
+            how="right",
+        )
+        .pipe(
+            lambda df: df[
+                (df.competition_division == "Division I")
+                | (df.competition_division.isnull())
+            ]
         )
         .assign(
-            custom_rating=lambda x: x["Adjusted Rating"].combine_first(x.power_rating).astype(int)
+            custom_rating=lambda x: x["Adjusted Rating"]
+            .combine_first(x.power_rating)
+            .combine_first(x["USAU Power Rating"])
+            .astype(int)
+        )
+        .dropna(subset=["Team"])
+        .assign(
+            college_region=lambda x: x.college_region.combine_first(
+                x.Team.map(custom_teams)
+            )
         )
     )
 
 
 # bids
-def calculate_size_and_bids(tables, d1_teams, rankings_col='custom_rating'):
+def calculate_size_and_bids(tables, d1_teams, rankings_col="custom_rating"):
     """
     Iterates through eligible teams by specified ranking type and returns
     a table of size and number of bids for the region.
@@ -97,7 +113,7 @@ def calculate_size_and_bids(tables, d1_teams, rankings_col='custom_rating'):
     # store boolean for whether autobid has been reached while iterating through rankings
     _bids = {region: [1, False] for region in d1_teams.college_region.unique()}
     for i, team in d1_teams.sort_values(rankings_col, ascending=False).iterrows():
-        if sum(v[0] for k, v in _bids.items()) < total_bids:
+        if sum(v[0] for k, v in _bids.items()) <= total_bids:
             if _bids[team.college_region][1]:
                 _bids[team.college_region][0] += 1
             else:
@@ -148,14 +164,15 @@ def play_pools(teams, pool_seeds):
 
 
 def determine_regional_qualifiers(
-    division_teams, region, n_teams, rankings_var="power_rating"
+    division_teams, region, n_teams, rankings_var="custom_rating"
 ):
     return (
         division_teams[division_teams.college_region == region]
+        .sort_values(rankings_var, ascending=False)
         .head(n_teams)
         .apply(
             lambda r: Team(
-                name=r.team, rating=int(r[rankings_var]), region=r.college_region
+                name=r.Team, rating=int(r[rankings_var]), region=r.college_region
             ),
             axis=1,
         )
@@ -167,18 +184,27 @@ def play_bracket(n_bids, **pools):
     if n_teams in (8, 10):
         if n_bids == 1:
             t = tournament.BracketEightOne(**pools)
-        elif n_bids in (2, 3):
+        elif n_bids == 2:
             t = tournament.BracketEightTwoOne(**pools)
+        elif n_bids == 3:
+            t = tournament.BracketEightThree(**pools)
     elif n_teams == 12:
-        if n_bids in [1, 2, 3]:
+        if n_bids == 1:
             t = tournament.BracketTwelveFourPools(**pools)
-        if n_bids == 4:
+        elif n_bids == 2:
+            t = tournament.BracketSixTwo(**pools)
+        elif n_bids == 3:
+            t = tournament.BracketEightTwoOne(**pools)
+        elif n_bids == 4:
             t = tournament.BracketEightFour(**pools)
     elif n_teams == 16:
         if n_bids == 1:
             t = tournament.BracketSixteenOne(**pools)
-        if n_bids in (2, 3):
+        if n_bids == 2:
             t = tournament.BracketSixteenTwoTwo(**pools)
+        if n_bids == 3:
+            #this will just be one pool named "teams_list", hacks are growing bolder
+            t = tournament.BracketSixteenThreeOne(**pools)
         if n_bids == 4:
             t = tournament.BracketSixteenFourTwo(**pools)
     else:
@@ -201,21 +227,26 @@ def play_all_regions(d1_teams, region_details, writer, game_log_writer, division
         teams = determine_regional_qualifiers(
             d1_teams, region, n_teams, rankings_var="custom_rating"
         )
-        #This is hacky, we don't like the resulting br
-        if n_teams == 12 and n_bids == 4:
+        # This is hacky, we don't like the resulting br
+        if n_teams == 12 and n_bids in (2, 3, 4):
             seeding = two_pools_of_six_seeds
-        else: 
+        else:
             seeding = pool_seeding[n_teams]
-        pool_results = play_pools(teams, seeding)
-        pool_finishes = {
-            name: pool.determine_placement() for name, pool in pool_results.items()
-        }
+        
+        if n_teams == 16 and n_bids == 3:
+            pool_results = {'teams_list': teams.tolist()}
+            pool_finishes = {'teams_list': teams.tolist()}
+        else: 
+            pool_results = play_pools(teams, seeding)
+            pool_finishes = {
+                name: pool.determine_placement() for name, pool in pool_results.items()
+            }
         overall_pools[region] = pd.DataFrame(pool_finishes).astype(str)
-    
+
         bracket = play_bracket(n_bids, **pool_finishes)
         region_summary = {
             "Tournament": f"{division}'s {region} - {n_teams} Teams with {n_bids} Bids",
-            "Format": f"{len(pool_results.keys())} pools of {len(pool_finishes['pool_a'])} -> {bracket.__class__.__name__}",
+            "Format": f"{len(pool_results.keys())} pools of {len(pool_finishes.get('pool_a', 'NA'))} -> {bracket.__class__.__name__}",
             "Qualifiers": ", ".join(
                 [str(team) for team in bracket.determine_placement()[:n_bids]]
             ),
@@ -230,8 +261,11 @@ def play_all_regions(d1_teams, region_details, writer, game_log_writer, division
 
         pool_games = []
         for name, pool in pool_results.items():
-            for i, game in enumerate(pool.games_list):
-                pool_games.append(game.results_dict)
+            try:
+                for i, game in enumerate(pool.games_list):
+                    pool_games.append(game.results_dict)
+            except AttributeError:
+                print('no pools to add, carry on')
 
         pd.DataFrame(pool_games).to_excel(
             writer, sheet_name=f"3. {division} {region} Pools"
@@ -262,22 +296,47 @@ def play_all_regions(d1_teams, region_details, writer, game_log_writer, division
 
 
 def run_all_regionals():
-
+    # Added Ottawa (ME), Delaware (AC) to rankings sheet and adjusted others accordingly.
+    # Chicago (GL)
+    # Grand Valley State (GL), Loyola-Chicago (GL), Marquette (NC)
+    custom_teams = {
+        "Women": {
+            "Ottawa": "Metro East",
+            "Delaware": "Atlantic Coast",
+            "Chicago": "Great Lakes",
+        },
+        "Men": {
+            "Rutgers": "Metro East",
+            "Grand Valley State": "Great Lakes",
+            "Loyola-Chicago": "Great Lakes",
+            "Marquette": "North Central",
+        },
+    }
     # Use pandas html reader to extract dataframe
     result = pd.read_html(womens_ranking_html)
-    df_women = result[0].rename(columns=lambda x: x.replace(" ", "_").lower()).iloc[0:-1]
+    df_women = (
+        result[0]
+        .rename(columns=lambda x: x.replace(" ", "_").lower())
+        .iloc[0:-1]
+        .query('competition_division != "Developmental"')
+    )
 
     result = pd.read_html(mens_ranking_html)
-    df_men = result[0].rename(columns=lambda x: x.replace(" ", "_").lower()).iloc[0:-1]
+    df_men = (
+        result[0]
+        .rename(columns=lambda x: x.replace(" ", "_").lower())
+        .iloc[0:-1]
+        .query('competition_division != "Developmental"')
+    )
 
-    custom_ranks_men = pd.read_excel(custom_ranks_path, sheet_name="Men").dropna(
-        subset=["USAU Rank"]
-    )
-    custom_ranks_women = pd.read_excel(custom_ranks_path, sheet_name="Women").dropna(
-        subset=["USAU Rank"]
-    )
-    d1_men = get_d1_teams(df_men, custom_ranks_men)
-    d1_women = get_d1_teams(df_women, custom_ranks_women)
+    custom_ranks_men = pd.read_excel(
+        custom_ranks_path, sheet_name="Copy of Keith Men"
+    ).dropna(subset=["USAU Rank"])
+    custom_ranks_women = pd.read_excel(
+        custom_ranks_path, sheet_name="Copy of Keith Women"
+    ).dropna(subset=["USAU Rank"])
+    d1_men = get_d1_teams(df_men, custom_ranks_men, custom_teams["Men"])
+    d1_women = get_d1_teams(df_women, custom_ranks_women, custom_teams["Women"])
 
     mens_region_details = calculate_size_and_bids(
         pd.read_html(mens_bid_path, header=0), d1_men,
@@ -293,6 +352,34 @@ def run_all_regionals():
         pd.read_html(womens_bid_path, header=0), d1_women,
     )
     womens_region_details.loc["New England", "size"] = 12
+
+    # replace bids with manual counts:
+    womens_bid_numbers = {
+        "Atlantic Coast": 2,
+        "Great Lakes": 1,
+        "Metro East": 1,
+        "New England": 3,
+        "North Central": 1,
+        "Northwest": 3,
+        "Ohio Valley": 2,
+        "South Central": 1,
+        "Southeast": 2,
+        "Southwest": 4,
+    }
+    mens_bid_numbers = {
+        "Atlantic Coast": 2,
+        "Great Lakes": 1,
+        "Metro East": 1,
+        "New England": 2,
+        "North Central": 2,
+        "Northwest": 4,
+        "Ohio Valley": 2,
+        "South Central": 2,
+        "Southeast": 1,
+        "Southwest": 3,
+    }
+    womens_region_details["bids"] = pd.Series(womens_bid_numbers)
+    mens_region_details["bids"] = pd.Series(mens_bid_numbers)
     # print(womens_region_details)
     writer = pd.ExcelWriter("regionals_results.xlsx")
 
@@ -317,5 +404,5 @@ def run_all_regionals():
 
 
 if __name__ == "__main__":
-    np.random.seed(42)
+    np.random.seed(25)
     run_all_regionals()
